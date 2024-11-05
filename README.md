@@ -18,6 +18,9 @@ sbatch --job-name=knn_comparison \
 ```
 
 ## Team:
-      - Parsa VARES
-      - Tom WALTER
-      - Luc PEREIRA CARDOSO
+
+- Parsa VARES
+      
+- Tom WALTER
+      
+- Luc PEREIRA CARDOSO
