@@ -1,4 +1,4 @@
-## ML-ALGO-HPC
+## Programming Machine Learning Algorithms for HPC
 
 # Assignment 1
 
@@ -15,3 +15,5 @@ sbatch --job-name=knn_comparison \
        --partition=interactive \
        --qos=debug \
        --wrap="module load lang/Python/3.8.6-GCCcore-10.2.0 && source knn_env/bin/activate && python parallel_knn_comparison.py"
+
+
