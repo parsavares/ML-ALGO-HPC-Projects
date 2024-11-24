@@ -1,10 +1,12 @@
 # ensemble_forecaster.py
 '''
+
     Parsa VARES
 
     Tom WALTER
 
     Luc PEREIRA CARDOSO
+
 '''
 
 import jax  # For installation: pip install jax jaxlib
