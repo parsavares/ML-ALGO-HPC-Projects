@@ -1,0 +1,6 @@
+
+Total Benchmark Results (30 runs):
+Real Time - Average: 799.5091 s, Std Dev: 7.8738 s
+CPU Time  - Average: 790.9008 s, Std Dev: 7.7115 s
+Total Correct Predictions: 22290 / 30000
+Average Correct Predictions per Run: 743.00 / 1000

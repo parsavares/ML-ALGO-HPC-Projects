@@ -1,0 +1,6 @@
+Sequential KNN (Average Real Time): 805.7715s ± 2.4024s
+Sequential KNN (Average CPU Time): 805.7715s ± 2.4024s
+Parallel KNN (Average Real Time): 291.8739s ± 2.4750s
+Parallel KNN (Average CPU Time): 291.8739s ± 2.4750s
+Speed-up in Real Time: 2.76x
+Speed-up in CPU Time: 2.76x

@@ -1,0 +1,15 @@
+[Run 20] Correct predictions: 743/1000
+[Run 21] Correct predictions: 743/1000
+[Run 22] Correct predictions: 743/1000
+[Run 23] Correct predictions: 743/1000
+[Run 24] Correct predictions: 743/1000
+[Run 25] Correct predictions: 743/1000
+[Run 26] Correct predictions: 743/1000
+[Run 27] Correct predictions: 743/1000
+[Run 28] Correct predictions: 743/1000
+[Run 29] Correct predictions: 743/1000
+[Run 30] Correct predictions: 743/1000
+
+Benchmark Results (30 runs):
+Real Time - Average: 14.5060 s, Std Dev: 0.0328 s
+CPU Time  - Average: 14.3622 s, Std Dev: 0.0321 s
