@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --job-name=convolution_comparison
-#SBATCH --output=convolution_comparison.out
-#SBATCH --error=convolution_comparison.err
+#SBATCH --output=sequential.out
+#SBATCH --error=sequential.err
 #SBATCH --time=04:00:00
 #SBATCH --nodes=1
 #SBATCH --ntasks=1

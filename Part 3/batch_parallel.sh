@@ -1,7 +1,7 @@
 #!/bin/bash
-#SBATCH --job-name=convolution_comparison
-#SBATCH --output=convolution_comparison.out
-#SBATCH --error=convolution_comparison.err
+#SBATCH --job-name=convolution_parallel
+#SBATCH --output=convolution_parallel_%j.out
+#SBATCH --error=convolution_parallel_%j.err
 #SBATCH --time=04:00:00
 #SBATCH --nodes=1
 #SBATCH --ntasks=30
@@ -28,7 +28,8 @@ python3 -c "import mpi4py" || { echo "mpi4py not installed or not in PYTHONPATH"
 echo "Testing mpi4py with mpirun..."
 mpirun -np 2 python3 -c "from mpi4py import MPI; print(MPI.Get_version())" || { echo "mpi4py test with mpirun failed"; exit 1; }
 
-# Run the testbench with MPI
-echo "Running Testbench with MPI..."
-mpirun -np 2 python3 parallel_tb.py
-
+# Run the testbench with different process counts
+for np in 2 4 7 14; do
+    echo "Running Testbench with $np processes..."
+    mpirun -np $np python3 parallel_tb.py > benchmark_${np}_processes.out
+done

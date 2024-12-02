@@ -50,8 +50,12 @@ log(f"Initial input shape: {x.shape}")
 log(f"Kernel shape: {kernel.shape}")
 
 # Padding to ensure divisibility
-padding_rows = (size - (x.shape[0] % size)) % size
-x_padded = np.pad(x, ((0, padding_rows), (0, 0)), mode='constant')
+if x.shape[0] % size != 0:
+    padding_rows = (size - (x.shape[0] % size)) % size
+    x_padded = np.pad(x, ((0, padding_rows), (0, 0)), mode='constant')
+else:
+    padding_rows = 0  # No padding needed
+    x_padded = x
 y_true_padded = np.pad(x, ((0, padding_rows), (0, 0)), mode='constant')
 log(f"Padding rows: {padding_rows}")
 
