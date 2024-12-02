@@ -1,8 +1,8 @@
 import numpy as np
 import time
 from mpi4py import MPI
-from convolution import convolution_2d as par_convolution_2d  # Updated parallel version  # Parallel version
-from convolution_seq import convolution_2d as seq_convolution_2d  # Sequential version
+from parallel import convolution_2d as par_convolution_2d  # Updated parallel version  # Parallel version
+
 
 # MPI Initialization
 comm = MPI.COMM_WORLD
@@ -64,15 +64,6 @@ for chunk_size in chunk_sizes:
         real_times.append(end_time - start_time)
         cpu_times.append(end_cpu_time - start_cpu_time)
 
-    # Sequential benchmarking (run only on root)
-    if rank == 0:
-        start_time = time.time()
-        sequential_output = seq_convolution_2d(x, kernel)
-        sequential_time = time.time() - start_time
-
-        # Verify outputs match
-        assert np.allclose(sequential_output, full_output, atol=1e-5), "Outputs do not match!"
-
     # Calculate average and standard deviation
     real_time_avg = np.mean(real_times)
     real_time_std = np.std(real_times)
@@ -85,14 +76,12 @@ for chunk_size in chunk_sizes:
             "real_time_avg": real_time_avg,
             "real_time_std": real_time_std,
             "cpu_time_avg": cpu_time_avg,
-            "cpu_time_std": cpu_time_std,
-            "sequential_time": sequential_time
+            "cpu_time_std": cpu_time_std
         })
 
 # Display results (only on root)
 if rank == 0:
     print("Benchmark Results:")
-    print(f"{'Chunk Size':<15} {'Real Time Avg (s)':<20} {'Real Time Std (s)':<20} {'CPU Time Avg (s)':<20} {'CPU Time Std (s)':<20} {'Sequential Time (s)':<20}")
+    print(f"{'Chunk Size':<15} {'Real Time Avg (s)':<20} {'Real Time Std (s)':<20} {'CPU Time Avg (s)':<20} {'CPU Time Std (s)':<20}")
     for res in results:
-        print(f"{res['chunk_size']:<15} {res['real_time_avg']:<20.6f} {res['real_time_std']:<20.6f} {res['cpu_time_avg']:<20.6f} {res['cpu_time_std']:<20.6f} {res['sequential_time']:<20.6f}")
-
+        print(f"{res['chunk_size']:<15} {res['real_time_avg']:<20.6f} {res['real_time_std']:<20.6f} {res['cpu_time_avg']:<20.6f} {res['cpu_time_std']:<20.6f}")

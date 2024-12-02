@@ -26,100 +26,100 @@ Collecting jax
     Preparing wheel metadata: finished with status 'done'
 Collecting jaxlib
   Downloading jaxlib-0.4.13-cp38-cp38-manylinux2014_x86_64.whl (71.6 MB)
-Collecting pillow>=6.2.0
-  Downloading pillow-10.4.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (4.4 MB)
-Collecting importlib-resources>=3.2.0; python_version < "3.10"
-  Downloading importlib_resources-6.4.5-py3-none-any.whl (36 kB)
 Collecting packaging>=20.0
   Downloading packaging-24.2-py3-none-any.whl (65 kB)
-Collecting kiwisolver>=1.0.1
-  Downloading kiwisolver-1.4.7-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.whl (1.2 MB)
-Collecting cycler>=0.10
-  Downloading cycler-0.12.1-py3-none-any.whl (8.3 kB)
-Collecting fonttools>=4.22.0
-  Downloading fonttools-4.55.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (4.7 MB)
-Collecting python-dateutil>=2.7
-  Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
-Collecting pyparsing>=2.3.1
-  Downloading pyparsing-3.1.4-py3-none-any.whl (104 kB)
 Collecting contourpy>=1.0.1
   Downloading contourpy-1.1.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (301 kB)
-Collecting grpcio<2.0,>=1.24.3
-  Downloading grpcio-1.68.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (5.9 MB)
-Collecting h5py>=2.9.0
-  Downloading h5py-3.11.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (5.3 MB)
-Collecting google-pasta>=0.1.1
-  Downloading google_pasta-0.2.0-py3-none-any.whl (57 kB)
-Collecting setuptools
-  Downloading setuptools-75.3.0-py3-none-any.whl (1.3 MB)
-Collecting opt-einsum>=2.3.2
-  Downloading opt_einsum-3.4.0-py3-none-any.whl (71 kB)
-Collecting protobuf!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5,<5.0.0dev,>=3.20.3
-  Downloading protobuf-4.25.5-cp37-abi3-manylinux2014_x86_64.whl (294 kB)
-Collecting tensorflow-estimator<2.14,>=2.13.0
-  Downloading tensorflow_estimator-2.13.0-py2.py3-none-any.whl (440 kB)
-Collecting termcolor>=1.1.0
-  Downloading termcolor-2.4.0-py3-none-any.whl (7.7 kB)
-Collecting astunparse>=1.6.0
-  Downloading astunparse-1.6.3-py2.py3-none-any.whl (12 kB)
-Collecting flatbuffers>=23.1.21
-  Downloading flatbuffers-24.3.25-py2.py3-none-any.whl (26 kB)
-Collecting six>=1.12.0
-  Downloading six-1.16.0-py2.py3-none-any.whl (11 kB)
-Collecting wrapt>=1.11.0
-  Downloading wrapt-1.17.0-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (85 kB)
-Collecting keras<2.14,>=2.13.1
-  Downloading keras-2.13.1-py3-none-any.whl (1.7 MB)
-Collecting libclang>=13.0.0
-  Downloading libclang-18.1.1-py2.py3-none-manylinux2010_x86_64.whl (24.5 MB)
-Collecting tensorboard<2.14,>=2.13
-  Downloading tensorboard-2.13.0-py3-none-any.whl (5.6 MB)
+Collecting pyparsing>=2.3.1
+  Downloading pyparsing-3.1.4-py3-none-any.whl (104 kB)
+Collecting pillow>=6.2.0
+  Downloading pillow-10.4.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (4.4 MB)
+Collecting fonttools>=4.22.0
+  Downloading fonttools-4.55.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (4.7 MB)
+Collecting cycler>=0.10
+  Downloading cycler-0.12.1-py3-none-any.whl (8.3 kB)
+Collecting python-dateutil>=2.7
+  Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Collecting importlib-resources>=3.2.0; python_version < "3.10"
+  Downloading importlib_resources-6.4.5-py3-none-any.whl (36 kB)
+Collecting kiwisolver>=1.0.1
+  Downloading kiwisolver-1.4.7-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.whl (1.2 MB)
 Collecting gast<=0.4.0,>=0.2.1
   Downloading gast-0.4.0-py3-none-any.whl (9.8 kB)
-Collecting typing-extensions<4.6.0,>=3.6.6
-  Downloading typing_extensions-4.5.0-py3-none-any.whl (27 kB)
 Collecting tensorflow-io-gcs-filesystem>=0.23.1; platform_machine != "arm64" or platform_system != "Darwin"
   Downloading tensorflow_io_gcs_filesystem-0.34.0-cp38-cp38-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (2.4 MB)
+Collecting tensorboard<2.14,>=2.13
+  Downloading tensorboard-2.13.0-py3-none-any.whl (5.6 MB)
+Collecting google-pasta>=0.1.1
+  Downloading google_pasta-0.2.0-py3-none-any.whl (57 kB)
+Collecting termcolor>=1.1.0
+  Downloading termcolor-2.4.0-py3-none-any.whl (7.7 kB)
+Collecting setuptools
+  Downloading setuptools-75.3.0-py3-none-any.whl (1.3 MB)
+Collecting protobuf!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5,<5.0.0dev,>=3.20.3
+  Downloading protobuf-4.25.5-cp37-abi3-manylinux2014_x86_64.whl (294 kB)
+Collecting keras<2.14,>=2.13.1
+  Downloading keras-2.13.1-py3-none-any.whl (1.7 MB)
+Collecting tensorflow-estimator<2.14,>=2.13.0
+  Downloading tensorflow_estimator-2.13.0-py2.py3-none-any.whl (440 kB)
+Collecting wrapt>=1.11.0
+  Downloading wrapt-1.17.0-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (85 kB)
+Collecting grpcio<2.0,>=1.24.3
+  Downloading grpcio-1.68.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (5.9 MB)
+Collecting typing-extensions<4.6.0,>=3.6.6
+  Downloading typing_extensions-4.5.0-py3-none-any.whl (27 kB)
+Collecting h5py>=2.9.0
+  Downloading h5py-3.11.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (5.3 MB)
+Collecting opt-einsum>=2.3.2
+  Downloading opt_einsum-3.4.0-py3-none-any.whl (71 kB)
+Collecting flatbuffers>=23.1.21
+  Downloading flatbuffers-24.3.25-py2.py3-none-any.whl (26 kB)
+Collecting libclang>=13.0.0
+  Downloading libclang-18.1.1-py2.py3-none-manylinux2010_x86_64.whl (24.5 MB)
+Collecting astunparse>=1.6.0
+  Downloading astunparse-1.6.3-py2.py3-none-any.whl (12 kB)
+Collecting six>=1.12.0
+  Downloading six-1.16.0-py2.py3-none-any.whl (11 kB)
 Collecting ml-dtypes>=0.1.0
   Downloading ml_dtypes-0.2.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.0 MB)
-Collecting scipy>=1.7
-  Downloading scipy-1.10.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (34.5 MB)
 Collecting importlib-metadata>=4.6; python_version < "3.10"
   Downloading importlib_metadata-8.5.0-py3-none-any.whl (26 kB)
+Collecting scipy>=1.7
+  Downloading scipy-1.10.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (34.5 MB)
 Collecting zipp>=3.1.0; python_version < "3.10"
   Downloading zipp-3.20.2-py3-none-any.whl (9.2 kB)
-Collecting wheel<1.0,>=0.23.0
-  Downloading wheel-0.45.1-py3-none-any.whl (72 kB)
-Collecting google-auth-oauthlib<1.1,>=0.5
-  Downloading google_auth_oauthlib-1.0.0-py2.py3-none-any.whl (18 kB)
 Collecting werkzeug>=1.0.1
   Downloading werkzeug-3.0.6-py3-none-any.whl (227 kB)
 Collecting tensorboard-data-server<0.8.0,>=0.7.0
   Downloading tensorboard_data_server-0.7.2-py3-none-any.whl (2.4 kB)
 Collecting markdown>=2.6.8
   Downloading Markdown-3.7-py3-none-any.whl (106 kB)
-Collecting requests<3,>=2.21.0
-  Downloading requests-2.32.3-py3-none-any.whl (64 kB)
+Collecting google-auth-oauthlib<1.1,>=0.5
+  Downloading google_auth_oauthlib-1.0.0-py2.py3-none-any.whl (18 kB)
+Collecting wheel>=0.26
+  Downloading wheel-0.45.1-py3-none-any.whl (72 kB)
 Collecting google-auth<3,>=1.6.3
   Downloading google_auth-2.36.0-py2.py3-none-any.whl (209 kB)
-Collecting requests-oauthlib>=0.7.0
-  Downloading requests_oauthlib-2.0.0-py2.py3-none-any.whl (24 kB)
+Collecting requests<3,>=2.21.0
+  Downloading requests-2.32.3-py3-none-any.whl (64 kB)
 Collecting MarkupSafe>=2.1.1
   Downloading MarkupSafe-2.1.5-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (26 kB)
-Collecting charset-normalizer<4,>=2
-  Downloading charset_normalizer-3.4.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (143 kB)
-Collecting idna<4,>=2.5
-  Downloading idna-3.10-py3-none-any.whl (70 kB)
-Collecting urllib3<3,>=1.21.1
-  Downloading urllib3-2.2.3-py3-none-any.whl (126 kB)
-Collecting certifi>=2017.4.17
-  Downloading certifi-2024.8.30-py3-none-any.whl (167 kB)
+Collecting requests-oauthlib>=0.7.0
+  Downloading requests_oauthlib-2.0.0-py2.py3-none-any.whl (24 kB)
 Collecting cachetools<6.0,>=2.0.0
   Downloading cachetools-5.5.0-py3-none-any.whl (9.5 kB)
 Collecting pyasn1-modules>=0.2.1
   Downloading pyasn1_modules-0.4.1-py3-none-any.whl (181 kB)
 Collecting rsa<5,>=3.1.4
   Downloading rsa-4.9-py3-none-any.whl (34 kB)
+Collecting urllib3<3,>=1.21.1
+  Downloading urllib3-2.2.3-py3-none-any.whl (126 kB)
+Collecting idna<4,>=2.5
+  Downloading idna-3.10-py3-none-any.whl (70 kB)
+Collecting certifi>=2017.4.17
+  Downloading certifi-2024.8.30-py3-none-any.whl (167 kB)
+Collecting charset-normalizer<4,>=2
+  Downloading charset_normalizer-3.4.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (143 kB)
 Collecting oauthlib>=3.0.0
   Downloading oauthlib-3.2.2-py3-none-any.whl (151 kB)
 Collecting pyasn1<0.7.0,>=0.4.6
@@ -128,46 +128,42 @@ Building wheels for collected packages: mpi4py, jax
   Building wheel for mpi4py (PEP 517): started
   Building wheel for mpi4py (PEP 517): still running...
   Building wheel for mpi4py (PEP 517): finished with status 'done'
-  Created wheel for mpi4py: filename=mpi4py-4.0.1-cp38-cp38-linux_x86_64.whl size=4754791 sha256=3db92ec463d68f419267d2ad970e0d7959ae6094fbe5ea1354d7269a92c01747
-  Stored in directory: /tmp/pip-ephem-wheel-cache-prbm4pn1/wheels/53/6a/71/8b09cb59cfa0e61fdc9c195603a5dcf9fc2862ab5ba0772abd
+  Created wheel for mpi4py: filename=mpi4py-4.0.1-cp38-cp38-linux_x86_64.whl size=4754788 sha256=ad45442bc87b754a121710119ea1920f62afc86147d7c526364b43a7bd3bb657
+  Stored in directory: /tmp/pip-ephem-wheel-cache-bl46ifkv/wheels/53/6a/71/8b09cb59cfa0e61fdc9c195603a5dcf9fc2862ab5ba0772abd
   Building wheel for jax (PEP 517): started
   Building wheel for jax (PEP 517): finished with status 'done'
-  Created wheel for jax: filename=jax-0.4.13-py3-none-any.whl size=1518703 sha256=fccda41bdbf60aff4fa98589959e86b557f3a82b2b62ea38890db84af6701b92
-  Stored in directory: /tmp/pip-ephem-wheel-cache-prbm4pn1/wheels/46/d9/15/d2800d4089dc4c77299ac7513c6aa1036f5491edbd2bf6ba16
+  Created wheel for jax: filename=jax-0.4.13-py3-none-any.whl size=1518703 sha256=fe961f476200641b9c1a64dcf927fe56e34c6e362da3bab8814dab3d37ed9ffc
+  Stored in directory: /tmp/pip-ephem-wheel-cache-bl46ifkv/wheels/46/d9/15/d2800d4089dc4c77299ac7513c6aa1036f5491edbd2bf6ba16
 Successfully built mpi4py jax
-Installing collected packages: numpy, pillow, zipp, importlib-resources, packaging, kiwisolver, cycler, fonttools, six, python-dateutil, pyparsing, contourpy, matplotlib, mpi4py, absl-py, grpcio, h5py, google-pasta, setuptools, opt-einsum, protobuf, tensorflow-estimator, termcolor, wheel, astunparse, flatbuffers, wrapt, keras, libclang, cachetools, pyasn1, pyasn1-modules, rsa, google-auth, charset-normalizer, idna, urllib3, certifi, requests, oauthlib, requests-oauthlib, google-auth-oauthlib, MarkupSafe, werkzeug, tensorboard-data-server, importlib-metadata, markdown, tensorboard, gast, typing-extensions, tensorflow-io-gcs-filesystem, tensorflow, ml-dtypes, scipy, jax, jaxlib
+Installing collected packages: numpy, packaging, contourpy, pyparsing, pillow, fonttools, cycler, six, python-dateutil, zipp, importlib-resources, kiwisolver, matplotlib, mpi4py, gast, tensorflow-io-gcs-filesystem, MarkupSafe, werkzeug, tensorboard-data-server, grpcio, importlib-metadata, markdown, cachetools, pyasn1, pyasn1-modules, rsa, google-auth, oauthlib, urllib3, idna, certifi, charset-normalizer, requests, requests-oauthlib, google-auth-oauthlib, wheel, protobuf, setuptools, absl-py, tensorboard, google-pasta, termcolor, keras, tensorflow-estimator, wrapt, typing-extensions, h5py, opt-einsum, flatbuffers, libclang, astunparse, tensorflow, ml-dtypes, scipy, jax, jaxlib
   Attempting uninstall: numpy
     Found existing installation: numpy 1.24.4
     Uninstalling numpy-1.24.4:
       Successfully uninstalled numpy-1.24.4
-  Attempting uninstall: pillow
-    Found existing installation: pillow 10.4.0
-    Uninstalling pillow-10.4.0:
-      Successfully uninstalled pillow-10.4.0
-  Attempting uninstall: zipp
-    Found existing installation: zipp 3.20.2
-    Uninstalling zipp-3.20.2:
-      Successfully uninstalled zipp-3.20.2
-  Attempting uninstall: importlib-resources
-    Found existing installation: importlib-resources 6.4.5
-    Uninstalling importlib-resources-6.4.5:
-      Successfully uninstalled importlib-resources-6.4.5
   Attempting uninstall: packaging
     Found existing installation: packaging 24.2
     Uninstalling packaging-24.2:
       Successfully uninstalled packaging-24.2
-  Attempting uninstall: kiwisolver
-    Found existing installation: kiwisolver 1.4.7
-    Uninstalling kiwisolver-1.4.7:
-      Successfully uninstalled kiwisolver-1.4.7
-  Attempting uninstall: cycler
-    Found existing installation: cycler 0.12.1
-    Uninstalling cycler-0.12.1:
-      Successfully uninstalled cycler-0.12.1
+  Attempting uninstall: contourpy
+    Found existing installation: contourpy 1.1.1
+    Uninstalling contourpy-1.1.1:
+      Successfully uninstalled contourpy-1.1.1
+  Attempting uninstall: pyparsing
+    Found existing installation: pyparsing 3.1.4
+    Uninstalling pyparsing-3.1.4:
+      Successfully uninstalled pyparsing-3.1.4
+  Attempting uninstall: pillow
+    Found existing installation: pillow 10.4.0
+    Uninstalling pillow-10.4.0:
+      Successfully uninstalled pillow-10.4.0
   Attempting uninstall: fonttools
     Found existing installation: fonttools 4.55.0
     Uninstalling fonttools-4.55.0:
       Successfully uninstalled fonttools-4.55.0
+  Attempting uninstall: cycler
+    Found existing installation: cycler 0.12.1
+    Uninstalling cycler-0.12.1:
+      Successfully uninstalled cycler-0.12.1
   Attempting uninstall: six
     Found existing installation: six 1.16.0
     Uninstalling six-1.16.0:
@@ -176,14 +172,18 @@ Installing collected packages: numpy, pillow, zipp, importlib-resources, packagi
     Found existing installation: python-dateutil 2.9.0.post0
     Uninstalling python-dateutil-2.9.0.post0:
       Successfully uninstalled python-dateutil-2.9.0.post0
-  Attempting uninstall: pyparsing
-    Found existing installation: pyparsing 3.1.4
-    Uninstalling pyparsing-3.1.4:
-      Successfully uninstalled pyparsing-3.1.4
-  Attempting uninstall: contourpy
-    Found existing installation: contourpy 1.1.1
-    Uninstalling contourpy-1.1.1:
-      Successfully uninstalled contourpy-1.1.1
+  Attempting uninstall: zipp
+    Found existing installation: zipp 3.20.2
+    Uninstalling zipp-3.20.2:
+      Successfully uninstalled zipp-3.20.2
+  Attempting uninstall: importlib-resources
+    Found existing installation: importlib-resources 6.4.5
+    Uninstalling importlib-resources-6.4.5:
+      Successfully uninstalled importlib-resources-6.4.5
+  Attempting uninstall: kiwisolver
+    Found existing installation: kiwisolver 1.4.7
+    Uninstalling kiwisolver-1.4.7:
+      Successfully uninstalled kiwisolver-1.4.7
   Attempting uninstall: matplotlib
     Found existing installation: matplotlib 3.7.5
     Uninstalling matplotlib-3.7.5:
@@ -192,66 +192,38 @@ Installing collected packages: numpy, pillow, zipp, importlib-resources, packagi
     Found existing installation: mpi4py 4.0.1
     Uninstalling mpi4py-4.0.1:
       Successfully uninstalled mpi4py-4.0.1
-  Attempting uninstall: absl-py
-    Found existing installation: absl-py 2.1.0
-    Uninstalling absl-py-2.1.0:
-      Successfully uninstalled absl-py-2.1.0
+  Attempting uninstall: gast
+    Found existing installation: gast 0.4.0
+    Uninstalling gast-0.4.0:
+      Successfully uninstalled gast-0.4.0
+  Attempting uninstall: tensorflow-io-gcs-filesystem
+    Found existing installation: tensorflow-io-gcs-filesystem 0.34.0
+    Uninstalling tensorflow-io-gcs-filesystem-0.34.0:
+      Successfully uninstalled tensorflow-io-gcs-filesystem-0.34.0
+  Attempting uninstall: MarkupSafe
+    Found existing installation: MarkupSafe 2.1.5
+    Uninstalling MarkupSafe-2.1.5:
+      Successfully uninstalled MarkupSafe-2.1.5
+  Attempting uninstall: werkzeug
+    Found existing installation: werkzeug 3.0.6
+    Uninstalling werkzeug-3.0.6:
+      Successfully uninstalled werkzeug-3.0.6
+  Attempting uninstall: tensorboard-data-server
+    Found existing installation: tensorboard-data-server 0.7.2
+    Uninstalling tensorboard-data-server-0.7.2:
+      Successfully uninstalled tensorboard-data-server-0.7.2
   Attempting uninstall: grpcio
     Found existing installation: grpcio 1.68.0
     Uninstalling grpcio-1.68.0:
       Successfully uninstalled grpcio-1.68.0
-  Attempting uninstall: h5py
-    Found existing installation: h5py 3.11.0
-    Uninstalling h5py-3.11.0:
-      Successfully uninstalled h5py-3.11.0
-  Attempting uninstall: google-pasta
-    Found existing installation: google-pasta 0.2.0
-    Uninstalling google-pasta-0.2.0:
-      Successfully uninstalled google-pasta-0.2.0
-  Attempting uninstall: setuptools
-    Found existing installation: setuptools 75.3.0
-    Uninstalling setuptools-75.3.0:
-      Successfully uninstalled setuptools-75.3.0
-  Attempting uninstall: opt-einsum
-    Found existing installation: opt-einsum 3.4.0
-    Uninstalling opt-einsum-3.4.0:
-      Successfully uninstalled opt-einsum-3.4.0
-  Attempting uninstall: protobuf
-    Found existing installation: protobuf 4.25.5
-    Uninstalling protobuf-4.25.5:
-      Successfully uninstalled protobuf-4.25.5
-  Attempting uninstall: tensorflow-estimator
-    Found existing installation: tensorflow-estimator 2.13.0
-    Uninstalling tensorflow-estimator-2.13.0:
-      Successfully uninstalled tensorflow-estimator-2.13.0
-  Attempting uninstall: termcolor
-    Found existing installation: termcolor 2.4.0
-    Uninstalling termcolor-2.4.0:
-      Successfully uninstalled termcolor-2.4.0
-  Attempting uninstall: wheel
-    Found existing installation: wheel 0.45.1
-    Uninstalling wheel-0.45.1:
-      Successfully uninstalled wheel-0.45.1
-  Attempting uninstall: astunparse
-    Found existing installation: astunparse 1.6.3
-    Uninstalling astunparse-1.6.3:
-      Successfully uninstalled astunparse-1.6.3
-  Attempting uninstall: flatbuffers
-    Found existing installation: flatbuffers 24.3.25
-    Uninstalling flatbuffers-24.3.25:
-      Successfully uninstalled flatbuffers-24.3.25
-  Attempting uninstall: wrapt
-    Found existing installation: wrapt 1.17.0
-    Uninstalling wrapt-1.17.0:
-      Successfully uninstalled wrapt-1.17.0
-  Attempting uninstall: keras
-    Found existing installation: keras 2.13.1
-    Uninstalling keras-2.13.1:
-      Successfully uninstalled keras-2.13.1
-  Attempting uninstall: libclang
-    Found existing installation: libclang 18.1.1
-    Uninstalling libclang-18.1.1:
-      Successfully uninstalled libclang-18.1.1
+  Attempting uninstall: importlib-metadata
+    Found existing installation: importlib-metadata 8.5.0
+    Uninstalling importlib-metadata-8.5.0:
+      Successfully uninstalled importlib-metadata-8.5.0
+  Attempting uninstall: markdown
+    Found existing installation: Markdown 3.7
+    Uninstalling Markdown-3.7:
+      Successfully uninstalled Markdown-3.7
   Attempting uninstall: cachetools
     Found existing installation: cachetools 5.5.0
     Uninstalling cachetools-5.5.0:
@@ -272,30 +244,30 @@ Installing collected packages: numpy, pillow, zipp, importlib-resources, packagi
     Found existing installation: google-auth 2.36.0
     Uninstalling google-auth-2.36.0:
       Successfully uninstalled google-auth-2.36.0
-  Attempting uninstall: charset-normalizer
-    Found existing installation: charset-normalizer 3.4.0
-    Uninstalling charset-normalizer-3.4.0:
-      Successfully uninstalled charset-normalizer-3.4.0
-  Attempting uninstall: idna
-    Found existing installation: idna 3.10
-    Uninstalling idna-3.10:
-      Successfully uninstalled idna-3.10
-  Attempting uninstall: urllib3
-    Found existing installation: urllib3 2.2.3
-    Uninstalling urllib3-2.2.3:
-      Successfully uninstalled urllib3-2.2.3
-  Attempting uninstall: certifi
-    Found existing installation: certifi 2024.8.30
-    Uninstalling certifi-2024.8.30:
-      Successfully uninstalled certifi-2024.8.30
-  Attempting uninstall: requests
-    Found existing installation: requests 2.32.3
-    Uninstalling requests-2.32.3:
-      Successfully uninstalled requests-2.32.3
   Attempting uninstall: oauthlib
     Found existing installation: oauthlib 3.2.2
     Uninstalling oauthlib-3.2.2:
       Successfully uninstalled oauthlib-3.2.2
+  Attempting uninstall: urllib3
+    Found existing installation: urllib3 2.2.3
+    Uninstalling urllib3-2.2.3:
+      Successfully uninstalled urllib3-2.2.3
+  Attempting uninstall: idna
+    Found existing installation: idna 3.10
+    Uninstalling idna-3.10:
+      Successfully uninstalled idna-3.10
+  Attempting uninstall: certifi
+    Found existing installation: certifi 2024.8.30
+    Uninstalling certifi-2024.8.30:
+      Successfully uninstalled certifi-2024.8.30
+  Attempting uninstall: charset-normalizer
+    Found existing installation: charset-normalizer 3.4.0
+    Uninstalling charset-normalizer-3.4.0:
+      Successfully uninstalled charset-normalizer-3.4.0
+  Attempting uninstall: requests
+    Found existing installation: requests 2.32.3
+    Uninstalling requests-2.32.3:
+      Successfully uninstalled requests-2.32.3
   Attempting uninstall: requests-oauthlib
     Found existing installation: requests-oauthlib 2.0.0
     Uninstalling requests-oauthlib-2.0.0:
@@ -304,42 +276,70 @@ Installing collected packages: numpy, pillow, zipp, importlib-resources, packagi
     Found existing installation: google-auth-oauthlib 1.0.0
     Uninstalling google-auth-oauthlib-1.0.0:
       Successfully uninstalled google-auth-oauthlib-1.0.0
-  Attempting uninstall: MarkupSafe
-    Found existing installation: MarkupSafe 2.1.5
-    Uninstalling MarkupSafe-2.1.5:
-      Successfully uninstalled MarkupSafe-2.1.5
-  Attempting uninstall: werkzeug
-    Found existing installation: werkzeug 3.0.6
-    Uninstalling werkzeug-3.0.6:
-      Successfully uninstalled werkzeug-3.0.6
-  Attempting uninstall: tensorboard-data-server
-    Found existing installation: tensorboard-data-server 0.7.2
-    Uninstalling tensorboard-data-server-0.7.2:
-      Successfully uninstalled tensorboard-data-server-0.7.2
-  Attempting uninstall: importlib-metadata
-    Found existing installation: importlib-metadata 8.5.0
-    Uninstalling importlib-metadata-8.5.0:
-      Successfully uninstalled importlib-metadata-8.5.0
-  Attempting uninstall: markdown
-    Found existing installation: Markdown 3.7
-    Uninstalling Markdown-3.7:
-      Successfully uninstalled Markdown-3.7
+  Attempting uninstall: wheel
+    Found existing installation: wheel 0.45.1
+    Uninstalling wheel-0.45.1:
+      Successfully uninstalled wheel-0.45.1
+  Attempting uninstall: protobuf
+    Found existing installation: protobuf 4.25.5
+    Uninstalling protobuf-4.25.5:
+      Successfully uninstalled protobuf-4.25.5
+  Attempting uninstall: setuptools
+    Found existing installation: setuptools 75.3.0
+    Uninstalling setuptools-75.3.0:
+      Successfully uninstalled setuptools-75.3.0
+  Attempting uninstall: absl-py
+    Found existing installation: absl-py 2.1.0
+    Uninstalling absl-py-2.1.0:
+      Successfully uninstalled absl-py-2.1.0
   Attempting uninstall: tensorboard
     Found existing installation: tensorboard 2.13.0
     Uninstalling tensorboard-2.13.0:
       Successfully uninstalled tensorboard-2.13.0
-  Attempting uninstall: gast
-    Found existing installation: gast 0.4.0
-    Uninstalling gast-0.4.0:
-      Successfully uninstalled gast-0.4.0
+  Attempting uninstall: google-pasta
+    Found existing installation: google-pasta 0.2.0
+    Uninstalling google-pasta-0.2.0:
+      Successfully uninstalled google-pasta-0.2.0
+  Attempting uninstall: termcolor
+    Found existing installation: termcolor 2.4.0
+    Uninstalling termcolor-2.4.0:
+      Successfully uninstalled termcolor-2.4.0
+  Attempting uninstall: keras
+    Found existing installation: keras 2.13.1
+    Uninstalling keras-2.13.1:
+      Successfully uninstalled keras-2.13.1
+  Attempting uninstall: tensorflow-estimator
+    Found existing installation: tensorflow-estimator 2.13.0
+    Uninstalling tensorflow-estimator-2.13.0:
+      Successfully uninstalled tensorflow-estimator-2.13.0
+  Attempting uninstall: wrapt
+    Found existing installation: wrapt 1.17.0
+    Uninstalling wrapt-1.17.0:
+      Successfully uninstalled wrapt-1.17.0
   Attempting uninstall: typing-extensions
     Found existing installation: typing-extensions 4.5.0
     Uninstalling typing-extensions-4.5.0:
       Successfully uninstalled typing-extensions-4.5.0
-  Attempting uninstall: tensorflow-io-gcs-filesystem
-    Found existing installation: tensorflow-io-gcs-filesystem 0.34.0
-    Uninstalling tensorflow-io-gcs-filesystem-0.34.0:
-      Successfully uninstalled tensorflow-io-gcs-filesystem-0.34.0
+  Attempting uninstall: h5py
+    Found existing installation: h5py 3.11.0
+    Uninstalling h5py-3.11.0:
+      Successfully uninstalled h5py-3.11.0
+  Attempting uninstall: opt-einsum
+    Found existing installation: opt-einsum 3.4.0
+    Uninstalling opt-einsum-3.4.0:
+      Successfully uninstalled opt-einsum-3.4.0
+  Attempting uninstall: flatbuffers
+    Found existing installation: flatbuffers 24.3.25
+    Uninstalling flatbuffers-24.3.25:
+      Successfully uninstalled flatbuffers-24.3.25
+  Attempting uninstall: libclang
+    Found existing installation: libclang 18.1.1
+    Uninstalling libclang-18.1.1:
+      Successfully uninstalled libclang-18.1.1
+  Attempting uninstall: astunparse
+    Found existing installation: astunparse 1.6.3
+    Uninstalling astunparse-1.6.3:
+      Successfully uninstalled astunparse-1.6.3
   Attempting uninstall: tensorflow
     Found existing installation: tensorflow 2.13.1
     Uninstalling tensorflow-2.13.1:
@@ -366,1412 +366,337 @@ Testing mpi4py with mpirun...
 (3, 1)
 (3, 1)
 Running Testbench with MPI...
-[Rank 29] Initial input shape: (28, 28)
-[Rank 29] Kernel shape: (3, 3)
-[Rank 29] Padded input shape: (30, 28)
-[Rank 29] Padded target shape: (30, 28)
-[Rank 29] Local input shape (including halo): (2, 28)
-[Rank 29] Local target shape: (1, 28)
-[Rank 11] Initial input shape: (28, 28)
-[Rank 11] Kernel shape: (3, 3)
-[Rank 11] Padded input shape: (30, 28)
-[Rank 11] Padded target shape: (30, 28)
-[Rank 11] Local input shape (including halo): (3, 28)
-[Rank 11] Local target shape: (1, 28)
-[Rank 13] Initial input shape: (28, 28)
-[Rank 13] Kernel shape: (3, 3)
-[Rank 13] Padded input shape: (30, 28)
-[Rank 13] Padded target shape: (30, 28)
-[Rank 13] Local input shape (including halo): (3, 28)
-[Rank 13] Local target shape: (1, 28)
-[Rank 15] Initial input shape: (28, 28)
-[Rank 15] Kernel shape: (3, 3)
-[Rank 15] Padded input shape: (30, 28)
-[Rank 15] Padded target shape: (30, 28)
-[Rank 15] Local input shape (including halo): (3, 28)
-[Rank 15] Local target shape: (1, 28)
-[Rank 17] Initial input shape: (28, 28)
-[Rank 17] Kernel shape: (3, 3)
-[Rank 17] Padded input shape: (30, 28)
-[Rank 17] Padded target shape: (30, 28)
-[Rank 17] Local input shape (including halo): (3, 28)
-[Rank 17] Local target shape: (1, 28)
-[Rank 19] Initial input shape: (28, 28)
-[Rank 19] Kernel shape: (3, 3)
-[Rank 19] Padded input shape: (30, 28)
-[Rank 19] Padded target shape: (30, 28)
-[Rank 19] Local input shape (including halo): (3, 28)
-[Rank 19] Local target shape: (1, 28)
-[Rank 20] Initial input shape: (28, 28)
-[Rank 20] Kernel shape: (3, 3)
-[Rank 20] Padded input shape: (30, 28)
-[Rank 20] Padded target shape: (30, 28)
-[Rank 20] Local input shape (including halo): (3, 28)
-[Rank 20] Local target shape: (1, 28)
-[Rank 21] Initial input shape: (28, 28)
-[Rank 21] Kernel shape: (3, 3)
-[Rank 21] Padded input shape: (30, 28)
-[Rank 21] Padded target shape: (30, 28)
-[Rank 21] Local input shape (including halo): (3, 28)
-[Rank 21] Local target shape: (1, 28)
-[Rank 23] Initial input shape: (28, 28)
-[Rank 23] Kernel shape: (3, 3)
-[Rank 23] Padded input shape: (30, 28)
-[Rank 23] Padded target shape: (30, 28)
-[Rank 23] Local input shape (including halo): (3, 28)
-[Rank 23] Local target shape: (1, 28)
-[Rank 24] Initial input shape: (28, 28)
-[Rank 24] Kernel shape: (3, 3)
-[Rank 24] Padded input shape: (30, 28)
-[Rank 24] Padded target shape: (30, 28)
-[Rank 24] Local input shape (including halo): (3, 28)
-[Rank 24] Local target shape: (1, 28)
-[Rank 25] Initial input shape: (28, 28)
-[Rank 25] Kernel shape: (3, 3)
-[Rank 25] Padded input shape: (30, 28)
-[Rank 25] Padded target shape: (30, 28)
-[Rank 25] Local input shape (including halo): (3, 28)
-[Rank 25] Local target shape: (1, 28)
-[Rank 27] Initial input shape: (28, 28)
-[Rank 27] Kernel shape: (3, 3)
-[Rank 27] Padded input shape: (30, 28)
-[Rank 27] Padded target shape: (30, 28)
-[Rank 27] Local input shape (including halo): (3, 28)
-[Rank 27] Local target shape: (1, 28)
-[Rank 28] Initial input shape: (28, 28)
-[Rank 28] Kernel shape: (3, 3)
-[Rank 28] Padded input shape: (30, 28)
-[Rank 28] Padded target shape: (30, 28)
-[Rank 28] Local input shape (including halo): (3, 28)
-[Rank 28] Local target shape: (1, 28)
-[Rank 10] Initial input shape: (28, 28)
-[Rank 10] Kernel shape: (3, 3)
-[Rank 10] Padded input shape: (30, 28)
-[Rank 10] Padded target shape: (30, 28)
-[Rank 10] Local input shape (including halo): (3, 28)
-[Rank 10] Local target shape: (1, 28)
-[Rank 12] Initial input shape: (28, 28)
-[Rank 12] Kernel shape: (3, 3)
-[Rank 12] Padded input shape: (30, 28)
-[Rank 12] Padded target shape: (30, 28)
-[Rank 12] Local input shape (including halo): (3, 28)
-[Rank 12] Local target shape: (1, 28)
-[Rank 14] Initial input shape: (28, 28)
-[Rank 14] Kernel shape: (3, 3)
-[Rank 14] Padded input shape: (30, 28)
-[Rank 14] Padded target shape: (30, 28)
-[Rank 16] Initial input shape: (28, 28)
-[Rank 16] Kernel shape: (3, 3)
-[Rank 16] Padded input shape: (30, 28)
-[Rank 16] Padded target shape: (30, 28)
-[Rank 16] Local input shape (including halo): (3, 28)
-[Rank 16] Local target shape: (1, 28)
-[Rank 18] Initial input shape: (28, 28)
-[Rank 18] Kernel shape: (3, 3)
-[Rank 18] Padded input shape: (30, 28)
-[Rank 18] Padded target shape: (30, 28)
-[Rank 18] Local input shape (including halo): (3, 28)
-[Rank 18] Local target shape: (1, 28)
-[Rank 26] Initial input shape: (28, 28)
-[Rank 26] Kernel shape: (3, 3)
 [Rank 1] Initial input shape: (28, 28)
 [Rank 1] Kernel shape: (3, 3)
-[Rank 1] Padded input shape: (30, 28)
-[Rank 1] Padded target shape: (30, 28)
-[Rank 1] Local input shape (including halo): (3, 28)
-[Rank 1] Local target shape: (1, 28)
-[Rank 2] Initial input shape: (28, 28)
-[Rank 2] Kernel shape: (3, 3)
-[Rank 2] Padded input shape: (30, 28)
-[Rank 2] Padded target shape: (30, 28)
-[Rank 2] Local input shape (including halo): (3, 28)
-[Rank 2] Local target shape: (1, 28)
-[Rank 3] Initial input shape: (28, 28)
-[Rank 3] Kernel shape: (3, 3)
-[Rank 3] Padded input shape: (30, 28)
-[Rank 3] Padded target shape: (30, 28)
-[Rank 3] Local input shape (including halo): (3, 28)
-[Rank 3] Local target shape: (1, 28)
-[Rank 5] Initial input shape: (28, 28)
-[Rank 5] Kernel shape: (3, 3)
-[Rank 5] Padded input shape: (30, 28)
-[Rank 5] Padded target shape: (30, 28)
-[Rank 5] Local input shape (including halo): (3, 28)
-[Rank 5] Local target shape: (1, 28)
-[Rank 6] Initial input shape: (28, 28)
-[Rank 6] Kernel shape: (3, 3)
-[Rank 6] Padded input shape: (30, 28)
-[Rank 6] Padded target shape: (30, 28)
-[Rank 6] Local input shape (including halo): (3, 28)
-[Rank 6] Local target shape: (1, 28)
-[Rank 7] Initial input shape: (28, 28)
-[Rank 7] Kernel shape: (3, 3)
-[Rank 7] Padded input shape: (30, 28)
-[Rank 7] Padded target shape: (30, 28)
-[Rank 7] Local input shape (including halo): (3, 28)
-[Rank 7] Local target shape: (1, 28)
-[Rank 8] Initial input shape: (28, 28)
-[Rank 8] Kernel shape: (3, 3)
-[Rank 8] Padded input shape: (30, 28)
-[Rank 8] Padded target shape: (30, 28)
-[Rank 8] Local input shape (including halo): (3, 28)
-[Rank 8] Local target shape: (1, 28)
-[Rank 9] Initial input shape: (28, 28)
-[Rank 9] Kernel shape: (3, 3)
-[Rank 9] Padded input shape: (30, 28)
-[Rank 9] Padded target shape: (30, 28)
-[Rank 9] Local input shape (including halo): (3, 28)
-[Rank 9] Local target shape: (1, 28)
-[Rank 14] Local input shape (including halo): (3, 28)
-[Rank 14] Local target shape: (1, 28)
-[Rank 26] Padded input shape: (30, 28)
-[Rank 26] Padded target shape: (30, 28)
-[Rank 26] Local input shape (including halo): (3, 28)
-[Rank 26] Local target shape: (1, 28)
-[Rank 22] Initial input shape: (28, 28)
-[Rank 22] Kernel shape: (3, 3)
-[Rank 22] Padded input shape: (30, 28)
-[Rank 22] Padded target shape: (30, 28)
-[Rank 22] Local input shape (including halo): (3, 28)
-[Rank 22] Local target shape: (1, 28)
-[Rank 4] Initial input shape: (28, 28)
-[Rank 4] Kernel shape: (3, 3)
-[Rank 4] Padded input shape: (30, 28)
-[Rank 4] Padded target shape: (30, 28)
-[Rank 4] Local input shape (including halo): (3, 28)
-[Rank 4] Local target shape: (1, 28)
 [Rank 0] Initial input shape: (28, 28)
 [Rank 0] Kernel shape: (3, 3)
-[Rank 0] Padded input shape: (30, 28)
-[Rank 0] Padded target shape: (30, 28)
-[Rank 0] Local input shape (including halo): (2, 28)
-[Rank 0] Local target shape: (1, 28)
-[Rank 2] Performing convolution with padded input shape (5, 30)
-[Rank 3] Performing convolution with padded input shape (5, 30)
-[Rank 22] Performing convolution with padded input shape (5, 30)
-[Rank 5] Performing convolution with padded input shape (5, 30)
-[Rank 6] Performing convolution with padded input shape (5, 30)
-[Rank 8] Performing convolution with padded input shape (5, 30)
-[Rank 9] Performing convolution with padded input shape (5, 30)
-[Rank 10] Performing convolution with padded input shape (5, 30)
-[Rank 29] Performing convolution with padded input shape (4, 30)
-[Rank 12] Performing convolution with padded input shape (5, 30)
-[Rank 11] Performing convolution with padded input shape (5, 30)
-[Rank 15] Performing convolution with padded input shape (5, 30)
-[Rank 16] Performing convolution with padded input shape (5, 30)
-[Rank 17] Performing convolution with padded input shape (5, 30)
-[Rank 18] Performing convolution with padded input shape (5, 30)
-[Rank 19] Performing convolution with padded input shape (5, 30)
-[Rank 20] Performing convolution with padded input shape (5, 30)
-[Rank 26] Performing convolution with padded input shape (5, 30)
-[Rank 23] Performing convolution with padded input shape (5, 30)
-[Rank 24] Performing convolution with padded input shape (5, 30)
-[Rank 25] Performing convolution with padded input shape (5, 30)
-[Rank 28] Performing convolution with padded input shape (5, 30)
-[Rank 0] Performing convolution with padded input shape (4, 30)
-[Rank 4] Performing convolution with padded input shape (5, 30)
-[Rank 14] Performing convolution with padded input shape (5, 30)
-[Rank 1] Performing convolution with padded input shape (5, 30)
-[Rank 13] Performing convolution with padded input shape (5, 30)
-[Rank 7] Performing convolution with padded input shape (5, 30)
-[Rank 27] Performing convolution with padded input shape (5, 30)
-[Rank 21] Performing convolution with padded input shape (5, 30)
-[Rank 0] Iteration 0: y_pred shape: (1, 28)
-[Rank 29] Iteration 0: y_pred shape: (1, 28)
-[Rank 0] Performing convolution with padded input shape (4, 30)
-[Rank 29] Performing convolution with padded input shape (4, 30)
-[Rank 27] Iteration 0: y_pred shape: (1, 28)
-[Rank 20] Iteration 0: y_pred shape: (1, 28)
-[Rank 26] Iteration 0: y_pred shape: (1, 28)
-[Rank 23] Iteration 0: y_pred shape: (1, 28)
-[Rank 24] Iteration 0: y_pred shape: (1, 28)
-[Rank 7] Iteration 0: y_pred shape: (1, 28)
-[Rank 25] Iteration 0: y_pred shape: (1, 28)
-[Rank 4] Iteration 0: y_pred shape: (1, 28)
-[Rank 14] Iteration 0: y_pred shape: (1, 28)
-[Rank 28] Iteration 0: y_pred shape: (1, 28)
-[Rank 2] Iteration 0: y_pred shape: (1, 28)
-[Rank 22] Iteration 0: y_pred shape: (1, 28)
-[Rank 13] Iteration 0: y_pred shape: (1, 28)
-[Rank 6] Iteration 0: y_pred shape: (1, 28)
-[Rank 8] Iteration 0: y_pred shape: (1, 28)
-[Rank 9] Iteration 0: y_pred shape: (1, 28)
-[Rank 10] Iteration 0: y_pred shape: (1, 28)
-[Rank 12] Iteration 0: y_pred shape: (1, 28)
-[Rank 1] Iteration 0: y_pred shape: (1, 28)
-[Rank 15] Iteration 0: y_pred shape: (1, 28)
-[Rank 16] Iteration 0: y_pred shape: (1, 28)
-[Rank 17] Iteration 0: y_pred shape: (1, 28)
-[Rank 18] Iteration 0: y_pred shape: (1, 28)
-[Rank 19] Iteration 0: y_pred shape: (1, 28)
-[Rank 21] Iteration 0: y_pred shape: (1, 28)
-[Rank 3] Iteration 0: y_pred shape: (1, 28)
-[Rank 17] Performing convolution with padded input shape (5, 30)
-[Rank 18] Performing convolution with padded input shape (5, 30)
-[Rank 27] Performing convolution with padded input shape (5, 30)
-[Rank 20] Performing convolution with padded input shape (5, 30)
-[Rank 26] Performing convolution with padded input shape (5, 30)
-[Rank 23] Performing convolution with padded input shape (5, 30)
-[Rank 24] Performing convolution with padded input shape (5, 30)
-[Rank 7] Performing convolution with padded input shape (5, 30)
-[Rank 19] Performing convolution with padded input shape (5, 30)
-[Rank 25] Performing convolution with padded input shape (5, 30)
-[Rank 14] Performing convolution with padded input shape (5, 30)
-[Rank 28] Performing convolution with padded input shape (5, 30)
-[Rank 21] Performing convolution with padded input shape (5, 30)
-[Rank 2] Performing convolution with padded input shape (5, 30)
-[Rank 5] Iteration 0: y_pred shape: (1, 28)
-[Rank 22] Performing convolution with padded input shape (5, 30)
-[Rank 13] Performing convolution with padded input shape (5, 30)
-[Rank 6] Performing convolution with padded input shape (5, 30)
-[Rank 8] Performing convolution with padded input shape (5, 30)
-[Rank 9] Performing convolution with padded input shape (5, 30)
-[Rank 10] Performing convolution with padded input shape (5, 30)
-[Rank 12] Performing convolution with padded input shape (5, 30)
-[Rank 11] Iteration 0: y_pred shape: (1, 28)
-[Rank 1] Performing convolution with padded input shape (5, 30)
-[Rank 15] Performing convolution with padded input shape (5, 30)
-[Rank 16] Performing convolution with padded input shape (5, 30)
-[Rank 3] Performing convolution with padded input shape (5, 30)
-[Rank 4] Performing convolution with padded input shape (5, 30)
-[Rank 5] Performing convolution with padded input shape (5, 30)
-[Rank 11] Performing convolution with padded input shape (5, 30)
-[Rank 26] Iteration 0: local loss: 0.6431600451469421
-[Rank 26] Performing convolution with padded input shape (5, 30)
-[Rank 23] Iteration 0: local loss: 0.46188443899154663
-[Rank 23] Performing convolution with padded input shape (5, 30)
-[Rank 24] Iteration 0: local loss: 0.5995113253593445
-[Rank 24] Performing convolution with padded input shape (5, 30)
-[Rank 11] Iteration 0: local loss: 0.522658109664917
-[Rank 11] Performing convolution with padded input shape (5, 30)
-[Rank 7] Iteration 0: local loss: 0.34922346472740173
-[Rank 7] Performing convolution with padded input shape (5, 30)
-[Rank 19] Iteration 0: local loss: 0.4585048258304596
-[Rank 19] Performing convolution with padded input shape (5, 30)
-[Rank 3] Iteration 0: local loss: 0.5687124729156494
-[Rank 3] Performing convolution with padded input shape (5, 30)
-[Rank 25] Iteration 0: local loss: 0.5143163204193115
-[Rank 25] Performing convolution with padded input shape (5, 30)
-[Rank 14] Iteration 0: local loss: 0.49632397294044495
-[Rank 14] Performing convolution with padded input shape (5, 30)
-[Rank 28] Iteration 0: local loss: 3.835005918517709e-05
-[Rank 28] Performing convolution with padded input shape (5, 30)
-[Rank 21] Iteration 0: local loss: 0.5820955038070679
-[Rank 21] Performing convolution with padded input shape (5, 30)
-[Rank 2] Iteration 0: local loss: 0.5620019435882568
-[Rank 2] Performing convolution with padded input shape (5, 30)
-[Rank 4] Iteration 0: local loss: 0.5719002485275269
-[Rank 4] Performing convolution with padded input shape (5, 30)
-[Rank 22] Iteration 0: local loss: 0.4133763909339905
-[Rank 22] Performing convolution with padded input shape (5, 30)
-[Rank 13] Iteration 0: local loss: 0.5050338506698608
-[Rank 13] Performing convolution with padded input shape (5, 30)
-[Rank 6] Iteration 0: local loss: 0.4229954779148102
-[Rank 6] Performing convolution with padded input shape (5, 30)
-[Rank 8] Iteration 0: local loss: 0.40878841280937195
-[Rank 8] Performing convolution with padded input shape (5, 30)
-[Rank 0] Iteration 0: local loss: 0.5398582220077515
-[Rank 0] Performing convolution with padded input shape (4, 30)
-[Rank 9] Iteration 0: local loss: 0.38511258363723755
-[Rank 9] Performing convolution with padded input shape (5, 30)
-[Rank 10] Iteration 0: local loss: 0.5239924788475037
-[Rank 10] Performing convolution with padded input shape (5, 30)
-[Rank 12] Iteration 0: local loss: 0.5540561676025391
-[Rank 12] Performing convolution with padded input shape (5, 30)
-[Rank 5] Iteration 0: local loss: 0.48158779740333557
-[Rank 5] Performing convolution with padded input shape (5, 30)
-[Rank 1] Iteration 0: local loss: 0.4524996280670166
-[Rank 1] Performing convolution with padded input shape (5, 30)
-[Rank 15] Iteration 0: local loss: 0.44688448309898376
-[Rank 15] Performing convolution with padded input shape (5, 30)
-[Rank 16] Iteration 0: local loss: 0.6754134297370911
-[Rank 16] Performing convolution with padded input shape (5, 30)
-[Rank 17] Iteration 0: local loss: 0.5228409767150879
-[Rank 17] Performing convolution with padded input shape (5, 30)
-[Rank 29] Iteration 0: local loss: 0.0
-[Rank 29] Performing convolution with padded input shape (4, 30)
-[Rank 18] Iteration 0: local loss: 0.5387289524078369
-[Rank 18] Performing convolution with padded input shape (5, 30)
-[Rank 27] Iteration 0: local loss: 0.44289207458496094
-[Rank 27] Performing convolution with padded input shape (5, 30)
-[Rank 20] Iteration 0: local loss: 0.5123209357261658
-[Rank 20] Performing convolution with padded input shape (5, 30)
-[Rank 29] Iteration 1: y_pred shape: (1, 28)
-[Rank 29] Performing convolution with padded input shape (4, 30)
-[Rank 0] Iteration 1: y_pred shape: (1, 28)
-[Rank 0] Performing convolution with padded input shape (4, 30)
-[Rank 9] Iteration 1: y_pred shape: (1, 28)
-[Rank 9] Performing convolution with padded input shape (5, 30)
-[Rank 26] Iteration 1: y_pred shape: (1, 28)
-[Rank 26] Performing convolution with padded input shape (5, 30)
-[Rank 23] Iteration 1: y_pred shape: (1, 28)
-[Rank 23] Performing convolution with padded input shape (5, 30)
-[Rank 11] Iteration 1: y_pred shape: (1, 28)
-[Rank 11] Performing convolution with padded input shape (5, 30)
-[Rank 14] Iteration 1: y_pred shape: (1, 28)
-[Rank 14] Performing convolution with padded input shape (5, 30)
-[Rank 12] Iteration 1: y_pred shape: (1, 28)
-[Rank 12] Performing convolution with padded input shape (5, 30)
-[Rank 27] Iteration 1: y_pred shape: (1, 28)
-[Rank 27] Performing convolution with padded input shape (5, 30)
-[Rank 24] Iteration 1: y_pred shape: (1, 28)
-[Rank 24] Performing convolution with padded input shape (5, 30)
-[Rank 17] Iteration 1: y_pred shape: (1, 28)
-[Rank 17] Performing convolution with padded input shape (5, 30)
-[Rank 20] Iteration 1: y_pred shape: (1, 28)
-[Rank 20] Performing convolution with padded input shape (5, 30)
-[Rank 18] Iteration 1: y_pred shape: (1, 28)
-[Rank 18] Performing convolution with padded input shape (5, 30)
-[Rank 7] Iteration 1: y_pred shape: (1, 28)
-[Rank 7] Performing convolution with padded input shape (5, 30)
-[Rank 19] Iteration 1: y_pred shape: (1, 28)
-[Rank 19] Performing convolution with padded input shape (5, 30)
-[Rank 3] Iteration 1: y_pred shape: (1, 28)
-[Rank 3] Performing convolution with padded input shape (5, 30)
-[Rank 25] Iteration 1: y_pred shape: (1, 28)
-[Rank 25] Performing convolution with padded input shape (5, 30)
-[Rank 28] Iteration 1: y_pred shape: (1, 28)
-[Rank 28] Performing convolution with padded input shape (5, 30)
-[Rank 21] Iteration 1: y_pred shape: (1, 28)
-[Rank 21] Performing convolution with padded input shape (5, 30)
-[Rank 2] Iteration 1: y_pred shape: (1, 28)
-[Rank 2] Performing convolution with padded input shape (5, 30)
-[Rank 4] Iteration 1: y_pred shape: (1, 28)
-[Rank 4] Performing convolution with padded input shape (5, 30)
-[Rank 22] Iteration 1: y_pred shape: (1, 28)
-[Rank 22] Performing convolution with padded input shape (5, 30)
-[Rank 13] Iteration 1: y_pred shape: (1, 28)
-[Rank 13] Performing convolution with padded input shape (5, 30)
-[Rank 6] Iteration 1: y_pred shape: (1, 28)
-[Rank 6] Performing convolution with padded input shape (5, 30)
-[Rank 8] Iteration 1: y_pred shape: (1, 28)
-[Rank 8] Performing convolution with padded input shape (5, 30)
-[Rank 10] Iteration 1: y_pred shape: (1, 28)
-[Rank 10] Performing convolution with padded input shape (5, 30)
-[Rank 5] Iteration 1: y_pred shape: (1, 28)
-[Rank 5] Performing convolution with padded input shape (5, 30)
-[Rank 1] Iteration 1: y_pred shape: (1, 28)
-[Rank 1] Performing convolution with padded input shape (5, 30)
-[Rank 15] Iteration 1: y_pred shape: (1, 28)
-[Rank 15] Performing convolution with padded input shape (5, 30)
-[Rank 16] Iteration 1: y_pred shape: (1, 28)
-[Rank 16] Performing convolution with padded input shape (5, 30)
-[Rank 4] Iteration 1: local loss: 0.25142502784729004
-[Rank 4] Performing convolution with padded input shape (5, 30)
-[Rank 22] Iteration 1: local loss: 0.14515559375286102
-[Rank 22] Performing convolution with padded input shape (5, 30)
-[Rank 13] Iteration 1: local loss: 0.2957448363304138
-[Rank 13] Performing convolution with padded input shape (5, 30)
-[Rank 6] Iteration 1: local loss: 0.24097216129302979
-[Rank 6] Performing convolution with padded input shape (5, 30)
-[Rank 29] Iteration 1: local loss: 0.0
-[Rank 29] Performing convolution with padded input shape (4, 30)
-[Rank 0] Iteration 1: local loss: 0.2278624176979065
-[Rank 0] Performing convolution with padded input shape (4, 30)
-[Rank 8] Iteration 1: local loss: 0.21189410984516144
-[Rank 8] Performing convolution with padded input shape (5, 30)
-[Rank 14] Iteration 1: local loss: 0.23663561046123505
-[Rank 14] Performing convolution with padded input shape (5, 30)
-[Rank 10] Iteration 1: local loss: 0.27731791138648987
-[Rank 10] Performing convolution with padded input shape (5, 30)
-[Rank 5] Iteration 1: local loss: 0.14352360367774963
-[Rank 5] Performing convolution with padded input shape (5, 30)
-[Rank 1] Iteration 1: local loss: 0.17613670229911804
-[Rank 1] Performing convolution with padded input shape (5, 30)
-[Rank 15] Iteration 1: local loss: 0.21061483025550842
-[Rank 15] Performing convolution with padded input shape (5, 30)
-[Rank 24] Iteration 1: local loss: 0.24337226152420044
-[Rank 24] Performing convolution with padded input shape (5, 30)
-[Rank 17] Iteration 1: local loss: 0.2369295358657837
-[Rank 17] Performing convolution with padded input shape (5, 30)
-[Rank 20] Iteration 1: local loss: 0.18814720213413239
-[Rank 20] Performing convolution with padded input shape (5, 30)
-[Rank 12] Iteration 1: local loss: 0.22545874118804932
-[Rank 12] Performing convolution with padded input shape (5, 30)
-[Rank 27] Iteration 1: local loss: 0.23504023253917694
-[Rank 27] Performing convolution with padded input shape (5, 30)
-[Rank 9] Iteration 1: local loss: 0.16715285181999207
-[Rank 9] Performing convolution with padded input shape (5, 30)
-[Rank 26] Iteration 1: local loss: 0.2849230468273163
-[Rank 26] Performing convolution with padded input shape (5, 30)
-[Rank 16] Iteration 1: local loss: 0.27113229036331177
-[Rank 16] Performing convolution with padded input shape (5, 30)
-[Rank 23] Iteration 1: local loss: 0.22397637367248535
-[Rank 23] Performing convolution with padded input shape (5, 30)
-[Rank 18] Iteration 1: local loss: 0.2135215699672699
-[Rank 18] Performing convolution with padded input shape (5, 30)
-[Rank 7] Iteration 1: local loss: 0.16821101307868958
-[Rank 7] Performing convolution with padded input shape (5, 30)
-[Rank 19] Iteration 1: local loss: 0.26323604583740234
-[Rank 19] Performing convolution with padded input shape (5, 30)
-[Rank 3] Iteration 1: local loss: 0.2908940017223358
-[Rank 3] Performing convolution with padded input shape (5, 30)
-[Rank 11] Iteration 1: local loss: 0.1916162073612213
-[Rank 11] Performing convolution with padded input shape (5, 30)
-[Rank 25] Iteration 1: local loss: 0.17207202315330505
-[Rank 25] Performing convolution with padded input shape (5, 30)
-[Rank 28] Iteration 1: local loss: 0.03055036999285221
-[Rank 28] Performing convolution with padded input shape (5, 30)
-[Rank 21] Iteration 1: local loss: 0.2593933641910553
-[Rank 21] Performing convolution with padded input shape (5, 30)
-[Rank 2] Iteration 1: local loss: 0.26415878534317017
-[Rank 2] Performing convolution with padded input shape (5, 30)
-[Rank 29] Iteration 2: y_pred shape: (1, 28)
-[Rank 0] Iteration 2: y_pred shape: (1, 28)
-[Rank 0] Performing convolution with padded input shape (4, 30)
-[Rank 29] Performing convolution with padded input shape (4, 30)
-[Rank 9] Iteration 2: y_pred shape: (1, 28)
-[Rank 9] Performing convolution with padded input shape (5, 30)
-[Rank 11] Iteration 2: y_pred shape: (1, 28)
-[Rank 11] Performing convolution with padded input shape (5, 30)
-[Rank 28] Iteration 2: y_pred shape: (1, 28)
-[Rank 28] Performing convolution with padded input shape (5, 30)
-[Rank 21] Iteration 2: y_pred shape: (1, 28)
-[Rank 21] Performing convolution with padded input shape (5, 30)
-[Rank 26] Iteration 2: y_pred shape: (1, 28)
-[Rank 26] Performing convolution with padded input shape (5, 30)
-[Rank 4] Iteration 2: y_pred shape: (1, 28)
-[Rank 4] Performing convolution with padded input shape (5, 30)
-[Rank 22] Iteration 2: y_pred shape: (1, 28)
-[Rank 22] Performing convolution with padded input shape (5, 30)
-[Rank 13] Iteration 2: y_pred shape: (1, 28)
-[Rank 13] Performing convolution with padded input shape (5, 30)
-[Rank 6] Iteration 2: y_pred shape: (1, 28)
-[Rank 6] Performing convolution with padded input shape (5, 30)
-[Rank 2] Iteration 2: y_pred shape: (1, 28)
-[Rank 2] Performing convolution with padded input shape (5, 30)
-[Rank 8] Iteration 2: y_pred shape: (1, 28)
-[Rank 8] Performing convolution with padded input shape (5, 30)
-[Rank 14] Iteration 2: y_pred shape: (1, 28)
-[Rank 14] Performing convolution with padded input shape (5, 30)
-[Rank 10] Iteration 2: y_pred shape: (1, 28)
-[Rank 10] Performing convolution with padded input shape (5, 30)
-[Rank 5] Iteration 2: y_pred shape: (1, 28)
-[Rank 5] Performing convolution with padded input shape (5, 30)
-[Rank 1] Iteration 2: y_pred shape: (1, 28)
-[Rank 1] Performing convolution with padded input shape (5, 30)
-[Rank 15] Iteration 2: y_pred shape: (1, 28)
-[Rank 15] Performing convolution with padded input shape (5, 30)
-[Rank 24] Iteration 2: y_pred shape: (1, 28)
-[Rank 24] Performing convolution with padded input shape (5, 30)
-[Rank 17] Iteration 2: y_pred shape: (1, 28)
-[Rank 17] Performing convolution with padded input shape (5, 30)
-[Rank 20] Iteration 2: y_pred shape: (1, 28)
-[Rank 20] Performing convolution with padded input shape (5, 30)
-[Rank 12] Iteration 2: y_pred shape: (1, 28)
-[Rank 12] Performing convolution with padded input shape (5, 30)
-[Rank 27] Iteration 2: y_pred shape: (1, 28)
-[Rank 27] Performing convolution with padded input shape (5, 30)
-[Rank 16] Iteration 2: y_pred shape: (1, 28)
-[Rank 16] Performing convolution with padded input shape (5, 30)
-[Rank 23] Iteration 2: y_pred shape: (1, 28)
-[Rank 23] Performing convolution with padded input shape (5, 30)
-[Rank 18] Iteration 2: y_pred shape: (1, 28)
-[Rank 18] Performing convolution with padded input shape (5, 30)
-[Rank 7] Iteration 2: y_pred shape: (1, 28)
-[Rank 7] Performing convolution with padded input shape (5, 30)
-[Rank 19] Iteration 2: y_pred shape: (1, 28)
-[Rank 19] Performing convolution with padded input shape (5, 30)
-[Rank 3] Iteration 2: y_pred shape: (1, 28)
-[Rank 3] Performing convolution with padded input shape (5, 30)
-[Rank 25] Iteration 2: y_pred shape: (1, 28)
-[Rank 25] Performing convolution with padded input shape (5, 30)
-[Rank 0] Iteration 2: local loss: 0.18879465758800507
-[Rank 0] Performing convolution with padded input shape (4, 30)
-[Rank 2] Iteration 2: local loss: 0.25148338079452515
-[Rank 2] Performing convolution with padded input shape (5, 30)
-[Rank 8] Iteration 2: local loss: 0.21551477909088135
-[Rank 8] Performing convolution with padded input shape (5, 30)
-[Rank 14] Iteration 2: local loss: 0.22731103003025055
-[Rank 14] Performing convolution with padded input shape (5, 30)
-[Rank 10] Iteration 2: local loss: 0.26271364092826843
-[Rank 10] Performing convolution with padded input shape (5, 30)
-[Rank 5] Iteration 2: local loss: 0.14008739590644836
-[Rank 5] Performing convolution with padded input shape (5, 30)
-[Rank 1] Iteration 2: local loss: 0.17602327466011047
-[Rank 1] Performing convolution with padded input shape (5, 30)
-[Rank 15] Iteration 2: local loss: 0.2076118141412735
-[Rank 15] Performing convolution with padded input shape (5, 30)
-[Rank 24] Iteration 2: local loss: 0.22888940572738647
-[Rank 24] Performing convolution with padded input shape (5, 30)
-[Rank 17] Iteration 2: local loss: 0.2200716733932495
-[Rank 17] Performing convolution with padded input shape (5, 30)
-[Rank 20] Iteration 2: local loss: 0.17296284437179565
-[Rank 20] Performing convolution with padded input shape (5, 30)
-[Rank 12] Iteration 2: local loss: 0.19749771058559418
-[Rank 12] Performing convolution with padded input shape (5, 30)
-[Rank 29] Iteration 2: local loss: 0.0
-[Rank 29] Performing convolution with padded input shape (4, 30)
-[Rank 25] Iteration 2: local loss: 0.1597248911857605
-[Rank 25] Performing convolution with padded input shape (5, 30)
-[Rank 27] Iteration 2: local loss: 0.20529010891914368
-[Rank 27] Performing convolution with padded input shape (5, 30)
-[Rank 16] Iteration 2: local loss: 0.24053837358951569
-[Rank 16] Performing convolution with padded input shape (5, 30)
-[Rank 23] Iteration 2: local loss: 0.22390492260456085
-[Rank 23] Performing convolution with padded input shape (5, 30)
-[Rank 18] Iteration 2: local loss: 0.199274480342865
-[Rank 18] Performing convolution with padded input shape (5, 30)
-[Rank 7] Iteration 2: local loss: 0.17480012774467468
-[Rank 7] Performing convolution with padded input shape (5, 30)
-[Rank 19] Iteration 2: local loss: 0.2540827989578247
-[Rank 19] Performing convolution with padded input shape (5, 30)
-[Rank 9] Iteration 2: local loss: 0.1660606861114502
-[Rank 9] Performing convolution with padded input shape (5, 30)
-[Rank 3] Iteration 2: local loss: 0.278335839509964
-[Rank 3] Performing convolution with padded input shape (5, 30)
-[Rank 11] Iteration 2: local loss: 0.17220507562160492
-[Rank 11] Performing convolution with padded input shape (5, 30)
-[Rank 28] Iteration 2: local loss: 0.042782172560691833
-[Rank 28] Performing convolution with padded input shape (5, 30)
-[Rank 21] Iteration 2: local loss: 0.2380923330783844
-[Rank 21] Performing convolution with padded input shape (5, 30)
-[Rank 26] Iteration 2: local loss: 0.26134994626045227
-[Rank 26] Performing convolution with padded input shape (5, 30)
-[Rank 4] Iteration 2: local loss: 0.2384212464094162
-[Rank 4] Performing convolution with padded input shape (5, 30)
-[Rank 22] Iteration 2: local loss: 0.14215508103370667
-[Rank 22] Performing convolution with padded input shape (5, 30)
-[Rank 13] Iteration 2: local loss: 0.28972217440605164
-[Rank 13] Performing convolution with padded input shape (5, 30)
-[Rank 6] Iteration 2: local loss: 0.23742131888866425
-[Rank 6] Performing convolution with padded input shape (5, 30)
-[Rank 29] Iteration 3: y_pred shape: (1, 28)
-[Rank 0] Iteration 3: y_pred shape: (1, 28)
-[Rank 29] Performing convolution with padded input shape (4, 30)
-[Rank 0] Performing convolution with padded input shape (4, 30)
-[Rank 9] Iteration 3: y_pred shape: (1, 28)
-[Rank 21] Iteration 3: y_pred shape: (1, 28)
-[Rank 21] Performing convolution with padded input shape (5, 30)
-[Rank 26] Iteration 3: y_pred shape: (1, 28)
-[Rank 26] Performing convolution with padded input shape (5, 30)
-[Rank 4] Iteration 3: y_pred shape: (1, 28)
-[Rank 4] Performing convolution with padded input shape (5, 30)
-[Rank 22] Iteration 3: y_pred shape: (1, 28)
-[Rank 22] Performing convolution with padded input shape (5, 30)
-[Rank 13] Iteration 3: y_pred shape: (1, 28)
-[Rank 13] Performing convolution with padded input shape (5, 30)
-[Rank 6] Iteration 3: y_pred shape: (1, 28)
-[Rank 6] Performing convolution with padded input shape (5, 30)
-[Rank 2] Iteration 3: y_pred shape: (1, 28)
-[Rank 2] Performing convolution with padded input shape (5, 30)
-[Rank 8] Iteration 3: y_pred shape: (1, 28)
-[Rank 8] Performing convolution with padded input shape (5, 30)
-[Rank 14] Iteration 3: y_pred shape: (1, 28)
-[Rank 14] Performing convolution with padded input shape (5, 30)
-[Rank 10] Iteration 3: y_pred shape: (1, 28)
-[Rank 10] Performing convolution with padded input shape (5, 30)
-[Rank 5] Iteration 3: y_pred shape: (1, 28)
-[Rank 5] Performing convolution with padded input shape (5, 30)
-[Rank 1] Iteration 3: y_pred shape: (1, 28)
-[Rank 1] Performing convolution with padded input shape (5, 30)
-[Rank 15] Iteration 3: y_pred shape: (1, 28)
-[Rank 15] Performing convolution with padded input shape (5, 30)
-[Rank 24] Iteration 3: y_pred shape: (1, 28)
-[Rank 24] Performing convolution with padded input shape (5, 30)
-[Rank 17] Iteration 3: y_pred shape: (1, 28)
-[Rank 17] Performing convolution with padded input shape (5, 30)
-[Rank 20] Iteration 3: y_pred shape: (1, 28)
-[Rank 20] Performing convolution with padded input shape (5, 30)
-[Rank 12] Iteration 3: y_pred shape: (1, 28)
-[Rank 12] Performing convolution with padded input shape (5, 30)
-[Rank 9] Performing convolution with padded input shape (5, 30)
-[Rank 25] Iteration 3: y_pred shape: (1, 28)
-[Rank 25] Performing convolution with padded input shape (5, 30)
-[Rank 27] Iteration 3: y_pred shape: (1, 28)
-[Rank 27] Performing convolution with padded input shape (5, 30)
-[Rank 16] Iteration 3: y_pred shape: (1, 28)
-[Rank 16] Performing convolution with padded input shape (5, 30)
-[Rank 23] Iteration 3: y_pred shape: (1, 28)
-[Rank 23] Performing convolution with padded input shape (5, 30)
-[Rank 18] Iteration 3: y_pred shape: (1, 28)
-[Rank 18] Performing convolution with padded input shape (5, 30)
-[Rank 7] Iteration 3: y_pred shape: (1, 28)
-[Rank 7] Performing convolution with padded input shape (5, 30)
-[Rank 19] Iteration 3: y_pred shape: (1, 28)
-[Rank 19] Performing convolution with padded input shape (5, 30)
-[Rank 3] Iteration 3: y_pred shape: (1, 28)
-[Rank 3] Performing convolution with padded input shape (5, 30)
-[Rank 11] Iteration 3: y_pred shape: (1, 28)
-[Rank 11] Performing convolution with padded input shape (5, 30)
-[Rank 28] Iteration 3: y_pred shape: (1, 28)
-[Rank 28] Performing convolution with padded input shape (5, 30)
-[Rank 15] Iteration 3: local loss: 0.1972367912530899
-[Rank 15] Performing convolution with padded input shape (5, 30)
-[Rank 24] Iteration 3: local loss: 0.2153170108795166
-[Rank 24] Performing convolution with padded input shape (5, 30)
-[Rank 17] Iteration 3: local loss: 0.20504344999790192
-[Rank 17] Performing convolution with padded input shape (5, 30)
-[Rank 20] Iteration 3: local loss: 0.1632448434829712
-[Rank 20] Performing convolution with padded input shape (5, 30)
-[Rank 28] Iteration 3: local loss: 0.04509756714105606
-[Rank 28] Performing convolution with padded input shape (5, 30)
-[Rank 9] Iteration 3: local loss: 0.1588105857372284
-[Rank 9] Performing convolution with padded input shape (5, 30)
-[Rank 25] Iteration 3: local loss: 0.1489153653383255
-[Rank 25] Performing convolution with padded input shape (5, 30)
-[Rank 27] Iteration 3: local loss: 0.18746724724769592
-[Rank 27] Performing convolution with padded input shape (5, 30)
-[Rank 16] Iteration 3: local loss: 0.2218107432126999
-[Rank 16] Performing convolution with padded input shape (5, 30)
-[Rank 23] Iteration 3: local loss: 0.2123284786939621
-[Rank 23] Performing convolution with padded input shape (5, 30)
-[Rank 18] Iteration 3: local loss: 0.1869421750307083
-[Rank 18] Performing convolution with padded input shape (5, 30)
-[Rank 7] Iteration 3: local loss: 0.16860686242580414
-[Rank 7] Performing convolution with padded input shape (5, 30)
-[Rank 0] Iteration 3: local loss: 0.1715737134218216
-[Rank 0] Performing convolution with padded input shape (4, 30)
-[Rank 19] Iteration 3: local loss: 0.23930451273918152
-[Rank 19] Performing convolution with padded input shape (5, 30)
-[Rank 3] Iteration 3: local loss: 0.2640998959541321
-[Rank 3] Performing convolution with padded input shape (5, 30)
-[Rank 11] Iteration 3: local loss: 0.1599913090467453
-[Rank 11] Performing convolution with padded input shape (5, 30)
-[Rank 12] Iteration 3: local loss: 0.18157070875167847
-[Rank 12] Performing convolution with padded input shape (5, 30)
-[Rank 21] Iteration 3: local loss: 0.2206733673810959
-[Rank 21] Performing convolution with padded input shape (5, 30)
-[Rank 26] Iteration 3: local loss: 0.24258758127689362
-[Rank 26] Performing convolution with padded input shape (5, 30)
-[Rank 4] Iteration 3: local loss: 0.22406810522079468
-[Rank 4] Performing convolution with padded input shape (5, 30)
-[Rank 22] Iteration 3: local loss: 0.1351795643568039
-[Rank 22] Performing convolution with padded input shape (5, 30)
-[Rank 13] Iteration 3: local loss: 0.2728101909160614
-[Rank 13] Performing convolution with padded input shape (5, 30)
-[Rank 29] Iteration 3: local loss: 0.0
-[Rank 29] Performing convolution with padded input shape (4, 30)
-[Rank 6] Iteration 3: local loss: 0.22376492619514465
-[Rank 6] Performing convolution with padded input shape (5, 30)
-[Rank 2] Iteration 3: local loss: 0.2368002086877823
-[Rank 2] Performing convolution with padded input shape (5, 30)
-[Rank 8] Iteration 3: local loss: 0.20687748491764069
-[Rank 8] Performing convolution with padded input shape (5, 30)
-[Rank 14] Iteration 3: local loss: 0.2155178338289261
-[Rank 14] Performing convolution with padded input shape (5, 30)
-[Rank 10] Iteration 3: local loss: 0.24715234339237213
-[Rank 10] Performing convolution with padded input shape (5, 30)
-[Rank 5] Iteration 3: local loss: 0.1350579559803009
-[Rank 5] Performing convolution with padded input shape (5, 30)
-[Rank 1] Iteration 3: local loss: 0.1709108203649521
-[Rank 1] Performing convolution with padded input shape (5, 30)
-[Rank 0] Iteration 4: y_pred shape: (1, 28)
-[Rank 29] Iteration 4: y_pred shape: (1, 28)
-[Rank 29] Performing convolution with padded input shape (4, 30)
-[Rank 0] Performing convolution with padded input shape (4, 30)
-[Rank 9] Iteration 4: y_pred shape: (1, 28)
-[Rank 9] Performing convolution with padded input shape (5, 30)
-[Rank 11] Iteration 4: y_pred shape: (1, 28)
-[Rank 11] Performing convolution with padded input shape (5, 30)
-[Rank 12] Iteration 4: y_pred shape: (1, 28)
-[Rank 21] Iteration 4: y_pred shape: (1, 28)
-[Rank 21] Performing convolution with padded input shape (5, 30)
-[Rank 26] Iteration 4: y_pred shape: (1, 28)
-[Rank 26] Performing convolution with padded input shape (5, 30)
-[Rank 4] Iteration 4: y_pred shape: (1, 28)
-[Rank 4] Performing convolution with padded input shape (5, 30)
-[Rank 22] Iteration 4: y_pred shape: (1, 28)
-[Rank 22] Performing convolution with padded input shape (5, 30)
-[Rank 13] Iteration 4: y_pred shape: (1, 28)
-[Rank 13] Performing convolution with padded input shape (5, 30)
-[Rank 6] Iteration 4: y_pred shape: (1, 28)
-[Rank 6] Performing convolution with padded input shape (5, 30)
-[Rank 2] Iteration 4: y_pred shape: (1, 28)
-[Rank 2] Performing convolution with padded input shape (5, 30)
-[Rank 8] Iteration 4: y_pred shape: (1, 28)
-[Rank 8] Performing convolution with padded input shape (5, 30)
-[Rank 14] Iteration 4: y_pred shape: (1, 28)
-[Rank 14] Performing convolution with padded input shape (5, 30)
-[Rank 10] Iteration 4: y_pred shape: (1, 28)
-[Rank 10] Performing convolution with padded input shape (5, 30)
-[Rank 5] Iteration 4: y_pred shape: (1, 28)
-[Rank 5] Performing convolution with padded input shape (5, 30)
-[Rank 20] Iteration 4: y_pred shape: (1, 28)
-[Rank 20] Performing convolution with padded input shape (5, 30)
-[Rank 15] Iteration 4: y_pred shape: (1, 28)
-[Rank 15] Performing convolution with padded input shape (5, 30)
-[Rank 24] Iteration 4: y_pred shape: (1, 28)
-[Rank 24] Performing convolution with padded input shape (5, 30)
-[Rank 17] Iteration 4: y_pred shape: (1, 28)
-[Rank 17] Performing convolution with padded input shape (5, 30)
-[Rank 12] Performing convolution with padded input shape (5, 30)
-[Rank 28] Iteration 4: y_pred shape: (1, 28)
-[Rank 28] Performing convolution with padded input shape (5, 30)
-[Rank 25] Iteration 4: y_pred shape: (1, 28)
-[Rank 25] Performing convolution with padded input shape (5, 30)
-[Rank 27] Iteration 4: y_pred shape: (1, 28)
-[Rank 27] Performing convolution with padded input shape (5, 30)
-[Rank 16] Iteration 4: y_pred shape: (1, 28)
-[Rank 16] Performing convolution with padded input shape (5, 30)
-[Rank 23] Iteration 4: y_pred shape: (1, 28)
-[Rank 23] Performing convolution with padded input shape (5, 30)
-[Rank 18] Iteration 4: y_pred shape: (1, 28)
-[Rank 18] Performing convolution with padded input shape (5, 30)
-[Rank 7] Iteration 4: y_pred shape: (1, 28)
-[Rank 7] Performing convolution with padded input shape (5, 30)
-[Rank 1] Iteration 4: y_pred shape: (1, 28)
-[Rank 1] Performing convolution with padded input shape (5, 30)
-[Rank 19] Iteration 4: y_pred shape: (1, 28)
-[Rank 19] Performing convolution with padded input shape (5, 30)
-[Rank 3] Iteration 4: y_pred shape: (1, 28)
-[Rank 3] Performing convolution with padded input shape (5, 30)
-[Rank 0] Iteration 4: local loss: 0.1584227979183197
-[Rank 0] Performing convolution with padded input shape (4, 30)
-[Rank 28] Iteration 4: local loss: 0.04528266564011574
-[Rank 28] Performing convolution with padded input shape (5, 30)
-[Rank 25] Iteration 4: local loss: 0.13714322447776794
-[Rank 25] Performing convolution with padded input shape (5, 30)
-[Rank 27] Iteration 4: local loss: 0.17233093082904816
-[Rank 27] Performing convolution with padded input shape (5, 30)
-[Rank 16] Iteration 4: local loss: 0.20457763969898224
-[Rank 16] Performing convolution with padded input shape (5, 30)
-[Rank 23] Iteration 4: local loss: 0.19766689836978912
-[Rank 23] Performing convolution with padded input shape (5, 30)
-[Rank 18] Iteration 4: local loss: 0.17393921315670013
-[Rank 18] Performing convolution with padded input shape (5, 30)
-[Rank 7] Iteration 4: local loss: 0.15899455547332764
-[Rank 7] Performing convolution with padded input shape (5, 30)
-[Rank 1] Iteration 4: local loss: 0.16329631209373474
-[Rank 1] Performing convolution with padded input shape (5, 30)
-[Rank 19] Iteration 4: local loss: 0.22327972948551178
-[Rank 19] Performing convolution with padded input shape (5, 30)
-[Rank 9] Iteration 4: local loss: 0.14945705235004425
-[Rank 9] Performing convolution with padded input shape (5, 30)
-[Rank 11] Iteration 4: local loss: 0.1482236087322235
-[Rank 11] Performing convolution with padded input shape (5, 30)
-[Rank 17] Iteration 4: local loss: 0.18980899453163147
-[Rank 17] Performing convolution with padded input shape (5, 30)
-[Rank 21] Iteration 4: local loss: 0.2034386843442917
-[Rank 21] Performing convolution with padded input shape (5, 30)
-[Rank 26] Iteration 4: local loss: 0.2240985631942749
-[Rank 26] Performing convolution with padded input shape (5, 30)
-[Rank 4] Iteration 4: local loss: 0.20855189859867096
-[Rank 4] Performing convolution with padded input shape (5, 30)
-[Rank 22] Iteration 4: local loss: 0.12623727321624756
-[Rank 22] Performing convolution with padded input shape (5, 30)
-[Rank 29] Iteration 4: local loss: 0.0
-[Rank 29] Performing convolution with padded input shape (4, 30)
-[Rank 13] Iteration 4: local loss: 0.2535989582538605
-[Rank 13] Performing convolution with padded input shape (5, 30)
-[Rank 6] Iteration 4: local loss: 0.20790936052799225
-[Rank 6] Performing convolution with padded input shape (5, 30)
-[Rank 2] Iteration 4: local loss: 0.22096291184425354
-[Rank 2] Performing convolution with padded input shape (5, 30)
-[Rank 8] Iteration 4: local loss: 0.1949944645166397
-[Rank 8] Performing convolution with padded input shape (5, 30)
-[Rank 14] Iteration 4: local loss: 0.20244444906711578
-[Rank 14] Performing convolution with padded input shape (5, 30)
-[Rank 10] Iteration 4: local loss: 0.23100540041923523
-[Rank 10] Performing convolution with padded input shape (5, 30)
-[Rank 5] Iteration 4: local loss: 0.12793144583702087
-[Rank 5] Performing convolution with padded input shape (5, 30)
-[Rank 20] Iteration 4: local loss: 0.15335962176322937
-[Rank 20] Performing convolution with padded input shape (5, 30)
-[Rank 15] Iteration 4: local loss: 0.184587761759758
-[Rank 15] Performing convolution with padded input shape (5, 30)
-[Rank 24] Iteration 4: local loss: 0.200738325715065
-[Rank 24] Performing convolution with padded input shape (5, 30)
-[Rank 3] Iteration 4: local loss: 0.24886898696422577
-[Rank 3] Performing convolution with padded input shape (5, 30)
-[Rank 12] Iteration 4: local loss: 0.1674216240644455
-[Rank 12] Performing convolution with padded input shape (5, 30)
-[Rank 29] Iteration 5: y_pred shape: (1, 28)
-[Rank 29] Performing convolution with padded input shape (4, 30)
-[Rank 0] Iteration 5: y_pred shape: (1, 28)
-[Rank 0] Performing convolution with padded input shape (4, 30)
-[Rank 9] Iteration 5: y_pred shape: (1, 28)
-[Rank 9] Performing convolution with padded input shape (5, 30)
-[Rank 13] Iteration 5: y_pred shape: (1, 28)
-[Rank 13] Performing convolution with padded input shape (5, 30)
-[Rank 6] Iteration 5: y_pred shape: (1, 28)
-[Rank 6] Performing convolution with padded input shape (5, 30)
-[Rank 2] Iteration 5: y_pred shape: (1, 28)
-[Rank 2] Performing convolution with padded input shape (5, 30)
-[Rank 8] Iteration 5: y_pred shape: (1, 28)
-[Rank 8] Performing convolution with padded input shape (5, 30)
-[Rank 14] Iteration 5: y_pred shape: (1, 28)
-[Rank 14] Performing convolution with padded input shape (5, 30)
-[Rank 10] Iteration 5: y_pred shape: (1, 28)
-[Rank 10] Performing convolution with padded input shape (5, 30)
-[Rank 5] Iteration 5: y_pred shape: (1, 28)
-[Rank 5] Performing convolution with padded input shape (5, 30)
-[Rank 20] Iteration 5: y_pred shape: (1, 28)
-[Rank 20] Performing convolution with padded input shape (5, 30)
-[Rank 15] Iteration 5: y_pred shape: (1, 28)
-[Rank 15] Performing convolution with padded input shape (5, 30)
-[Rank 3] Iteration 5: y_pred shape: (1, 28)
-[Rank 3] Performing convolution with padded input shape (5, 30)
-[Rank 24] Iteration 5: y_pred shape: (1, 28)
-[Rank 24] Performing convolution with padded input shape (5, 30)
-[Rank 28] Iteration 5: y_pred shape: (1, 28)
-[Rank 28] Performing convolution with padded input shape (5, 30)
-[Rank 25] Iteration 5: y_pred shape: (1, 28)
-[Rank 25] Performing convolution with padded input shape (5, 30)
-[Rank 27] Iteration 5: y_pred shape: (1, 28)
-[Rank 27] Performing convolution with padded input shape (5, 30)
-[Rank 16] Iteration 5: y_pred shape: (1, 28)
-[Rank 16] Performing convolution with padded input shape (5, 30)
-[Rank 23] Iteration 5: y_pred shape: (1, 28)
-[Rank 23] Performing convolution with padded input shape (5, 30)
-[Rank 18] Iteration 5: y_pred shape: (1, 28)
-[Rank 18] Performing convolution with padded input shape (5, 30)
-[Rank 7] Iteration 5: y_pred shape: (1, 28)
-[Rank 7] Performing convolution with padded input shape (5, 30)
-[Rank 1] Iteration 5: y_pred shape: (1, 28)
-[Rank 1] Performing convolution with padded input shape (5, 30)
-[Rank 19] Iteration 5: y_pred shape: (1, 28)
-[Rank 19] Performing convolution with padded input shape (5, 30)
-[Rank 11] Iteration 5: y_pred shape: (1, 28)
-[Rank 11] Performing convolution with padded input shape (5, 30)
-[Rank 17] Iteration 5: y_pred shape: (1, 28)
-[Rank 17] Performing convolution with padded input shape (5, 30)
-[Rank 21] Iteration 5: y_pred shape: (1, 28)
-[Rank 21] Performing convolution with padded input shape (5, 30)
-[Rank 26] Iteration 5: y_pred shape: (1, 28)
-[Rank 26] Performing convolution with padded input shape (5, 30)
-[Rank 4] Iteration 5: y_pred shape: (1, 28)
-[Rank 4] Performing convolution with padded input shape (5, 30)
-[Rank 22] Iteration 5: y_pred shape: (1, 28)
-[Rank 22] Performing convolution with padded input shape (5, 30)
-[Rank 12] Iteration 5: y_pred shape: (1, 28)
-[Rank 12] Performing convolution with padded input shape (5, 30)
-[Rank 26] Iteration 5: local loss: 0.20709463953971863
-[Rank 26] Performing convolution with padded input shape (5, 30)
-[Rank 4] Iteration 5: local loss: 0.1940217763185501
-[Rank 4] Performing convolution with padded input shape (5, 30)
-[Rank 22] Iteration 5: local loss: 0.11766842752695084
-[Rank 22] Performing convolution with padded input shape (5, 30)
-[Rank 9] Iteration 5: local loss: 0.14047259092330933
-[Rank 9] Performing convolution with padded input shape (5, 30)
-[Rank 13] Iteration 5: local loss: 0.2354481816291809
-[Rank 13] Performing convolution with padded input shape (5, 30)
-[Rank 6] Iteration 5: local loss: 0.19290705025196075
-[Rank 6] Performing convolution with padded input shape (5, 30)
-[Rank 2] Iteration 5: local loss: 0.2061089426279068
-[Rank 2] Performing convolution with padded input shape (5, 30)
-[Rank 8] Iteration 5: local loss: 0.1833828240633011
-[Rank 8] Performing convolution with padded input shape (5, 30)
-[Rank 14] Iteration 5: local loss: 0.1900990754365921
-[Rank 14] Performing convolution with padded input shape (5, 30)
-[Rank 10] Iteration 5: local loss: 0.2159081995487213
-[Rank 10] Performing convolution with padded input shape (5, 30)
-[Rank 5] Iteration 5: local loss: 0.120978444814682
-[Rank 5] Performing convolution with padded input shape (5, 30)
-[Rank 20] Iteration 5: local loss: 0.14413544535636902
-[Rank 20] Performing convolution with padded input shape (5, 30)
-[Rank 12] Iteration 5: local loss: 0.15468351542949677
-[Rank 12] Performing convolution with padded input shape (5, 30)
-[Rank 15] Iteration 5: local loss: 0.17247477173805237
-[Rank 15] Performing convolution with padded input shape (5, 30)
-[Rank 3] Iteration 5: local loss: 0.2346218228340149
-[Rank 3] Performing convolution with padded input shape (5, 30)
-[Rank 29] Iteration 5: local loss: 0.0
-[Rank 24] Iteration 5: local loss: 0.18705075979232788
-[Rank 24] Performing convolution with padded input shape (5, 30)
-[Rank 28] Iteration 5: local loss: 0.0450732447206974
-[Rank 28] Performing convolution with padded input shape (5, 30)
-[Rank 25] Iteration 5: local loss: 0.12611666321754456
-[Rank 25] Performing convolution with padded input shape (5, 30)
-[Rank 27] Iteration 5: local loss: 0.15882594883441925
-[Rank 27] Performing convolution with padded input shape (5, 30)
-[Rank 16] Iteration 5: local loss: 0.18892227113246918
-[Rank 16] Performing convolution with padded input shape (5, 30)
-[Rank 23] Iteration 5: local loss: 0.18353599309921265
-[Rank 23] Performing convolution with padded input shape (5, 30)
-[Rank 18] Iteration 5: local loss: 0.16181640326976776
-[Rank 18] Performing convolution with padded input shape (5, 30)
-[Rank 7] Iteration 5: local loss: 0.1494991034269333
-[Rank 7] Performing convolution with padded input shape (5, 30)
-[Rank 1] Iteration 5: local loss: 0.15573090314865112
-[Rank 1] Performing convolution with padded input shape (5, 30)
-[Rank 0] Iteration 5: local loss: 0.14696510136127472
-[Rank 0] Performing convolution with padded input shape (4, 30)
-[Rank 19] Iteration 5: local loss: 0.20826376974582672
-[Rank 19] Performing convolution with padded input shape (5, 30)
-[Rank 11] Iteration 5: local loss: 0.13746832311153412
-[Rank 11] Performing convolution with padded input shape (5, 30)
-[Rank 17] Iteration 5: local loss: 0.1757093071937561
-[Rank 17] Performing convolution with padded input shape (5, 30)
-[Rank 21] Iteration 5: local loss: 0.18755541741847992
-[Rank 21] Performing convolution with padded input shape (5, 30)
-[Rank 29] Performing convolution with padded input shape (4, 30)
-[Rank 0] Iteration 6: y_pred shape: (1, 28)
-[Rank 0] Performing convolution with padded input shape (4, 30)
-[Rank 29] Iteration 6: y_pred shape: (1, 28)
-[Rank 29] Performing convolution with padded input shape (4, 30)
-[Rank 9] Iteration 6: y_pred shape: (1, 28)
-[Rank 9] Performing convolution with padded input shape (5, 30)
-[Rank 14] Iteration 6: y_pred shape: (1, 28)
-[Rank 12] Iteration 6: y_pred shape: (1, 28)
-[Rank 11] Iteration 6: y_pred shape: (1, 28)
-[Rank 11] Performing convolution with padded input shape (5, 30)
-[Rank 14] Performing convolution with padded input shape (5, 30)
-[Rank 15] Iteration 6: y_pred shape: (1, 28)
-[Rank 15] Performing convolution with padded input shape (5, 30)
-[Rank 3] Iteration 6: y_pred shape: (1, 28)
-[Rank 3] Performing convolution with padded input shape (5, 30)
-[Rank 21] Iteration 6: y_pred shape: (1, 28)
-[Rank 21] Performing convolution with padded input shape (5, 30)
-[Rank 24] Iteration 6: y_pred shape: (1, 28)
-[Rank 24] Performing convolution with padded input shape (5, 30)
-[Rank 28] Iteration 6: y_pred shape: (1, 28)
-[Rank 28] Performing convolution with padded input shape (5, 30)
-[Rank 25] Iteration 6: y_pred shape: (1, 28)
-[Rank 25] Performing convolution with padded input shape (5, 30)
-[Rank 27] Iteration 6: y_pred shape: (1, 28)
-[Rank 27] Performing convolution with padded input shape (5, 30)
-[Rank 16] Iteration 6: y_pred shape: (1, 28)
-[Rank 16] Performing convolution with padded input shape (5, 30)
-[Rank 23] Iteration 6: y_pred shape: (1, 28)
-[Rank 23] Performing convolution with padded input shape (5, 30)
-[Rank 18] Iteration 6: y_pred shape: (1, 28)
-[Rank 18] Performing convolution with padded input shape (5, 30)
-[Rank 7] Iteration 6: y_pred shape: (1, 28)
-[Rank 7] Performing convolution with padded input shape (5, 30)
-[Rank 1] Iteration 6: y_pred shape: (1, 28)
-[Rank 1] Performing convolution with padded input shape (5, 30)
-[Rank 19] Iteration 6: y_pred shape: (1, 28)
-[Rank 19] Performing convolution with padded input shape (5, 30)
-[Rank 12] Performing convolution with padded input shape (5, 30)
-[Rank 17] Iteration 6: y_pred shape: (1, 28)
-[Rank 17] Performing convolution with padded input shape (5, 30)
-[Rank 20] Iteration 6: y_pred shape: (1, 28)
-[Rank 20] Performing convolution with padded input shape (5, 30)
-[Rank 26] Iteration 6: y_pred shape: (1, 28)
-[Rank 26] Performing convolution with padded input shape (5, 30)
-[Rank 4] Iteration 6: y_pred shape: (1, 28)
-[Rank 4] Performing convolution with padded input shape (5, 30)
-[Rank 22] Iteration 6: y_pred shape: (1, 28)
-[Rank 22] Performing convolution with padded input shape (5, 30)
-[Rank 13] Iteration 6: y_pred shape: (1, 28)
-[Rank 13] Performing convolution with padded input shape (5, 30)
-[Rank 6] Iteration 6: y_pred shape: (1, 28)
-[Rank 6] Performing convolution with padded input shape (5, 30)
-[Rank 2] Iteration 6: y_pred shape: (1, 28)
-[Rank 2] Performing convolution with padded input shape (5, 30)
-[Rank 8] Iteration 6: y_pred shape: (1, 28)
-[Rank 8] Performing convolution with padded input shape (5, 30)
-[Rank 10] Iteration 6: y_pred shape: (1, 28)
-[Rank 10] Performing convolution with padded input shape (5, 30)
-[Rank 5] Iteration 6: y_pred shape: (1, 28)
-[Rank 5] Performing convolution with padded input shape (5, 30)
-[Rank 0] Iteration 6: local loss: 0.1366911381483078
-[Rank 0] Performing convolution with padded input shape (4, 30)
-[Rank 1] Iteration 6: local loss: 0.14872784912586212
-[Rank 1] Performing convolution with padded input shape (5, 30)
-[Rank 19] Iteration 6: local loss: 0.1946195662021637
-[Rank 19] Performing convolution with padded input shape (5, 30)
-[Rank 12] Iteration 6: local loss: 0.143239364027977
-[Rank 12] Performing convolution with padded input shape (5, 30)
-[Rank 17] Iteration 6: local loss: 0.1629495620727539
-[Rank 17] Performing convolution with padded input shape (5, 30)
-[Rank 20] Iteration 6: local loss: 0.1357322484254837
-[Rank 20] Performing convolution with padded input shape (5, 30)
-[Rank 26] Iteration 6: local loss: 0.1917465627193451
-[Rank 26] Performing convolution with padded input shape (5, 30)
-[Rank 4] Iteration 6: local loss: 0.18084748089313507
-[Rank 4] Performing convolution with padded input shape (5, 30)
-[Rank 29] Iteration 6: local loss: 0.0
-[Rank 29] Performing convolution with padded input shape (4, 30)
-[Rank 22] Iteration 6: local loss: 0.10991805791854858
-[Rank 22] Performing convolution with padded input shape (5, 30)
-[Rank 13] Iteration 6: local loss: 0.21891948580741882
-[Rank 13] Performing convolution with padded input shape (5, 30)
-[Rank 6] Iteration 6: local loss: 0.1792750507593155
-[Rank 6] Performing convolution with padded input shape (5, 30)
-[Rank 2] Iteration 6: local loss: 0.19260193407535553
-[Rank 2] Performing convolution with padded input shape (5, 30)
-[Rank 9] Iteration 6: local loss: 0.13231930136680603
-[Rank 9] Performing convolution with padded input shape (5, 30)
-[Rank 8] Iteration 6: local loss: 0.17269620299339294
-[Rank 8] Performing convolution with padded input shape (5, 30)
-[Rank 10] Iteration 6: local loss: 0.20211979746818542
-[Rank 10] Performing convolution with padded input shape (5, 30)
-[Rank 5] Iteration 6: local loss: 0.11466416716575623
-[Rank 5] Performing convolution with padded input shape (5, 30)
-[Rank 11] Iteration 6: local loss: 0.12781040370464325
-[Rank 11] Performing convolution with padded input shape (5, 30)
-[Rank 14] Iteration 6: local loss: 0.17883935570716858
-[Rank 14] Performing convolution with padded input shape (5, 30)
-[Rank 15] Iteration 6: local loss: 0.16140921413898468
-[Rank 15] Performing convolution with padded input shape (5, 30)
-[Rank 3] Iteration 6: local loss: 0.22169522941112518
-[Rank 3] Performing convolution with padded input shape (5, 30)
-[Rank 21] Iteration 6: local loss: 0.17318877577781677
-[Rank 21] Performing convolution with padded input shape (5, 30)
-[Rank 24] Iteration 6: local loss: 0.17459388077259064
-[Rank 24] Performing convolution with padded input shape (5, 30)
-[Rank 28] Iteration 6: local loss: 0.04481201991438866
-[Rank 28] Performing convolution with padded input shape (5, 30)
-[Rank 25] Iteration 6: local loss: 0.116148442029953
-[Rank 25] Performing convolution with padded input shape (5, 30)
-[Rank 27] Iteration 6: local loss: 0.14666646718978882
-[Rank 27] Performing convolution with padded input shape (5, 30)
-[Rank 16] Iteration 6: local loss: 0.17480622231960297
-[Rank 16] Performing convolution with padded input shape (5, 30)
-[Rank 23] Iteration 6: local loss: 0.17059184610843658
-[Rank 23] Performing convolution with padded input shape (5, 30)
-[Rank 18] Iteration 6: local loss: 0.15084706246852875
-[Rank 18] Performing convolution with padded input shape (5, 30)
-[Rank 7] Iteration 6: local loss: 0.14079050719738007
-[Rank 7] Performing convolution with padded input shape (5, 30)
-[Rank 29] Iteration 7: y_pred shape: (1, 28)
-[Rank 0] Iteration 7: y_pred shape: (1, 28)
-[Rank 0] Performing convolution with padded input shape (4, 30)
-[Rank 29] Performing convolution with padded input shape (4, 30)
-[Rank 9] Iteration 7: y_pred shape: (1, 28)
-[Rank 9] Performing convolution with padded input shape (5, 30)
-[Rank 11] Iteration 7: y_pred shape: (1, 28)
-[Rank 11] Performing convolution with padded input shape (5, 30)
-[Rank 12] Iteration 7: y_pred shape: (1, 28)
-[Rank 12] Performing convolution with padded input shape (5, 30)
-[Rank 2] Iteration 7: y_pred shape: (1, 28)
-[Rank 2] Performing convolution with padded input shape (5, 30)
-[Rank 8] Iteration 7: y_pred shape: (1, 28)
-[Rank 8] Performing convolution with padded input shape (5, 30)
-[Rank 5] Iteration 7: y_pred shape: (1, 28)
-[Rank 5] Performing convolution with padded input shape (5, 30)
-[Rank 14] Iteration 7: y_pred shape: (1, 28)
-[Rank 14] Performing convolution with padded input shape (5, 30)
-[Rank 15] Iteration 7: y_pred shape: (1, 28)
-[Rank 15] Performing convolution with padded input shape (5, 30)
-[Rank 3] Iteration 7: y_pred shape: (1, 28)
-[Rank 3] Performing convolution with padded input shape (5, 30)
-[Rank 21] Iteration 7: y_pred shape: (1, 28)
-[Rank 21] Performing convolution with padded input shape (5, 30)
-[Rank 24] Iteration 7: y_pred shape: (1, 28)
-[Rank 24] Performing convolution with padded input shape (5, 30)
-[Rank 28] Iteration 7: y_pred shape: (1, 28)
-[Rank 28] Performing convolution with padded input shape (5, 30)
-[Rank 25] Iteration 7: y_pred shape: (1, 28)
-[Rank 25] Performing convolution with padded input shape (5, 30)
-[Rank 27] Iteration 7: y_pred shape: (1, 28)
-[Rank 27] Performing convolution with padded input shape (5, 30)
-[Rank 16] Iteration 7: y_pred shape: (1, 28)
-[Rank 16] Performing convolution with padded input shape (5, 30)
-[Rank 23] Iteration 7: y_pred shape: (1, 28)
-[Rank 23] Performing convolution with padded input shape (5, 30)
-[Rank 18] Iteration 7: y_pred shape: (1, 28)
-[Rank 18] Performing convolution with padded input shape (5, 30)
-[Rank 10] Iteration 7: y_pred shape: (1, 28)
-[Rank 10] Performing convolution with padded input shape (5, 30)
-[Rank 1] Iteration 7: y_pred shape: (1, 28)
-[Rank 1] Performing convolution with padded input shape (5, 30)
-[Rank 19] Iteration 7: y_pred shape: (1, 28)
-[Rank 19] Performing convolution with padded input shape (5, 30)
-[Rank 17] Iteration 7: y_pred shape: (1, 28)
-[Rank 17] Performing convolution with padded input shape (5, 30)
-[Rank 20] Iteration 7: y_pred shape: (1, 28)
-[Rank 20] Performing convolution with padded input shape (5, 30)
-[Rank 26] Iteration 7: y_pred shape: (1, 28)
-[Rank 26] Performing convolution with padded input shape (5, 30)
-[Rank 4] Iteration 7: y_pred shape: (1, 28)
-[Rank 4] Performing convolution with padded input shape (5, 30)
-[Rank 7] Iteration 7: y_pred shape: (1, 28)
-[Rank 7] Performing convolution with padded input shape (5, 30)
-[Rank 22] Iteration 7: y_pred shape: (1, 28)
-[Rank 22] Performing convolution with padded input shape (5, 30)
-[Rank 13] Iteration 7: y_pred shape: (1, 28)
-[Rank 13] Performing convolution with padded input shape (5, 30)
-[Rank 6] Iteration 7: y_pred shape: (1, 28)
-[Rank 6] Performing convolution with padded input shape (5, 30)
-[Rank 13] Iteration 7: local loss: 0.20398417115211487
-[Rank 13] Performing convolution with padded input shape (5, 30)
-[Rank 12] Iteration 7: local loss: 0.13296574354171753
-[Rank 12] Performing convolution with padded input shape (5, 30)
-[Rank 29] Iteration 7: local loss: 0.0
-[Rank 29] Performing convolution with padded input shape (4, 30)
-[Rank 2] Iteration 7: local loss: 0.18040110170841217
-[Rank 2] Performing convolution with padded input shape (5, 30)
-[Rank 6] Iteration 7: local loss: 0.1669938713312149
-[Rank 6] Performing convolution with padded input shape (5, 30)
-[Rank 8] Iteration 7: local loss: 0.16297824680805206
-[Rank 8] Performing convolution with padded input shape (5, 30)
-[Rank 9] Iteration 7: local loss: 0.12501437962055206
-[Rank 9] Performing convolution with padded input shape (5, 30)
-[Rank 5] Iteration 7: local loss: 0.10902176797389984
-[Rank 5] Performing convolution with padded input shape (5, 30)
-[Rank 14] Iteration 7: local loss: 0.16864518821239471
-[Rank 14] Performing convolution with padded input shape (5, 30)
-[Rank 15] Iteration 7: local loss: 0.15139973163604736
-[Rank 15] Performing convolution with padded input shape (5, 30)
-[Rank 3] Iteration 7: local loss: 0.21004782617092133
-[Rank 3] Performing convolution with padded input shape (5, 30)
-[Rank 21] Iteration 7: local loss: 0.16025015711784363
-[Rank 21] Performing convolution with padded input shape (5, 30)
-[Rank 24] Iteration 7: local loss: 0.1633334904909134
-[Rank 24] Performing convolution with padded input shape (5, 30)
-[Rank 28] Iteration 7: local loss: 0.04456401243805885
-[Rank 28] Performing convolution with padded input shape (5, 30)
-[Rank 25] Iteration 7: local loss: 0.10720796883106232
-[Rank 25] Performing convolution with padded input shape (5, 30)
-[Rank 27] Iteration 7: local loss: 0.1356971263885498
-[Rank 27] Performing convolution with padded input shape (5, 30)
-[Rank 16] Iteration 7: local loss: 0.16210180521011353
-[Rank 16] Performing convolution with padded input shape (5, 30)
-[Rank 23] Iteration 7: local loss: 0.15885630249977112
-[Rank 23] Performing convolution with padded input shape (5, 30)
-[Rank 18] Iteration 7: local loss: 0.14098793268203735
-[Rank 18] Performing convolution with padded input shape (5, 30)
-[Rank 0] Iteration 7: local loss: 0.1274196207523346
-[Rank 0] Performing convolution with padded input shape (4, 30)
-[Rank 10] Iteration 7: local loss: 0.18958690762519836
-[Rank 10] Performing convolution with padded input shape (5, 30)
-[Rank 1] Iteration 7: local loss: 0.14233681559562683
-[Rank 1] Performing convolution with padded input shape (5, 30)
-[Rank 11] Iteration 7: local loss: 0.11917772144079208
-[Rank 11] Performing convolution with padded input shape (5, 30)
-[Rank 19] Iteration 7: local loss: 0.18230323493480682
-[Rank 19] Performing convolution with padded input shape (5, 30)
-[Rank 17] Iteration 7: local loss: 0.15146057307720184
-[Rank 17] Performing convolution with padded input shape (5, 30)
-[Rank 20] Iteration 7: local loss: 0.12811622023582458
-[Rank 20] Performing convolution with padded input shape (5, 30)
-[Rank 26] Iteration 7: local loss: 0.17795470356941223
-[Rank 26] Performing convolution with padded input shape (5, 30)
-[Rank 4] Iteration 7: local loss: 0.16898684203624725
-[Rank 4] Performing convolution with padded input shape (5, 30)
-[Rank 7] Iteration 7: local loss: 0.13292688131332397
-[Rank 7] Performing convolution with padded input shape (5, 30)
-[Rank 22] Iteration 7: local loss: 0.10299842059612274
-[Rank 22] Performing convolution with padded input shape (5, 30)
-[Rank 0] Iteration 8: y_pred shape: (1, 28)
-[Rank 29] Iteration 8: y_pred shape: (1, 28)
-[Rank 0] Performing convolution with padded input shape (4, 30)
-[Rank 29] Performing convolution with padded input shape (4, 30)
-[Rank 9] Iteration 8: y_pred shape: (1, 28)
-[Rank 12] Iteration 8: y_pred shape: (1, 28)
-[Rank 9] Performing convolution with padded input shape (5, 30)
-[Rank 11] Iteration 8: y_pred shape: (1, 28)
-[Rank 11] Performing convolution with padded input shape (5, 30)
-[Rank 19] Iteration 8: y_pred shape: (1, 28)
-[Rank 19] Performing convolution with padded input shape (5, 30)
-[Rank 17] Iteration 8: y_pred shape: (1, 28)
-[Rank 17] Performing convolution with padded input shape (5, 30)
-[Rank 20] Iteration 8: y_pred shape: (1, 28)
-[Rank 20] Performing convolution with padded input shape (5, 30)
-[Rank 26] Iteration 8: y_pred shape: (1, 28)
-[Rank 26] Performing convolution with padded input shape (5, 30)
-[Rank 4] Iteration 8: y_pred shape: (1, 28)
-[Rank 4] Performing convolution with padded input shape (5, 30)
-[Rank 7] Iteration 8: y_pred shape: (1, 28)
-[Rank 7] Performing convolution with padded input shape (5, 30)
-[Rank 2] Iteration 8: y_pred shape: (1, 28)
-[Rank 2] Performing convolution with padded input shape (5, 30)
-[Rank 13] Iteration 8: y_pred shape: (1, 28)
-[Rank 13] Performing convolution with padded input shape (5, 30)
-[Rank 12] Performing convolution with padded input shape (5, 30)
-[Rank 14] Iteration 8: y_pred shape: (1, 28)
-[Rank 14] Performing convolution with padded input shape (5, 30)
-[Rank 15] Iteration 8: y_pred shape: (1, 28)
-[Rank 15] Performing convolution with padded input shape (5, 30)
-[Rank 3] Iteration 8: y_pred shape: (1, 28)
-[Rank 3] Performing convolution with padded input shape (5, 30)
-[Rank 21] Iteration 8: y_pred shape: (1, 28)
-[Rank 21] Performing convolution with padded input shape (5, 30)
-[Rank 24] Iteration 8: y_pred shape: (1, 28)
-[Rank 24] Performing convolution with padded input shape (5, 30)
-[Rank 28] Iteration 8: y_pred shape: (1, 28)
-[Rank 28] Performing convolution with padded input shape (5, 30)
-[Rank 25] Iteration 8: y_pred shape: (1, 28)
-[Rank 25] Performing convolution with padded input shape (5, 30)
-[Rank 27] Iteration 8: y_pred shape: (1, 28)
-[Rank 27] Performing convolution with padded input shape (5, 30)
-[Rank 16] Iteration 8: y_pred shape: (1, 28)
-[Rank 16] Performing convolution with padded input shape (5, 30)
-[Rank 23] Iteration 8: y_pred shape: (1, 28)
-[Rank 23] Performing convolution with padded input shape (5, 30)
-[Rank 18] Iteration 8: y_pred shape: (1, 28)
-[Rank 18] Performing convolution with padded input shape (5, 30)
-[Rank 22] Iteration 8: y_pred shape: (1, 28)
-[Rank 22] Performing convolution with padded input shape (5, 30)
-[Rank 10] Iteration 8: y_pred shape: (1, 28)
-[Rank 10] Performing convolution with padded input shape (5, 30)
-[Rank 1] Iteration 8: y_pred shape: (1, 28)
-[Rank 1] Performing convolution with padded input shape (5, 30)
-[Rank 6] Iteration 8: y_pred shape: (1, 28)
-[Rank 6] Performing convolution with padded input shape (5, 30)
-[Rank 8] Iteration 8: y_pred shape: (1, 28)
-[Rank 8] Performing convolution with padded input shape (5, 30)
-[Rank 5] Iteration 8: y_pred shape: (1, 28)
-[Rank 5] Performing convolution with padded input shape (5, 30)
-[Rank 5] Iteration 8: local loss: 0.10400313884019852
-[Rank 5] Performing convolution with padded input shape (5, 30)
-[Rank 1] Iteration 8: local loss: 0.13652047514915466
-[Rank 1] Performing convolution with padded input shape (5, 30)
-[Rank 6] Iteration 8: local loss: 0.1559503674507141
-[Rank 6] Performing convolution with padded input shape (5, 30)
-[Rank 29] Iteration 8: local loss: 0.0
-[Rank 29] Performing convolution with padded input shape (4, 30)
-[Rank 8] Iteration 8: local loss: 0.15416081249713898
-[Rank 8] Performing convolution with padded input shape (5, 30)
-[Rank 12] Iteration 8: local loss: 0.12374551594257355
-[Rank 12] Performing convolution with padded input shape (5, 30)
-[Rank 14] Iteration 8: local loss: 0.15943008661270142
-[Rank 14] Performing convolution with padded input shape (5, 30)
-[Rank 15] Iteration 8: local loss: 0.14236479997634888
-[Rank 15] Performing convolution with padded input shape (5, 30)
-[Rank 3] Iteration 8: local loss: 0.19957312941551208
-[Rank 3] Performing convolution with padded input shape (5, 30)
-[Rank 21] Iteration 8: local loss: 0.1486114114522934
-[Rank 21] Performing convolution with padded input shape (5, 30)
-[Rank 24] Iteration 8: local loss: 0.1531706154346466
-[Rank 24] Performing convolution with padded input shape (5, 30)
-[Rank 28] Iteration 8: local loss: 0.04434024542570114
-[Rank 28] Performing convolution with padded input shape (5, 30)
-[Rank 25] Iteration 8: local loss: 0.09920455515384674
-[Rank 25] Performing convolution with padded input shape (5, 30)
-[Rank 27] Iteration 8: local loss: 0.1257971227169037
-[Rank 27] Performing convolution with padded input shape (5, 30)
-[Rank 16] Iteration 8: local loss: 0.15067371726036072
-[Rank 16] Performing convolution with padded input shape (5, 30)
-[Rank 23] Iteration 8: local loss: 0.14823703467845917
-[Rank 23] Performing convolution with padded input shape (5, 30)
-[Rank 18] Iteration 8: local loss: 0.13214111328125
-[Rank 18] Performing convolution with padded input shape (5, 30)
-[Rank 22] Iteration 8: local loss: 0.09684290736913681
-[Rank 22] Performing convolution with padded input shape (5, 30)
-[Rank 10] Iteration 8: local loss: 0.1782045066356659
-[Rank 10] Performing convolution with padded input shape (5, 30)
-[Rank 9] Iteration 8: local loss: 0.11849380284547806
-[Rank 9] Performing convolution with padded input shape (5, 30)
-[Rank 11] Iteration 8: local loss: 0.11147375404834747
-[Rank 11] Performing convolution with padded input shape (5, 30)
-[Rank 19] Iteration 8: local loss: 0.17120209336280823
-[Rank 19] Performing convolution with padded input shape (5, 30)
-[Rank 17] Iteration 8: local loss: 0.14112862944602966
-[Rank 17] Performing convolution with padded input shape (5, 30)
-[Rank 20] Iteration 8: local loss: 0.12122000753879547
-[Rank 20] Performing convolution with padded input shape (5, 30)
-[Rank 26] Iteration 8: local loss: 0.16557684540748596
-[Rank 26] Performing convolution with padded input shape (5, 30)
-[Rank 4] Iteration 8: local loss: 0.1583268642425537
-[Rank 4] Performing convolution with padded input shape (5, 30)
-[Rank 7] Iteration 8: local loss: 0.12585261464118958
-[Rank 7] Performing convolution with padded input shape (5, 30)
-[Rank 2] Iteration 8: local loss: 0.16939648985862732
-[Rank 2] Performing convolution with padded input shape (5, 30)
-[Rank 13] Iteration 8: local loss: 0.19051113724708557
-[Rank 13] Performing convolution with padded input shape (5, 30)
-[Rank 0] Iteration 8: local loss: 0.11903966218233109
-[Rank 0] Performing convolution with padded input shape (4, 30)
-[Rank 29] Iteration 9: y_pred shape: (1, 28)
-[Rank 0] Iteration 9: y_pred shape: (1, 28)
-[Rank 0] Performing convolution with padded input shape (4, 30)
-[Rank 29] Performing convolution with padded input shape (4, 30)
-[Rank 9] Iteration 9: y_pred shape: (1, 28)
-[Rank 8] Iteration 9: y_pred shape: (1, 28)
-[Rank 8] Performing convolution with padded input shape (5, 30)
-[Rank 12] Iteration 9: y_pred shape: (1, 28)
-[Rank 12] Performing convolution with padded input shape (5, 30)
-[Rank 14] Iteration 9: y_pred shape: (1, 28)
-[Rank 14] Performing convolution with padded input shape (5, 30)
-[Rank 3] Iteration 9: y_pred shape: (1, 28)
-[Rank 3] Performing convolution with padded input shape (5, 30)
-[Rank 21] Iteration 9: y_pred shape: (1, 28)
-[Rank 21] Performing convolution with padded input shape (5, 30)
-[Rank 24] Iteration 9: y_pred shape: (1, 28)
-[Rank 24] Performing convolution with padded input shape (5, 30)
-[Rank 28] Iteration 9: y_pred shape: (1, 28)
-[Rank 28] Performing convolution with padded input shape (5, 30)
-[Rank 25] Iteration 9: y_pred shape: (1, 28)
-[Rank 25] Performing convolution with padded input shape (5, 30)
-[Rank 27] Iteration 9: y_pred shape: (1, 28)
-[Rank 27] Performing convolution with padded input shape (5, 30)
-[Rank 16] Iteration 9: y_pred shape: (1, 28)
-[Rank 16] Performing convolution with padded input shape (5, 30)
-[Rank 23] Iteration 9: y_pred shape: (1, 28)
-[Rank 23] Performing convolution with padded input shape (5, 30)
-[Rank 18] Iteration 9: y_pred shape: (1, 28)
-[Rank 18] Performing convolution with padded input shape (5, 30)
-[Rank 22] Iteration 9: y_pred shape: (1, 28)
-[Rank 22] Performing convolution with padded input shape (5, 30)
-[Rank 10] Iteration 9: y_pred shape: (1, 28)
-[Rank 10] Performing convolution with padded input shape (5, 30)
-[Rank 19] Iteration 9: y_pred shape: (1, 28)
-[Rank 19] Performing convolution with padded input shape (5, 30)
-[Rank 17] Iteration 9: y_pred shape: (1, 28)
-[Rank 17] Performing convolution with padded input shape (5, 30)
-[Rank 20] Iteration 9: y_pred shape: (1, 28)
-[Rank 20] Performing convolution with padded input shape (5, 30)
-[Rank 26] Iteration 9: y_pred shape: (1, 28)
-[Rank 26] Performing convolution with padded input shape (5, 30)
-[Rank 4] Iteration 9: y_pred shape: (1, 28)
-[Rank 4] Performing convolution with padded input shape (5, 30)
-[Rank 7] Iteration 9: y_pred shape: (1, 28)
-[Rank 7] Performing convolution with padded input shape (5, 30)
-[Rank 2] Iteration 9: y_pred shape: (1, 28)
-[Rank 2] Performing convolution with padded input shape (5, 30)
-[Rank 13] Iteration 9: y_pred shape: (1, 28)
-[Rank 13] Performing convolution with padded input shape (5, 30)
-[Rank 9] Performing convolution with padded input shape (5, 30)
-[Rank 5] Iteration 9: y_pred shape: (1, 28)
-[Rank 5] Performing convolution with padded input shape (5, 30)
-[Rank 1] Iteration 9: y_pred shape: (1, 28)
-[Rank 1] Performing convolution with padded input shape (5, 30)
-[Rank 6] Iteration 9: y_pred shape: (1, 28)
-[Rank 6] Performing convolution with padded input shape (5, 30)
-[Rank 15] Iteration 9: y_pred shape: (1, 28)
-[Rank 15] Performing convolution with padded input shape (5, 30)
-[Rank 11] Iteration 9: y_pred shape: (1, 28)
-[Rank 11] Performing convolution with padded input shape (5, 30)
-[Rank 10] Iteration 9: local loss: 0.16786688566207886
-[Rank 19] Iteration 9: local loss: 0.1612005978822708
-[Rank 17] Iteration 9: local loss: 0.13184146583080292
-[Rank 20] Iteration 9: local loss: 0.11497578024864197
-[Rank 26] Iteration 9: local loss: 0.1544746607542038
-[Rank 4] Iteration 9: local loss: 0.14875131845474243
-[Rank 7] Iteration 9: local loss: 0.11949647217988968
-[Rank 2] Iteration 9: local loss: 0.15947484970092773
-[Rank 11] Iteration 9: local loss: 0.10460532456636429
-[Rank 9] Iteration 9: local loss: 0.1126842200756073
-[Rank 5] Iteration 9: local loss: 0.09954962134361267
-[Rank 1] Iteration 9: local loss: 0.1312292516231537
-[Rank 0] Iteration 9: local loss: 0.11146148294210434
-[Rank 13] Iteration 9: local loss: 0.17836199700832367
-[Rank 8] Iteration 9: local loss: 0.14616189897060394
-[Rank 12] Iteration 9: local loss: 0.11547204852104187
-[Rank 6] Iteration 9: local loss: 0.1460244059562683
-[Rank 14] Iteration 9: local loss: 0.15110258758068085
-[Rank 3] Iteration 9: local loss: 0.19016119837760925
-[Rank 21] Iteration 9: local loss: 0.13814745843410492
-[Rank 24] Iteration 9: local loss: 0.14400258660316467
-[Rank 25] Iteration 9: local loss: 0.09204459935426712
-[Rank 27] Iteration 9: local loss: 0.11686117947101593
-[Rank 16] Iteration 9: local loss: 0.14039629697799683
-[Rank 23] Iteration 9: local loss: 0.1386294811964035
-[Rank 18] Iteration 9: local loss: 0.12420712411403656
-[Rank 22] Iteration 9: local loss: 0.091376394033432
-[Rank 15] Iteration 9: local loss: 0.13421346247196198
-[Rank 28] Iteration 9: local loss: 0.04414137080311775
-[Rank 29] Iteration 9: local loss: 0.0
-Iteration 0, Loss: 0.2683
-Iteration 0, Loss: 0.2664
-Iteration 0, Loss: 0.2652
-Iteration 0, Loss: 0.2893
-Iteration 0, Loss: 0.2794
-Iteration 0, Loss: 0.2578
-Iteration 0, Loss: 0.2796
-Iteration 0, Loss: 0.2776
-Iteration 0, Loss: 0.2632
-Iteration 0, Loss: 0.2883
-Iteration 0, Loss: 0.2580
-Iteration 0, Loss: 0.2723
-Iteration 0, Loss: 0.2634
-Iteration 0, Loss: 0.2655
-Iteration 0, Loss: 0.2582
-Iteration 0, Loss: 0.2747
-Iteration 0, Loss: 0.2460
-Iteration 0, Loss: 0.2586
-Iteration 0, Loss: 0.2866
-Iteration 0, Loss: 0.2782
-Iteration 0, Loss: 0.2798
-Iteration 0, Loss: 0.2474
-Iteration 0, Loss: 0.2804
-Iteration 0, Loss: 0.2685
-Iteration 0, Loss: 0.2987
-Iteration 0, Loss: 0.2644
-Iteration 0, Loss: 0.2589
-Iteration 0, Loss: 0.2767
-Iteration 0, Loss: 0.2721
+[Rank 1] Padding rows: 0
+[Rank 1] Padded input shape: (28, 28)
+[Rank 1] Padded target shape: (28, 28)
+[Rank 1] Local input shape (including halo): (15, 28)
+[Rank 1] Local target shape: (14, 28)
+[Rank 0] Padding rows: 0
+[Rank 0] Padded input shape: (28, 28)
+[Rank 0] Padded target shape: (28, 28)
+[Rank 0] Local input shape (including halo): (15, 28)
+[Rank 0] Local target shape: (14, 28)
+[Rank 1] Performing convolution with padded input shape (17, 30)
+[Rank 0] Performing convolution with padded input shape (17, 30)
+[Rank 0] Performing convolution with padded input shape (17, 30)
+[Rank 1] Performing convolution with padded input shape (17, 30)
+[Rank 0] Performing convolution with padded input shape (17, 30)
+[Rank 1] Performing convolution with padded input shape (17, 30)
+[Rank 0] Iteration 0: local loss: 0.5171349048614502
+[Rank 0] y_pred shape after stripping halos: (14, 28)
+[Rank 0] local_y_true shape: (14, 28)
+[Rank 1] Iteration 0: local loss: 0.4472750425338745
+[Rank 1] y_pred shape after stripping halos: (14, 28)
+[Rank 1] local_y_true shape: (14, 28)
+[Rank 0] Performing convolution with padded input shape (17, 30)
+[Rank 1] Performing convolution with padded input shape (17, 30)
+[Rank 0] Performing convolution with padded input shape (17, 30)
+[Rank 1] Performing convolution with padded input shape (17, 30)
+[Rank 0] Performing convolution with padded input shape (17, 30)
+[Rank 1] Performing convolution with padded input shape (17, 30)
+[Rank 1] Iteration 1: local loss: 0.410073846578598
+[Rank 1] y_pred shape after stripping halos: (14, 28)
+[Rank 1] local_y_true shape: (14, 28)
+[Rank 0] Iteration 1: local loss: 0.47002720832824707
+[Rank 0] y_pred shape after stripping halos: (14, 28)
+[Rank 0] local_y_true shape: (14, 28)
+[Rank 1] Performing convolution with padded input shape (17, 30)
+[Rank 0] Performing convolution with padded input shape (17, 30)
+[Rank 0] Performing convolution with padded input shape (17, 30)
+[Rank 1] Performing convolution with padded input shape (17, 30)
+[Rank 0] Performing convolution with padded input shape (17, 30)
+[Rank 1] Performing convolution with padded input shape (17, 30)
+[Rank 1] Iteration 2: local loss: 0.37871959805488586
+[Rank 1] y_pred shape after stripping halos: (14, 28)
+[Rank 1] local_y_true shape: (14, 28)
+[Rank 0] Iteration 2: local loss: 0.43029189109802246
+[Rank 0] y_pred shape after stripping halos: (14, 28)
+[Rank 0] local_y_true shape: (14, 28)
+[Rank 0] Performing convolution with padded input shape (17, 30)
+[Rank 1] Performing convolution with padded input shape (17, 30)
+[Rank 0] Performing convolution with padded input shape (17, 30)
+[Rank 1] Performing convolution with padded input shape (17, 30)
+[Rank 0] Performing convolution with padded input shape (17, 30)
+[Rank 1] Performing convolution with padded input shape (17, 30)
+[Rank 0] Iteration 3: local loss: 0.3967365324497223
+[Rank 0] y_pred shape after stripping halos: (14, 28)
+[Rank 0] local_y_true shape: (14, 28)
+[Rank 1] Iteration 3: local loss: 0.35226112604141235
+[Rank 1] y_pred shape after stripping halos: (14, 28)
+[Rank 1] local_y_true shape: (14, 28)
+[Rank 1] Performing convolution with padded input shape (17, 30)
+[Rank 0] Performing convolution with padded input shape (17, 30)
+[Rank 0] Performing convolution with padded input shape (17, 30)
+[Rank 1] Performing convolution with padded input shape (17, 30)
+[Rank 0] Performing convolution with padded input shape (17, 30)
+[Rank 1] Performing convolution with padded input shape (17, 30)
+[Rank 0] Iteration 4: local loss: 0.3683619201183319
+[Rank 0] y_pred shape after stripping halos: (14, 28)
+[Rank 0] local_y_true shape: (14, 28)
+[Rank 1] Iteration 4: local loss: 0.32990163564682007
+[Rank 1] y_pred shape after stripping halos: (14, 28)
+[Rank 1] local_y_true shape: (14, 28)
+[Rank 1] Performing convolution with padded input shape (17, 30)
+[Rank 0] Performing convolution with padded input shape (17, 30)
+[Rank 0] Performing convolution with padded input shape (17, 30)
+[Rank 1] Performing convolution with padded input shape (17, 30)
+[Rank 0] Performing convolution with padded input shape (17, 30)
+[Rank 1] Performing convolution with padded input shape (17, 30)
+[Rank 1] Iteration 5: local loss: 0.31097427010536194
+[Rank 1] y_pred shape after stripping halos: (14, 28)
+[Rank 1] local_y_true shape: (14, 28)
+[Rank 0] Iteration 5: local loss: 0.34433138370513916
+[Rank 0] y_pred shape after stripping halos: (14, 28)
+[Rank 0] local_y_true shape: (14, 28)
+[Rank 0] Performing convolution with padded input shape (17, 30)
+[Rank 1] Performing convolution with padded input shape (17, 30)
+[Rank 0] Performing convolution with padded input shape (17, 30)
+[Rank 1] Performing convolution with padded input shape (17, 30)
+[Rank 0] Performing convolution with padded input shape (17, 30)
+[Rank 1] Performing convolution with padded input shape (17, 30)
+[Rank 0] Iteration 6: local loss: 0.32394346594810486
+[Rank 0] y_pred shape after stripping halos: (14, 28)
+[Rank 0] local_y_true shape: (14, 28)
+[Rank 1] Iteration 6: local loss: 0.294920414686203
+[Rank 1] y_pred shape after stripping halos: (14, 28)
+[Rank 1] local_y_true shape: (14, 28)
+[Rank 0] Performing convolution with padded input shape (17, 30)
+[Rank 1] Performing convolution with padded input shape (17, 30)
+[Rank 0] Performing convolution with padded input shape (17, 30)
+[Rank 1] Performing convolution with padded input shape (17, 30)
+[Rank 0] Performing convolution with padded input shape (17, 30)
+[Rank 1] Performing convolution with padded input shape (17, 30)
+[Rank 1] Iteration 7: local loss: 0.28127267956733704
+[Rank 1] y_pred shape after stripping halos: (14, 28)
+[Rank 1] local_y_true shape: (14, 28)
+[Rank 0] Iteration 7: local loss: 0.30661022663116455
+[Rank 0] y_pred shape after stripping halos: (14, 28)
+[Rank 0] local_y_true shape: (14, 28)
+[Rank 1] Performing convolution with padded input shape (17, 30)
+[Rank 0] Performing convolution with padded input shape (17, 30)
+[Rank 0] Performing convolution with padded input shape (17, 30)
+[Rank 1] Performing convolution with padded input shape (17, 30)
+[Rank 0] Performing convolution with padded input shape (17, 30)
+[Rank 1] Performing convolution with padded input shape (17, 30)
+[Rank 1] Iteration 8: local loss: 0.2696397006511688
+[Rank 1] y_pred shape after stripping halos: (14, 28)
+[Rank 1] local_y_true shape: (14, 28)
+[Rank 0] Iteration 8: local loss: 0.291839599609375
+[Rank 0] y_pred shape after stripping halos: (14, 28)
+[Rank 0] local_y_true shape: (14, 28)
+[Rank 1] Performing convolution with padded input shape (17, 30)
+[Rank 0] Performing convolution with padded input shape (17, 30)
+[Rank 0] Performing convolution with padded input shape (17, 30)
+[Rank 1] Performing convolution with padded input shape (17, 30)
+[Rank 0] Performing convolution with padded input shape (17, 30)
+[Rank 1] Performing convolution with padded input shape (17, 30)
+[Rank 0] Iteration 9: local loss: 0.27921876311302185
+[Rank 0] y_pred shape after stripping halos: (14, 28)
+[Rank 0] local_y_true shape: (14, 28)
+[Rank 0] Rank 0: local_x.nbytes=3360, expected_size=1568
+[Rank 0] Rank 0: full_output.nbytes=3136, expected_total=3136
+[Rank 0] Rank 0: Aggregation buffer shape: (28, 28)
+[Rank 1] Iteration 9: local loss: 0.25969359278678894
+[Rank 1] y_pred shape after stripping halos: (14, 28)
+[Rank 1] local_y_true shape: (14, 28)
+[Rank 1] Rank 1: local_x.nbytes=3360, expected_size=1568
+[Rank 1] Rank 1: halo_above=1, halo_below=0
+[Rank 1] Rank 1: local_x.shape=(15, 28), local_x.nbytes=3360
+[Rank 1] Rank 1: local_data.shape=(14, 28), local_data.nbytes=1568
+[Rank 1] Rank 1: chunk_size=14, displacements=[ 0 14]
+[Rank 0] Rank 0: chunk_sizes=[14, 14], displacements=[ 0 14]
+[Rank 0] Rank 0: halo_above=0, halo_below=1
+[Rank 0] Rank 0: local_x.shape=(15, 28), local_x.nbytes=3360
+[Rank 0] Rank 0: local_data.shape=(14, 28), local_data.nbytes=1568
+[Rank 0] Rank 0: chunk_size=14, displacements=[ 0 14]
+[Rank 0] Rank 0: full_output.shape=(28, 28), full_output.nbytes=3136
+[Rank 0] Final output shape: (28, 28)
+[Rank 1] Performing convolution with padded input shape (16, 30)
+[Rank 0] Performing convolution with padded input shape (16, 30)
+[Rank 1] Performing convolution with padded input shape (16, 30)
+[Rank 0] Performing convolution with padded input shape (16, 30)
+[Rank 1] Performing convolution with padded input shape (16, 30)
+[Rank 0] Performing convolution with padded input shape (16, 30)
+[Rank 1] Performing convolution with padded input shape (16, 30)
+[Rank 0] Performing convolution with padded input shape (16, 30)
+[Rank 1] Performing convolution with padded input shape (16, 30)
+[Rank 0] Performing convolution with padded input shape (16, 30)
+[Rank 1] Performing convolution with padded input shape (16, 30)
+[Rank 0] Performing convolution with padded input shape (16, 30)
+[Rank 0] Performing convolution with padded input shape (16, 30)
+[Rank 1] Performing convolution with padded input shape (16, 30)
+[Rank 0] Performing convolution with padded input shape (16, 30)
+[Rank 1] Performing convolution with padded input shape (16, 30)
+[Rank 0] Performing convolution with padded input shape (16, 30)
+[Rank 1] Performing convolution with padded input shape (16, 30)
+[Rank 1] Performing convolution with padded input shape (16, 30)
+[Rank 0] Performing convolution with padded input shape (16, 30)
+[Rank 1] Performing convolution with padded input shape (16, 30)
+[Rank 0] Performing convolution with padded input shape (16, 30)
+[Rank 1] Performing convolution with padded input shape (16, 30)
+[Rank 0] Performing convolution with padded input shape (16, 30)
+[Rank 1] Performing convolution with padded input shape (16, 30)
+[Rank 0] Performing convolution with padded input shape (16, 30)
+[Rank 0] Performing convolution with padded input shape (16, 30)
+[Rank 1] Performing convolution with padded input shape (16, 30)
+[Rank 1] Performing convolution with padded input shape (16, 30)
+[Rank 0] Performing convolution with padded input shape (16, 30)
+[Rank 1] Performing convolution with padded input shape (16, 30)
+[Rank 0] Performing convolution with padded input shape (16, 30)
+[Rank 1] Performing convolution with padded input shape (16, 30)
+[Rank 0] Performing convolution with padded input shape (16, 30)
+[Rank 1] Performing convolution with padded input shape (16, 30)
+[Rank 0] Performing convolution with padded input shape (16, 30)
+[Rank 1] Performing convolution with padded input shape (16, 30)
+[Rank 0] Performing convolution with padded input shape (16, 30)
+[Rank 1] Performing convolution with padded input shape (16, 30)
+[Rank 0] Performing convolution with padded input shape (16, 30)
+[Rank 1] Performing convolution with padded input shape (16, 30)
+[Rank 0] Performing convolution with padded input shape (16, 30)
+[Rank 1] Performing convolution with padded input shape (16, 30)
+[Rank 0] Performing convolution with padded input shape (16, 30)
+[Rank 1] Performing convolution with padded input shape (16, 30)
+[Rank 0] Performing convolution with padded input shape (16, 30)
+[Rank 1] Performing convolution with padded input shape (16, 30)
+[Rank 0] Performing convolution with padded input shape (16, 30)
+[Rank 1] Performing convolution with padded input shape (16, 30)
+[Rank 0] Performing convolution with padded input shape (16, 30)
+[Rank 1] Performing convolution with padded input shape (16, 30)
+[Rank 0] Performing convolution with padded input shape (16, 30)
+[Rank 1] Performing convolution with padded input shape (16, 30)
+[Rank 0] Performing convolution with padded input shape (16, 30)
+[Rank 0] Performing convolution with padded input shape (16, 30)
+[Rank 1] Performing convolution with padded input shape (16, 30)
+[Rank 0] Performing convolution with padded input shape (16, 30)
+[Rank 1] Performing convolution with padded input shape (16, 30)
+[Rank 0] Performing convolution with padded input shape (16, 30)
+[Rank 1] Performing convolution with padded input shape (16, 30)
+[Rank 0] Performing convolution with padded input shape (16, 30)
+[Rank 1] Performing convolution with padded input shape (16, 30)
+[Rank 0] Performing convolution with padded input shape (16, 30)
+[Rank 1] Performing convolution with padded input shape (16, 30)
+[Rank 1] Performing convolution with padded input shape (16, 30)
+[Rank 0] Performing convolution with padded input shape (16, 30)
+[Rank 1] Performing convolution with padded input shape (16, 30)
+[Rank 0] Performing convolution with padded input shape (16, 30)
+[Rank 0] Performing convolution with padded input shape (16, 30)
+[Rank 1] Performing convolution with padded input shape (16, 30)
+[Rank 0] Performing convolution with padded input shape (16, 30)
+[Rank 1] Performing convolution with padded input shape (16, 30)
+[Rank 1] Performing convolution with padded input shape (16, 30)
+[Rank 0] Performing convolution with padded input shape (16, 30)
+[Rank 1] Performing convolution with padded input shape (16, 30)
+[Rank 0] Performing convolution with padded input shape (16, 30)
+[Rank 0] Performing convolution with padded input shape (16, 30)
+[Rank 1] Performing convolution with padded input shape (16, 30)
+[Rank 0] Performing convolution with padded input shape (16, 30)
+[Rank 1] Performing convolution with padded input shape (16, 30)
+[Rank 0] Performing convolution with padded input shape (16, 30)
+[Rank 1] Performing convolution with padded input shape (16, 30)
+[Rank 0] Performing convolution with padded input shape (16, 30)
+[Rank 1] Performing convolution with padded input shape (16, 30)
+[Rank 1] Performing convolution with padded input shape (16, 30)
+[Rank 0] Performing convolution with padded input shape (16, 30)
+[Rank 1] Performing convolution with padded input shape (16, 30)
+[Rank 0] Performing convolution with padded input shape (16, 30)
+[Rank 1] Performing convolution with padded input shape (16, 30)
+[Rank 0] Performing convolution with padded input shape (16, 30)
+[Rank 0] Performing convolution with padded input shape (16, 30)
+[Rank 1] Performing convolution with padded input shape (16, 30)
+[Rank 0] Performing convolution with padded input shape (16, 30)
+[Rank 1] Performing convolution with padded input shape (16, 30)
+[Rank 0] Performing convolution with padded input shape (16, 30)
+[Rank 1] Performing convolution with padded input shape (16, 30)
+[Rank 0] Performing convolution with padded input shape (16, 30)
+[Rank 1] Performing convolution with padded input shape (16, 30)
+[Rank 0] Performing convolution with padded input shape (16, 30)
+[Rank 1] Performing convolution with padded input shape (16, 30)
+[Rank 0] Performing convolution with padded input shape (16, 30)
+[Rank 1] Performing convolution with padded input shape (16, 30)
+[Rank 0] Performing convolution with padded input shape (16, 30)
+[Rank 1] Performing convolution with padded input shape (16, 30)
+[Rank 1] Performing convolution with padded input shape (16, 30)
+[Rank 0] Performing convolution with padded input shape (16, 30)
+[Rank 1] Performing convolution with padded input shape (16, 30)
+[Rank 0] Performing convolution with padded input shape (16, 30)
+[Rank 1] Performing convolution with padded input shape (16, 30)
+[Rank 0] Performing convolution with padded input shape (16, 30)
+[Rank 1] Performing convolution with padded input shape (16, 30)
+[Rank 0] Performing convolution with padded input shape (16, 30)
+[Rank 1] Performing convolution with padded input shape (16, 30)
+[Rank 0] Performing convolution with padded input shape (16, 30)
+[Rank 1] Performing convolution with padded input shape (16, 30)
+[Rank 0] Performing convolution with padded input shape (16, 30)
+[Rank 0] Performing convolution with padded input shape (16, 30)
+[Rank 1] Performing convolution with padded input shape (16, 30)
+[Rank 0] Performing convolution with padded input shape (16, 30)
+[Rank 1] Performing convolution with padded input shape (16, 30)
+[Rank 1] Performing convolution with padded input shape (23, 30)
+[Rank 0] Performing convolution with padded input shape (9, 30)
+[Rank 1] Performing convolution with padded input shape (23, 30)
+[Rank 0] Performing convolution with padded input shape (9, 30)
+[Rank 0] Performing convolution with padded input shape (9, 30)
+[Rank 1] Performing convolution with padded input shape (23, 30)
+[Rank 1] Performing convolution with padded input shape (23, 30)
+[Rank 0] Performing convolution with padded input shape (9, 30)
+[Rank 1] Performing convolution with padded input shape (23, 30)
+[Rank 0] Performing convolution with padded input shape (9, 30)
+[Rank 1] Performing convolution with padded input shape (23, 30)
+[Rank 0] Performing convolution with padded input shape (9, 30)
+[Rank 1] Performing convolution with padded input shape (23, 30)
+[Rank 0] Performing convolution with padded input shape (9, 30)
+[Rank 1] Performing convolution with padded input shape (23, 30)
+[Rank 0] Performing convolution with padded input shape (9, 30)
+[Rank 1] Performing convolution with padded input shape (23, 30)
+[Rank 0] Performing convolution with padded input shape (9, 30)
+[Rank 1] Performing convolution with padded input shape (23, 30)
+[Rank 0] Performing convolution with padded input shape (9, 30)
+[Rank 1] Performing convolution with padded input shape (23, 30)
+[Rank 0] Performing convolution with padded input shape (9, 30)
+[Rank 1] Performing convolution with padded input shape (23, 30)
+[Rank 0] Performing convolution with padded input shape (9, 30)
+[Rank 1] Performing convolution with padded input shape (23, 30)
+[Rank 0] Performing convolution with padded input shape (9, 30)
+[Rank 1] Performing convolution with padded input shape (23, 30)
+[Rank 0] Performing convolution with padded input shape (9, 30)
+[Rank 0] Performing convolution with padded input shape (9, 30)
+[Rank 1] Performing convolution with padded input shape (23, 30)
+[Rank 1] Performing convolution with padded input shape (23, 30)
+[Rank 0] Performing convolution with padded input shape (9, 30)
+[Rank 1] Performing convolution with padded input shape (23, 30)
+[Rank 0] Performing convolution with padded input shape (9, 30)
+[Rank 1] Performing convolution with padded input shape (23, 30)
+[Rank 0] Performing convolution with padded input shape (9, 30)
+[Rank 0] Performing convolution with padded input shape (9, 30)
+[Rank 1] Performing convolution with padded input shape (23, 30)
+[Rank 0] Performing convolution with padded input shape (9, 30)
+[Rank 1] Performing convolution with padded input shape (23, 30)
+[Rank 0] Performing convolution with padded input shape (9, 30)
+[Rank 1] Performing convolution with padded input shape (23, 30)
+[Rank 0] Performing convolution with padded input shape (9, 30)
+[Rank 1] Performing convolution with padded input shape (23, 30)
+[Rank 0] Performing convolution with padded input shape (9, 30)
+[Rank 1] Performing convolution with padded input shape (23, 30)
+[Rank 0] Performing convolution with padded input shape (9, 30)
+[Rank 1] Performing convolution with padded input shape (23, 30)
+[Rank 0] Performing convolution with padded input shape (9, 30)
+[Rank 1] Performing convolution with padded input shape (23, 30)
+[Rank 1] Performing convolution with padded input shape (23, 30)
+[Rank 0] Performing convolution with padded input shape (9, 30)
+[Rank 1] Performing convolution with padded input shape (23, 30)
+[Rank 0] Performing convolution with padded input shape (9, 30)
+[Rank 1] Performing convolution with padded input shape (23, 30)
+[Rank 0] Performing convolution with padded input shape (9, 30)
+[Rank 1] Performing convolution with padded input shape (23, 30)
+[Rank 0] Performing convolution with padded input shape (9, 30)
+[Rank 1] Performing convolution with padded input shape (23, 30)
+[Rank 0] Performing convolution with padded input shape (9, 30)
+Benchmark Results:
+Chunk Size      Real Time Avg (s)    Real Time Std (s)    CPU Time Avg (s)     CPU Time Std (s)    
+14              0.811675             0.013724             0.797336             0.013940            
+14              0.805928             0.001428             0.791613             0.001429            
+7               1.216373             0.013448             0.397811             0.013685            

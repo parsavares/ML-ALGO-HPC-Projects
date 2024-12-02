@@ -30,5 +30,5 @@ mpirun -np 2 python3 -c "from mpi4py import MPI; print(MPI.Get_version())" || { 
 
 # Run the testbench with MPI
 echo "Running Testbench with MPI..."
-mpirun -np 2 python3 convolution_tb.py
+mpirun -np 2 python3 parallel_tb.py
 
