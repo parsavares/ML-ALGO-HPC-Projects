@@ -23,9 +23,6 @@ def convolution_2d(x, kernel):
     padded_x = jnp.pad(x, ((pad_height, pad_height), (pad_width, pad_width)), mode='constant')
     output_data = jnp.zeros_like(x)
 
-    # Logging for debugging
-    log(f"Performing convolution with padded input shape {padded_x.shape}")
-
     # Perform convolution
     for i in range(input_height):
         for j in range(input_width):
@@ -59,7 +56,6 @@ else:
 y_true_padded = np.pad(x, ((0, padding_rows), (0, 0)), mode='constant')
 log(f"Padding rows: {padding_rows}")
 
-
 log(f"Padded input shape: {x_padded.shape}")
 log(f"Padded target shape: {y_true_padded.shape}")
 
@@ -72,13 +68,11 @@ displacements = np.cumsum([0] + chunk_sizes[:-1])
 # Local data distribution
 local_start = rank * chunk_size
 local_end = local_start + chunk_sizes[rank]
-halo_above = 1 if rank > 0 else 0
-halo_below = 1 if rank < size - 1 else 0
 
-local_x = x_padded[local_start - halo_above:local_end + halo_below]
+local_x = x_padded[local_start:local_end]
 local_y_true = y_true_padded[local_start:local_end]
 
-log(f"Local input shape (including halo): {local_x.shape}")
+log(f"Local input shape: {local_x.shape}")
 log(f"Local target shape: {local_y_true.shape}")
 
 # Training loop
@@ -86,9 +80,8 @@ learning_rate = 0.01
 num_iterations = 10
 
 for i in range(num_iterations):
-    # Compute predictions and strip halos
+    # Compute predictions
     y_pred = convolution_2d(local_x, kernel)
-    y_pred = y_pred[halo_above:halo_above + chunk_sizes[rank], :]
 
     # Verify shapes match
     assert y_pred.shape == local_y_true.shape, (
@@ -98,7 +91,6 @@ for i in range(num_iterations):
     # Adjust loss_fn for local data
     def local_loss_fn(kernel, local_x, local_y_true):
         local_y_pred = convolution_2d(local_x, kernel)
-        local_y_pred = local_y_pred[halo_above:halo_above + chunk_sizes[rank], :]
         return jnp.mean((local_y_pred - local_y_true) ** 2)
 
     # Compute local loss and gradients
@@ -109,10 +101,6 @@ for i in range(num_iterations):
     kernel -= learning_rate * global_gradients
 
     log(f"Iteration {i}: local loss: {local_loss}")
-    log(f"y_pred shape after stripping halos: {y_pred.shape}")
-    log(f"local_y_true shape: {local_y_true.shape}")
-
-
 
 # Gathering results
 if rank == 0:
@@ -121,38 +109,10 @@ else:
     full_output = None
 
 # Prepare data to send
-local_data = np.array(local_x[halo_above:halo_above + chunk_sizes[rank]], dtype=np.float32)
+local_data = np.array(local_x, dtype=np.float32)
 
-# Debug logging
-log(f"Rank {rank}: local_x.nbytes={local_x.nbytes}, expected_size={chunk_sizes[rank] * local_x.shape[1] * 4}")
-if rank == 0:
-    log(f"Rank 0: full_output.nbytes={full_output.nbytes}, expected_total={sum(chunk_sizes) * local_x.shape[1] * 4}")
-    log(f"Rank 0: Aggregation buffer shape: {full_output.shape}")
-    log(f"Rank 0: chunk_sizes={chunk_sizes}, displacements={displacements}")
-
-
-
-log(f"Rank {rank}: halo_above={halo_above}, halo_below={halo_below}")
-log(f"Rank {rank}: local_x.shape={local_x.shape}, local_x.nbytes={local_x.nbytes}")
-log(f"Rank {rank}: local_data.shape={local_data.shape}, local_data.nbytes={local_data.nbytes}")
-log(f"Rank {rank}: chunk_size={chunk_sizes[rank]}, displacements={displacements}")
-if rank == 0:
-    log(f"Rank 0: full_output.shape={full_output.shape}, full_output.nbytes={full_output.nbytes}")
-
-
-# Perform Gatherv
-if rank == 0:
-    gathered = np.zeros_like(full_output)
-    for i in range(size):
-        if i == rank:
-            gathered[i * chunk_sizes[i]:(i + 1) * chunk_sizes[i], :] = local_data
-        else:
-            tmp = np.empty((chunk_sizes[i], local_x.shape[1]), dtype=np.float32)
-            comm.Recv(tmp, source=i, tag=i)
-            gathered[i * chunk_sizes[i]:(i + 1) * chunk_sizes[i], :] = tmp
-else:
-    comm.Send(local_data, dest=0, tag=rank)
-
+# Use MPI.Gather to collect local data into full_output on the root process
+comm.Gather(local_data, full_output, root=0)
 
 if rank == 0:
     full_output = full_output[:x.shape[0], :]

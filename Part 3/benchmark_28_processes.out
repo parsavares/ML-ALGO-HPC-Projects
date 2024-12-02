@@ -1,0 +1,481 @@
+[Rank 22] Initial input shape: (28, 28)
+[Rank 22] Kernel shape: (3, 3)
+[Rank 22] Padding rows: 0
+[Rank 22] Padded input shape: (28, 28)
+[Rank 22] Padded target shape: (28, 28)
+[Rank 22] Local input shape: (1, 28)
+[Rank 22] Local target shape: (1, 28)
+[Rank 12] Initial input shape: (28, 28)
+[Rank 12] Kernel shape: (3, 3)
+[Rank 12] Padding rows: 0
+[Rank 12] Padded input shape: (28, 28)
+[Rank 12] Padded target shape: (28, 28)
+[Rank 12] Local input shape: (1, 28)
+[Rank 12] Local target shape: (1, 28)
+[Rank 5] Initial input shape: (28, 28)
+[Rank 5] Kernel shape: (3, 3)
+[Rank 5] Padding rows: 0
+[Rank 5] Padded input shape: (28, 28)
+[Rank 5] Padded target shape: (28, 28)
+[Rank 5] Local input shape: (1, 28)
+[Rank 5] Local target shape: (1, 28)
+[Rank 6] Initial input shape: (28, 28)
+[Rank 6] Kernel shape: (3, 3)
+[Rank 6] Padding rows: 0
+[Rank 6] Padded input shape: (28, 28)
+[Rank 6] Padded target shape: (28, 28)
+[Rank 6] Local input shape: (1, 28)
+[Rank 6] Local target shape: (1, 28)
+[Rank 11] Initial input shape: (28, 28)
+[Rank 11] Kernel shape: (3, 3)
+[Rank 11] Padding rows: 0
+[Rank 11] Padded input shape: (28, 28)
+[Rank 11] Padded target shape: (28, 28)
+[Rank 11] Local input shape: (1, 28)
+[Rank 11] Local target shape: (1, 28)
+[Rank 15] Initial input shape: (28, 28)
+[Rank 15] Kernel shape: (3, 3)
+[Rank 15] Padding rows: 0
+[Rank 15] Padded input shape: (28, 28)
+[Rank 15] Padded target shape: (28, 28)
+[Rank 15] Local input shape: (1, 28)
+[Rank 15] Local target shape: (1, 28)
+[Rank 19] Initial input shape: (28, 28)
+[Rank 19] Kernel shape: (3, 3)
+[Rank 19] Padding rows: 0
+[Rank 19] Padded input shape: (28, 28)
+[Rank 19] Padded target shape: (28, 28)
+[Rank 19] Local input shape: (1, 28)
+[Rank 19] Local target shape: (1, 28)
+[Rank 24] Initial input shape: (28, 28)
+[Rank 24] Kernel shape: (3, 3)
+[Rank 24] Padding rows: 0
+[Rank 24] Padded input shape: (28, 28)
+[Rank 24] Padded target shape: (28, 28)
+[Rank 24] Local input shape: (1, 28)
+[Rank 24] Local target shape: (1, 28)
+[Rank 9] Initial input shape: (28, 28)
+[Rank 9] Kernel shape: (3, 3)
+[Rank 9] Padding rows: 0
+[Rank 9] Padded input shape: (28, 28)
+[Rank 9] Padded target shape: (28, 28)
+[Rank 9] Local input shape: (1, 28)
+[Rank 9] Local target shape: (1, 28)
+[Rank 4] Initial input shape: (28, 28)
+[Rank 4] Kernel shape: (3, 3)
+[Rank 4] Padding rows: 0
+[Rank 4] Padded input shape: (28, 28)
+[Rank 4] Padded target shape: (28, 28)
+[Rank 4] Local input shape: (1, 28)
+[Rank 4] Local target shape: (1, 28)
+[Rank 8] Initial input shape: (28, 28)
+[Rank 8] Kernel shape: (3, 3)
+[Rank 8] Padding rows: 0
+[Rank 8] Padded input shape: (28, 28)
+[Rank 8] Padded target shape: (28, 28)
+[Rank 8] Local input shape: (1, 28)
+[Rank 8] Local target shape: (1, 28)
+[Rank 14] Initial input shape: (28, 28)
+[Rank 14] Kernel shape: (3, 3)
+[Rank 14] Padding rows: 0
+[Rank 14] Padded input shape: (28, 28)
+[Rank 14] Padded target shape: (28, 28)
+[Rank 14] Local input shape: (1, 28)
+[Rank 14] Local target shape: (1, 28)
+[Rank 16] Initial input shape: (28, 28)
+[Rank 16] Kernel shape: (3, 3)
+[Rank 20] Initial input shape: (28, 28)
+[Rank 20] Kernel shape: (3, 3)
+[Rank 20] Padding rows: 0
+[Rank 20] Padded input shape: (28, 28)
+[Rank 20] Padded target shape: (28, 28)
+[Rank 20] Local input shape: (1, 28)
+[Rank 20] Local target shape: (1, 28)
+[Rank 2] Initial input shape: (28, 28)
+[Rank 2] Kernel shape: (3, 3)
+[Rank 2] Padding rows: 0
+[Rank 2] Padded input shape: (28, 28)
+[Rank 2] Padded target shape: (28, 28)
+[Rank 2] Local input shape: (1, 28)
+[Rank 2] Local target shape: (1, 28)
+[Rank 16] Padding rows: 0
+[Rank 16] Padded input shape: (28, 28)
+[Rank 16] Padded target shape: (28, 28)
+[Rank 16] Local input shape: (1, 28)
+[Rank 16] Local target shape: (1, 28)
+[Rank 0] Initial input shape: (28, 28)
+[Rank 0] Kernel shape: (3, 3)
+[Rank 0] Padding rows: 0
+[Rank 0] Padded input shape: (28, 28)
+[Rank 0] Padded target shape: (28, 28)
+[Rank 0] Local input shape: (1, 28)
+[Rank 0] Local target shape: (1, 28)
+[Rank 26] Initial input shape: (28, 28)
+[Rank 26] Kernel shape: (3, 3)
+[Rank 26] Padding rows: 0
+[Rank 26] Padded input shape: (28, 28)
+[Rank 26] Padded target shape: (28, 28)
+[Rank 26] Local input shape: (1, 28)
+[Rank 26] Local target shape: (1, 28)
+[Rank 18] Initial input shape: (28, 28)
+[Rank 18] Kernel shape: (3, 3)
+[Rank 18] Padding rows: 0
+[Rank 18] Padded input shape: (28, 28)
+[Rank 18] Padded target shape: (28, 28)
+[Rank 18] Local input shape: (1, 28)
+[Rank 18] Local target shape: (1, 28)
+[Rank 21] Initial input shape: (28, 28)
+[Rank 21] Kernel shape: (3, 3)
+[Rank 21] Padding rows: 0
+[Rank 21] Padded input shape: (28, 28)
+[Rank 21] Padded target shape: (28, 28)
+[Rank 21] Local input shape: (1, 28)
+[Rank 21] Local target shape: (1, 28)
+[Rank 23] Initial input shape: (28, 28)
+[Rank 23] Kernel shape: (3, 3)
+[Rank 23] Padding rows: 0
+[Rank 23] Padded input shape: (28, 28)
+[Rank 23] Padded target shape: (28, 28)
+[Rank 23] Local input shape: (1, 28)
+[Rank 23] Local target shape: (1, 28)
+[Rank 10] Initial input shape: (28, 28)
+[Rank 10] Kernel shape: (3, 3)
+[Rank 10] Padding rows: 0
+[Rank 10] Padded input shape: (28, 28)
+[Rank 10] Padded target shape: (28, 28)
+[Rank 10] Local input shape: (1, 28)
+[Rank 10] Local target shape: (1, 28)
+[Rank 13] Initial input shape: (28, 28)
+[Rank 13] Kernel shape: (3, 3)
+[Rank 13] Padding rows: 0
+[Rank 13] Padded input shape: (28, 28)
+[Rank 13] Padded target shape: (28, 28)
+[Rank 13] Local input shape: (1, 28)
+[Rank 13] Local target shape: (1, 28)
+[Rank 27] Initial input shape: (28, 28)
+[Rank 27] Kernel shape: (3, 3)
+[Rank 27] Padding rows: 0
+[Rank 27] Padded input shape: (28, 28)
+[Rank 27] Padded target shape: (28, 28)
+[Rank 27] Local input shape: (1, 28)
+[Rank 27] Local target shape: (1, 28)
+[Rank 17] Initial input shape: (28, 28)
+[Rank 17] Kernel shape: (3, 3)
+[Rank 17] Padding rows: 0
+[Rank 17] Padded input shape: (28, 28)
+[Rank 17] Padded target shape: (28, 28)
+[Rank 17] Local input shape: (1, 28)
+[Rank 17] Local target shape: (1, 28)
+[Rank 25] Initial input shape: (28, 28)
+[Rank 25] Kernel shape: (3, 3)
+[Rank 25] Padding rows: 0
+[Rank 25] Padded input shape: (28, 28)
+[Rank 25] Padded target shape: (28, 28)
+[Rank 25] Local input shape: (1, 28)
+[Rank 25] Local target shape: (1, 28)
+[Rank 1] Initial input shape: (28, 28)
+[Rank 1] Kernel shape: (3, 3)
+[Rank 1] Padding rows: 0
+[Rank 1] Padded input shape: (28, 28)
+[Rank 1] Padded target shape: (28, 28)
+[Rank 1] Local input shape: (1, 28)
+[Rank 1] Local target shape: (1, 28)
+[Rank 7] Initial input shape: (28, 28)
+[Rank 7] Kernel shape: (3, 3)
+[Rank 7] Padding rows: 0
+[Rank 7] Padded input shape: (28, 28)
+[Rank 7] Padded target shape: (28, 28)
+[Rank 7] Local input shape: (1, 28)
+[Rank 7] Local target shape: (1, 28)
+[Rank 3] Initial input shape: (28, 28)
+[Rank 3] Kernel shape: (3, 3)
+[Rank 3] Padding rows: 0
+[Rank 3] Padded input shape: (28, 28)
+[Rank 3] Padded target shape: (28, 28)
+[Rank 3] Local input shape: (1, 28)
+[Rank 3] Local target shape: (1, 28)
+[Rank 13] Iteration 0: local loss: 0.4573984742164612
+[Rank 3] Iteration 0: local loss: 0.509403645992279
+[Rank 12] Iteration 0: local loss: 0.5668856501579285
+[Rank 20] Iteration 0: local loss: 0.5498722195625305
+[Rank 6] Iteration 0: local loss: 0.37710586190223694
+[Rank 4] Iteration 0: local loss: 0.6169788837432861
+[Rank 24] Iteration 0: local loss: 0.5085334777832031
+[Rank 22] Iteration 0: local loss: 0.44936808943748474
+[Rank 23] Iteration 0: local loss: 0.47959378361701965
+[Rank 15] Iteration 0: local loss: 0.4315301775932312
+[Rank 19] Iteration 0: local loss: 0.42492732405662537
+[Rank 21] Iteration 0: local loss: 0.5062239766120911
+[Rank 17] Iteration 0: local loss: 0.39440783858299255
+[Rank 25] Iteration 0: local loss: 0.4804883301258087
+[Rank 7] Iteration 0: local loss: 0.5869282484054565
+[Rank 9] Iteration 0: local loss: 0.3757726848125458
+[Rank 5] Iteration 0: local loss: 0.571246862411499
+[Rank 1] Iteration 0: local loss: 0.575249433517456
+[Rank 27] Iteration 0: local loss: 0.41044414043426514
+[Rank 11] Iteration 0: local loss: 0.589693009853363
+[Rank 8] Iteration 0: local loss: 0.6704447865486145
+[Rank 14] Iteration 0: local loss: 0.5100721120834351
+[Rank 2] Iteration 0: local loss: 0.5291955471038818
+[Rank 26] Iteration 0: local loss: 0.6017465591430664
+[Rank 18] Iteration 0: local loss: 0.5544959902763367
+[Rank 0] Iteration 0: local loss: 0.46957364678382874
+[Rank 16] Iteration 0: local loss: 0.38055601716041565
+[Rank 10] Iteration 0: local loss: 0.5289633274078369
+[Rank 19] Iteration 1: local loss: 0.26519015431404114
+[Rank 3] Iteration 1: local loss: 0.3176111578941345
+[Rank 21] Iteration 1: local loss: 0.28737443685531616
+[Rank 18] Iteration 1: local loss: 0.314475953578949
+[Rank 10] Iteration 1: local loss: 0.37031781673431396
+[Rank 0] Iteration 1: local loss: 0.27228599786758423
+[Rank 17] Iteration 1: local loss: 0.2283516675233841
+[Rank 12] Iteration 1: local loss: 0.33704671263694763
+[Rank 25] Iteration 1: local loss: 0.26934587955474854
+[Rank 7] Iteration 1: local loss: 0.325586199760437
+[Rank 9] Iteration 1: local loss: 0.20977821946144104
+[Rank 20] Iteration 1: local loss: 0.30147048830986023
+[Rank 5] Iteration 1: local loss: 0.3345118463039398
+[Rank 1] Iteration 1: local loss: 0.32751622796058655
+[Rank 6] Iteration 1: local loss: 0.216089129447937
+[Rank 4] Iteration 1: local loss: 0.3746788203716278
+[Rank 22] Iteration 1: local loss: 0.27413779497146606
+[Rank 16] Iteration 1: local loss: 0.25855010747909546
+[Rank 27] Iteration 1: local loss: 0.268233060836792
+[Rank 24] Iteration 1: local loss: 0.3361964523792267
+[Rank 13] Iteration 1: local loss: 0.2609342336654663
+[Rank 11] Iteration 1: local loss: 0.3690960109233856
+[Rank 8] Iteration 1: local loss: 0.4382475018501282
+[Rank 23] Iteration 1: local loss: 0.2902422845363617
+[Rank 14] Iteration 1: local loss: 0.304263710975647
+[Rank 2] Iteration 1: local loss: 0.3261772394180298
+[Rank 26] Iteration 1: local loss: 0.35354629158973694
+[Rank 15] Iteration 1: local loss: 0.26683324575424194
+[Rank 0] Iteration 2: local loss: 0.1944398134946823
+[Rank 17] Iteration 2: local loss: 0.1656465232372284
+[Rank 12] Iteration 2: local loss: 0.24585476517677307
+[Rank 25] Iteration 2: local loss: 0.18761616945266724
+[Rank 7] Iteration 2: local loss: 0.2258419245481491
+[Rank 9] Iteration 2: local loss: 0.1463984102010727
+[Rank 20] Iteration 2: local loss: 0.20779307186603546
+[Rank 5] Iteration 2: local loss: 0.24114562571048737
+[Rank 1] Iteration 2: local loss: 0.2300059199333191
+[Rank 6] Iteration 2: local loss: 0.15371528267860413
+[Rank 4] Iteration 2: local loss: 0.27820220589637756
+[Rank 22] Iteration 2: local loss: 0.20457519590854645
+[Rank 16] Iteration 2: local loss: 0.20424138009548187
+[Rank 27] Iteration 2: local loss: 0.2085200995206833
+[Rank 24] Iteration 2: local loss: 0.2646428346633911
+[Rank 13] Iteration 2: local loss: 0.18429431319236755
+[Rank 11] Iteration 2: local loss: 0.27969518303871155
+[Rank 8] Iteration 2: local loss: 0.34095069766044617
+[Rank 23] Iteration 2: local loss: 0.21258126199245453
+[Rank 14] Iteration 2: local loss: 0.22375698387622833
+[Rank 2] Iteration 2: local loss: 0.24074703454971313
+[Rank 26] Iteration 2: local loss: 0.2543736398220062
+[Rank 18] Iteration 2: local loss: 0.22161538898944855
+[Rank 19] Iteration 2: local loss: 0.20076613128185272
+[Rank 3] Iteration 2: local loss: 0.24060119688510895
+[Rank 21] Iteration 2: local loss: 0.2030947357416153
+[Rank 15] Iteration 2: local loss: 0.20131094753742218
+[Rank 10] Iteration 2: local loss: 0.29918062686920166
+[Rank 18] Iteration 3: local loss: 0.17900201678276062
+[Rank 19] Iteration 3: local loss: 0.16872769594192505
+[Rank 3] Iteration 3: local loss: 0.20242010056972504
+[Rank 10] Iteration 3: local loss: 0.25856202840805054
+[Rank 15] Iteration 3: local loss: 0.16919739544391632
+[Rank 21] Iteration 3: local loss: 0.16453345119953156
+[Rank 0] Iteration 3: local loss: 0.15785427391529083
+[Rank 17] Iteration 3: local loss: 0.13709573447704315
+[Rank 12] Iteration 3: local loss: 0.20220686495304108
+[Rank 25] Iteration 3: local loss: 0.15032958984375
+[Rank 7] Iteration 3: local loss: 0.18104460835456848
+[Rank 9] Iteration 3: local loss: 0.11785054951906204
+[Rank 20] Iteration 3: local loss: 0.1663251668214798
+[Rank 5] Iteration 3: local loss: 0.19705112278461456
+[Rank 1] Iteration 3: local loss: 0.18463942408561707
+[Rank 6] Iteration 3: local loss: 0.12492392957210541
+[Rank 4] Iteration 3: local loss: 0.2313709408044815
+[Rank 22] Iteration 3: local loss: 0.17077644169330597
+[Rank 16] Iteration 3: local loss: 0.1740882694721222
+[Rank 27] Iteration 3: local loss: 0.17718605697155
+[Rank 24] Iteration 3: local loss: 0.22699013352394104
+[Rank 13] Iteration 3: local loss: 0.14881835877895355
+[Rank 11] Iteration 3: local loss: 0.2350166290998459
+[Rank 8] Iteration 3: local loss: 0.2899312376976013
+[Rank 23] Iteration 3: local loss: 0.17427748441696167
+[Rank 14] Iteration 3: local loss: 0.18552257120609283
+[Rank 2] Iteration 3: local loss: 0.19751779735088348
+[Rank 26] Iteration 3: local loss: 0.20702631771564484
+[Rank 23] Iteration 4: local loss: 0.1507338285446167
+[Rank 14] Iteration 4: local loss: 0.16218076646327972
+[Rank 2] Iteration 4: local loss: 0.17053762078285217
+[Rank 3] Iteration 4: local loss: 0.17805954813957214
+[Rank 18] Iteration 4: local loss: 0.15430042147636414
+[Rank 19] Iteration 4: local loss: 0.14829079806804657
+[Rank 26] Iteration 4: local loss: 0.17870250344276428
+[Rank 10] Iteration 4: local loss: 0.22956864535808563
+[Rank 15] Iteration 4: local loss: 0.14888232946395874
+[Rank 21] Iteration 4: local loss: 0.14215227961540222
+[Rank 0] Iteration 4: local loss: 0.13624875247478485
+[Rank 17] Iteration 4: local loss: 0.12015920877456665
+[Rank 12] Iteration 4: local loss: 0.1757037341594696
+[Rank 25] Iteration 4: local loss: 0.12899449467658997
+[Rank 7] Iteration 4: local loss: 0.15566661953926086
+[Rank 9] Iteration 4: local loss: 0.10158702731132507
+[Rank 20] Iteration 4: local loss: 0.14308437705039978
+[Rank 5] Iteration 4: local loss: 0.17073647677898407
+[Rank 1] Iteration 4: local loss: 0.15830139815807343
+[Rank 6] Iteration 4: local loss: 0.10806450247764587
+[Rank 4] Iteration 4: local loss: 0.20230571925640106
+[Rank 22] Iteration 4: local loss: 0.14967676997184753
+[Rank 16] Iteration 4: local loss: 0.15333326160907745
+[Rank 27] Iteration 4: local loss: 0.156283900141716
+[Rank 24] Iteration 4: local loss: 0.20143935084342957
+[Rank 13] Iteration 4: local loss: 0.1281525194644928
+[Rank 11] Iteration 4: local loss: 0.2064426988363266
+[Rank 8] Iteration 4: local loss: 0.2558610141277313
+[Rank 2] Iteration 5: local loss: 0.15062755346298218
+[Rank 3] Iteration 5: local loss: 0.15927037596702576
+[Rank 18] Iteration 5: local loss: 0.13663119077682495
+[Rank 8] Iteration 5: local loss: 0.228970006108284
+[Rank 26] Iteration 5: local loss: 0.15815970301628113
+[Rank 10] Iteration 5: local loss: 0.2058681845664978
+[Rank 15] Iteration 5: local loss: 0.1332639902830124
+[Rank 21] Iteration 5: local loss: 0.1260710209608078
+[Rank 0] Iteration 5: local loss: 0.12067371606826782
+[Rank 17] Iteration 5: local loss: 0.10754825919866562
+[Rank 12] Iteration 5: local loss: 0.15610726177692413
+[Rank 25] Iteration 5: local loss: 0.1139506995677948
+[Rank 7] Iteration 5: local loss: 0.13779078423976898
+[Rank 9] Iteration 5: local loss: 0.09006208926439285
+[Rank 20] Iteration 5: local loss: 0.12676452100276947
+[Rank 5] Iteration 5: local loss: 0.15155023336410522
+[Rank 1] Iteration 5: local loss: 0.13963845372200012
+[Rank 6] Iteration 5: local loss: 0.09588264673948288
+[Rank 4] Iteration 5: local loss: 0.18038108944892883
+[Rank 22] Iteration 5: local loss: 0.13364532589912415
+[Rank 16] Iteration 5: local loss: 0.13686197996139526
+[Rank 27] Iteration 5: local loss: 0.13981491327285767
+[Rank 24] Iteration 5: local loss: 0.18090881407260895
+[Rank 13] Iteration 5: local loss: 0.11337057501077652
+[Rank 11] Iteration 5: local loss: 0.18445278704166412
+[Rank 19] Iteration 5: local loss: 0.1325642168521881
+[Rank 23] Iteration 5: local loss: 0.13341431319713593
+[Rank 14] Iteration 5: local loss: 0.14468646049499512
+[Rank 13] Iteration 6: local loss: 0.10137606412172318
+[Rank 11] Iteration 6: local loss: 0.16581815481185913
+[Rank 19] Iteration 6: local loss: 0.11922421306371689
+[Rank 23] Iteration 6: local loss: 0.1192411556839943
+[Rank 18] Iteration 6: local loss: 0.12225915491580963
+[Rank 2] Iteration 6: local loss: 0.1343851089477539
+[Rank 3] Iteration 6: local loss: 0.14329393208026886
+[Rank 14] Iteration 6: local loss: 0.1300158053636551
+[Rank 8] Iteration 6: local loss: 0.20592588186264038
+[Rank 26] Iteration 6: local loss: 0.14142301678657532
+[Rank 10] Iteration 6: local loss: 0.1852627396583557
+[Rank 15] Iteration 6: local loss: 0.1199842169880867
+[Rank 21] Iteration 6: local loss: 0.11292869597673416
+[Rank 0] Iteration 6: local loss: 0.10799779742956161
+[Rank 17] Iteration 6: local loss: 0.09691603481769562
+[Rank 12] Iteration 6: local loss: 0.13988906145095825
+[Rank 25] Iteration 6: local loss: 0.10184463858604431
+[Rank 7] Iteration 6: local loss: 0.12334996461868286
+[Rank 9] Iteration 6: local loss: 0.08070949465036392
+[Rank 20] Iteration 6: local loss: 0.11355787515640259
+[Rank 5] Iteration 6: local loss: 0.13580195605754852
+[Rank 1] Iteration 6: local loss: 0.12464018166065216
+[Rank 6] Iteration 6: local loss: 0.08590307086706161
+[Rank 4] Iteration 6: local loss: 0.16199013590812683
+[Rank 22] Iteration 6: local loss: 0.12012142688035965
+[Rank 16] Iteration 6: local loss: 0.1228170096874237
+[Rank 27] Iteration 6: local loss: 0.12572255730628967
+[Rank 24] Iteration 6: local loss: 0.1630769670009613
+[Rank 14] Iteration 7: local loss: 0.11711414158344269
+[Rank 8] Iteration 7: local loss: 0.1855119913816452
+[Rank 26] Iteration 7: local loss: 0.12699759006500244
+[Rank 10] Iteration 7: local loss: 0.16691471636295319
+[Rank 15] Iteration 7: local loss: 0.10822463780641556
+[Rank 21] Iteration 7: local loss: 0.10153058916330338
+[Rank 0] Iteration 7: local loss: 0.09706172347068787
+[Rank 17] Iteration 7: local loss: 0.08749459683895111
+[Rank 12] Iteration 7: local loss: 0.12576408684253693
+[Rank 25] Iteration 7: local loss: 0.0914517492055893
+[Rank 7] Iteration 7: local loss: 0.11089585721492767
+[Rank 9] Iteration 7: local loss: 0.07261983305215836
+[Rank 20] Iteration 7: local loss: 0.10213600099086761
+[Rank 5] Iteration 7: local loss: 0.12214179337024689
+[Rank 1] Iteration 7: local loss: 0.11180511862039566
+[Rank 6] Iteration 7: local loss: 0.07724115997552872
+[Rank 4] Iteration 7: local loss: 0.1458432525396347
+[Rank 22] Iteration 7: local loss: 0.10820380598306656
+[Rank 16] Iteration 7: local loss: 0.11045751720666885
+[Rank 27] Iteration 7: local loss: 0.1132509782910347
+[Rank 3] Iteration 7: local loss: 0.12916070222854614
+[Rank 13] Iteration 7: local loss: 0.09103700518608093
+[Rank 11] Iteration 7: local loss: 0.1493804007768631
+[Rank 19] Iteration 7: local loss: 0.10744429379701614
+[Rank 23] Iteration 7: local loss: 0.10702317208051682
+[Rank 18] Iteration 7: local loss: 0.1098392978310585
+[Rank 2] Iteration 7: local loss: 0.12044539302587509
+[Rank 24] Iteration 7: local loss: 0.14714102447032928
+[Rank 19] Iteration 8: local loss: 0.09688844531774521
+[Rank 23] Iteration 8: local loss: 0.0962403267621994
+[Rank 18] Iteration 8: local loss: 0.09883424639701843
+[Rank 24] Iteration 8: local loss: 0.13277371227741241
+[Rank 2] Iteration 8: local loss: 0.1081901416182518
+[Rank 14] Iteration 8: local loss: 0.10556881874799728
+[Rank 8] Iteration 8: local loss: 0.1672091782093048
+[Rank 26] Iteration 8: local loss: 0.11425331979990005
+[Rank 10] Iteration 8: local loss: 0.15043747425079346
+[Rank 15] Iteration 8: local loss: 0.09766282886266708
+[Rank 21] Iteration 8: local loss: 0.09140624105930328
+[Rank 0] Iteration 8: local loss: 0.08738666027784348
+[Rank 17] Iteration 8: local loss: 0.07900967448949814
+[Rank 12] Iteration 8: local loss: 0.11320579797029495
+[Rank 25] Iteration 8: local loss: 0.08227722346782684
+[Rank 7] Iteration 8: local loss: 0.09986110776662827
+[Rank 9] Iteration 8: local loss: 0.06543850898742676
+[Rank 20] Iteration 8: local loss: 0.09199221432209015
+[Rank 5] Iteration 8: local loss: 0.11001759767532349
+[Rank 1] Iteration 8: local loss: 0.10050806403160095
+[Rank 6] Iteration 8: local loss: 0.06954577565193176
+[Rank 4] Iteration 8: local loss: 0.13141851127147675
+[Rank 22] Iteration 8: local loss: 0.09753309190273285
+[Rank 16] Iteration 8: local loss: 0.09943662583827972
+[Rank 27] Iteration 8: local loss: 0.10207583755254745
+[Rank 3] Iteration 8: local loss: 0.11648149788379669
+[Rank 13] Iteration 8: local loss: 0.08189328759908676
+[Rank 11] Iteration 8: local loss: 0.1346634328365326
+[Rank 19] Iteration 9: local loss: 0.08738312870264053
+[Rank 23] Iteration 9: local loss: 0.0866231694817543
+[Rank 11] Iteration 9: local loss: 0.12141977250576019
+[Rank 24] Iteration 9: local loss: 0.11979451775550842
+[Rank 2] Iteration 9: local loss: 0.09729120135307312
+[Rank 14] Iteration 9: local loss: 0.09517758339643478
+[Rank 8] Iteration 9: local loss: 0.15073280036449432
+[Rank 26] Iteration 9: local loss: 0.10287409275770187
+[Rank 10] Iteration 9: local loss: 0.13559888303279877
+[Rank 15] Iteration 9: local loss: 0.08813600987195969
+[Rank 21] Iteration 9: local loss: 0.08233186602592468
+[Rank 0] Iteration 9: local loss: 0.07873678207397461
+[Rank 17] Iteration 9: local loss: 0.07133692502975464
+[Rank 12] Iteration 9: local loss: 0.1019507497549057
+[Rank 25] Iteration 9: local loss: 0.07408407330513
+[Rank 7] Iteration 9: local loss: 0.0899805873632431
+[Rank 9] Iteration 9: local loss: 0.05900002270936966
+[Rank 20] Iteration 9: local loss: 0.08289507776498795
+[Rank 5] Iteration 9: local loss: 0.0991571769118309
+[Rank 1] Iteration 9: local loss: 0.09044200927019119
+[Rank 6] Iteration 9: local loss: 0.06264819204807281
+[Rank 4] Iteration 9: local loss: 0.11845262348651886
+[Rank 22] Iteration 9: local loss: 0.0879283994436264
+[Rank 16] Iteration 9: local loss: 0.08955453336238861
+[Rank 27] Iteration 9: local loss: 0.09201930463314056
+[Rank 3] Iteration 9: local loss: 0.1050562933087349
+[Rank 13] Iteration 9: local loss: 0.07372143119573593
+[Rank 18] Iteration 9: local loss: 0.08898624777793884
+[Rank 0] Final output shape: (28, 28)
+Benchmark Results:
+Chunk Size      Real Time Avg (s)    Real Time Std (s)    CPU Time Avg (s)     CPU Time Std (s)    
+1               0.060880             0.000345             0.059065             0.000519            
+Output image saved to out/output_image.png
