@@ -8,7 +8,6 @@ from torchvision import transforms
 from torchvision.datasets import CIFAR10
 from torch.utils.data import DataLoader, TensorDataset
 from PIL import Image
-import torchvision.transforms.functional as TF
 
 BATCH_SIZE = 128
 LEARNING_RATE = 0.001
@@ -31,13 +30,16 @@ else:
 
 class CustomTransform:
     def __call__(self, pic):
-        # Convert to PIL Image only if it's a numpy array
+        # Convert to PIL Image if needed
         if isinstance(pic, np.ndarray):
             img = Image.fromarray(pic)
         else:
             img = pic
+        # Resize
         img = img.resize((224, 224), Image.BILINEAR)
-        return TF.to_tensor(img)
+        # Convert to tensor
+        img = transforms.ToTensor()(img)
+        return img
 
 # Load and preprocess CIFAR10 data
 transform = CustomTransform()
