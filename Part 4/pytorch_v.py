@@ -51,7 +51,7 @@ test_loader = DataLoader(
 class ResNet50Model(nn.Module):
     def __init__(self, num_classes=10):
         super().__init__()
-        self.resnet = models.resnet50(weights=None)
+        self.resnet = models.resnet50(pretrained=False)  # Changed from weights=None to pretrained=False
         self.resnet.fc = nn.Linear(2048, num_classes)
         
     def forward(self, x):
