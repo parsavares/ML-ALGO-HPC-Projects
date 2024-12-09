@@ -8,6 +8,7 @@ from torchvision import transforms
 from torchvision.datasets import CIFAR10
 from torch.utils.data import DataLoader, TensorDataset
 from PIL import Image
+from torchvision import transforms
 
 BATCH_SIZE = 128
 LEARNING_RATE = 0.001
@@ -17,6 +18,7 @@ hvd.init()
 
 # GPU handling with error checking
 if torch.cuda.is_available():
+    # Ensure we're not trying to access GPUs that don't exist
     n_gpus = torch.cuda.device_count()
     if hvd.local_rank() < n_gpus:
         torch.cuda.set_device(hvd.local_rank())
@@ -27,17 +29,13 @@ if torch.cuda.is_available():
 else:
     device = torch.device('cpu')
     print("Warning: No GPUs found, using CPU")
-
+    
 class CustomTransform:
-    def __call__(self, pic):
-        # Convert to PIL Image if needed
-        if isinstance(pic, np.ndarray):
-            img = Image.fromarray(pic)
-        else:
-            img = pic
-        # Resize
+    def __call__(self, img):
+        # 'img' is already a PIL Image from the CIFAR10 dataset
+        # Resize the image to 224x224
         img = img.resize((224, 224), Image.BILINEAR)
-        # Convert to tensor
+        # Convert the image to a tensor
         img = transforms.ToTensor()(img)
         return img
 
