@@ -8,28 +8,36 @@ from torchvision import transforms
 from torchvision.datasets import CIFAR10
 from torch.utils.data import DataLoader, TensorDataset
 
-os.environ["CUDA_VISIBLE_DEVICES"] = "0"
-
 BATCH_SIZE = 128
 LEARNING_RATE = 0.001
 
 # Initialize Horovod
 hvd.init()
 
-# Pin GPU to local rank
-torch.cuda.set_device(hvd.local_rank())
+# GPU handling with error checking
+if torch.cuda.is_available():
+    # Ensure we're not trying to access GPUs that don't exist
+    n_gpus = torch.cuda.device_count()
+    if hvd.local_rank() < n_gpus:
+        torch.cuda.set_device(hvd.local_rank())
+        device = torch.device(f'cuda:{hvd.local_rank()}')
+    else:
+        device = torch.device('cpu')
+        print(f"Warning: Not enough GPUs. Rank {hvd.local_rank()} using CPU")
+else:
+    device = torch.device('cpu')
+    print("Warning: No GPUs found, using CPU")
 
 # Load and preprocess CIFAR10 data
 transform = transforms.Compose([
-    transforms.Scale((224, 224)),  # Changed from Resize to Scale
+    transforms.Scale((224, 224)),
     transforms.ToTensor(),
 ])
 
 train_dataset = CIFAR10(root='./data', train=True, download=True, transform=transform)
 test_dataset = CIFAR10(root='./data', train=False, download=True, transform=transform)
 
-
-# Partition dataset among workers using DistributedSampler
+# Partition dataset
 train_sampler = torch.utils.data.distributed.DistributedSampler(
     train_dataset, num_replicas=hvd.size(), rank=hvd.rank())
 test_sampler = torch.utils.data.distributed.DistributedSampler(
@@ -51,22 +59,23 @@ test_loader = DataLoader(
 class ResNet50Model(nn.Module):
     def __init__(self, num_classes=10):
         super().__init__()
-        self.resnet = models.resnet50(pretrained=False)  # Changed from weights=None to pretrained=False
+        self.resnet = models.resnet50(pretrained=False)
         self.resnet.fc = nn.Linear(2048, num_classes)
         
     def forward(self, x):
         return self.resnet(x)
 
-model = ResNet50Model().cuda()
+# Move model to appropriate device
+model = ResNet50Model().to(device)
 
-# Horovod: scale learning rate by number of GPUs
+# Initialize optimizer
 optimizer = torch.optim.Adam(model.parameters(), lr=LEARNING_RATE * hvd.size())
 
-# Horovod: broadcast parameters & optimizer state
+# Synchronize initial model state
 hvd.broadcast_parameters(model.state_dict(), root_rank=0)
 hvd.broadcast_optimizer_state(optimizer, root_rank=0)
 
-# Horovod: wrap optimizer with DistributedOptimizer
+# Wrap optimizer
 optimizer = hvd.DistributedOptimizer(
     optimizer,
     named_parameters=model.named_parameters(),
@@ -75,13 +84,16 @@ optimizer = hvd.DistributedOptimizer(
 
 criterion = nn.CrossEntropyLoss()
 
+# Add synchronization point
+torch.cuda.synchronize() if torch.cuda.is_available() else None
+
 # Training loop
 for epoch in range(4):
     model.train()
     train_sampler.set_epoch(epoch)
     
     for batch_idx, (data, target) in enumerate(train_loader):
-        data, target = data.cuda(), target.cuda()
+        data, target = data.to(device), target.to(device)
         optimizer.zero_grad()
         output = model(data)
         loss = criterion(output, target)
@@ -99,7 +111,7 @@ total = 0
 
 with torch.no_grad():
     for data, target in test_loader:
-        data, target = data.cuda(), target.cuda()
+        data, target = data.to(device), target.to(device)
         output = model(data)
         test_loss += criterion(output, target).item()
         pred = output.argmax(dim=1)
