@@ -35,8 +35,14 @@ class CustomTransform:
         # 'img' is already a PIL Image from the CIFAR10 dataset
         # Resize the image to 224x224
         img = img.resize((224, 224), Image.BILINEAR)
-        # Convert the image to a tensor
-        img = transforms.ToTensor()(img)
+        # Convert the image to a NumPy array
+        img = np.array(img, dtype=np.float32)
+        # Normalize pixel values to [0, 1]
+        img /= 255.0
+        # Transpose the dimensions to [C, H, W]
+        img = np.transpose(img, (2, 0, 1))
+        # Convert the NumPy array to a tensor
+        img = torch.from_numpy(img)
         return img
 
 # Load and preprocess CIFAR10 data
