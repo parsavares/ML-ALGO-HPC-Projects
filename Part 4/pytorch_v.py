@@ -21,12 +21,13 @@ torch.cuda.set_device(hvd.local_rank())
 
 # Load and preprocess CIFAR10 data
 transform = transforms.Compose([
-    transforms.Resize((224, 224)),
+    transforms.Scale((224, 224)),  # Changed from Resize to Scale
     transforms.ToTensor(),
 ])
 
 train_dataset = CIFAR10(root='./data', train=True, download=True, transform=transform)
 test_dataset = CIFAR10(root='./data', train=False, download=True, transform=transform)
+
 
 # Partition dataset among workers using DistributedSampler
 train_sampler = torch.utils.data.distributed.DistributedSampler(
