@@ -7,6 +7,7 @@ import os
 from torchvision import transforms
 from torchvision.datasets import CIFAR10
 from torch.utils.data import DataLoader, TensorDataset
+from PIL import Image
 
 BATCH_SIZE = 128
 LEARNING_RATE = 0.001
@@ -27,12 +28,15 @@ if torch.cuda.is_available():
 else:
     device = torch.device('cpu')
     print("Warning: No GPUs found, using CPU")
+    
+class CustomTransform:
+    def __call__(self, pic):
+        img = Image.fromarray(pic)
+        img = img.resize((224, 224), Image.BILINEAR)
+        return TF.to_tensor(img)
 
 # Load and preprocess CIFAR10 data
-transform = transforms.Compose([
-    transforms.Scale((224, 224)),
-    transforms.ToTensor(),
-])
+transform = CustomTransform()
 
 train_dataset = CIFAR10(root='./data', train=True, download=True, transform=transform)
 test_dataset = CIFAR10(root='./data', train=False, download=True, transform=transform)
