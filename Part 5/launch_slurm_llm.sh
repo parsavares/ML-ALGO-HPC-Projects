@@ -34,11 +34,11 @@ echo "Running on nodes: $(cat $hosts_file)"
 echo "GPUs per node: $SLURM_GPUS_ON_NODE"
 
 # Run DeepSpeed jobs (1 GPU first, then 2 GPUs)
-echo "===== Running 1-GPU Training =====" >> 1_gpu_output.txt
-deepspeed --num_gpus 1 --num_nodes 1 --hostfile hostfile ./LLM.py >> 1_gpu_output4.txt
+#echo "===== Running 1-GPU Training =====" >> 1_gpu_output.txt
+deepspeed --num_gpus 1 --num_nodes 1 --hostfile hostfile ./LLM.py > 1_gpu_output8_adamW_s2.txt
 
-echo "===== Running 2-GPU Training =====" >> 2_gpu_output.txt
-deepspeed --num_gpus 2 --num_nodes 1 --hostfile hostfile ./LLM.py >> 2_gpu_output4.txt
+#echo "===== Running 2-GPU Training =====" >> 2_gpu_output.txt
+deepspeed --num_gpus 2 --num_nodes 1 --hostfile hostfile ./LLM.py > 2_gpu_output8_atamW_s2.txt
 
 # Print job completion message
 echo "Job completed at $(date)"

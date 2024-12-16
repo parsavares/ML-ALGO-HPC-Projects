@@ -54,15 +54,15 @@ from transformers import AutoModelForCausalLM
 model = AutoModelForCausalLM.from_pretrained(model_name)
 
 # MODEL TRAINING CONFIGURATION <----- DeepSpeed
-bs=4 # <-------------------------------------------- HARD CODED GLOBAL BATCH SIZE. ADAPT IF NEEDED.
+bs=8 # <-------------------------------------------- HARD CODED GLOBAL BATCH SIZE. ADAPT IF NEEDED.
 lbs=bs//pconfig["world_size"] # compute automatically the local batch size
 ds_config={
     "per_device_train_batch_size":lbs,
     "train_batch_size": bs,
     "train_micro_batch_size_per_gpu": lbs,
-    "optimizer": {"type": "Adam"},
+    "optimizer": {"type": "AdamW"},
     "zero_optimization": {
-        "stage": 3,
+        "stage": 2,
         "offload_optimizer": {
             "device": "cpu",
             "pin_memory": True
