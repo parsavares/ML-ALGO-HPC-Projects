@@ -1,0 +1,86 @@
+[2024-12-16 17:52:02,854] [INFO] [real_accelerator.py:158:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-12-16 17:52:06,221] [INFO] [runner.py:463:main] Using IP address of 172.17.6.182 for node iris-182
+[2024-12-16 17:52:06,221] [INFO] [runner.py:570:main] cmd = /work/projects/ulhpc-tutorials/PS10-Horovod/soft/miniconda/install/envs/dsenv/bin/python -u -m deepspeed.launcher.launch --world_info=eyJpcmlzLTE4MiI6IFswLCAxXX0= --master_addr=172.17.6.182 --master_port=29500 --enable_each_rank_log=None ./LLM.py
+[2024-12-16 17:52:08,500] [INFO] [real_accelerator.py:158:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-12-16 17:52:09,432] [INFO] [launch.py:145:main] WORLD INFO DICT: {'iris-182': [0, 1]}
+[2024-12-16 17:52:09,432] [INFO] [launch.py:151:main] nnodes=1, num_local_procs=2, node_rank=0
+[2024-12-16 17:52:09,432] [INFO] [launch.py:162:main] global_rank_mapping=defaultdict(<class 'list'>, {'iris-182': [0, 1]})
+[2024-12-16 17:52:09,432] [INFO] [launch.py:163:main] dist_world_size=2
+[2024-12-16 17:52:09,432] [INFO] [launch.py:165:main] Setting CUDA_VISIBLE_DEVICES=0,1
+{'master_addr': '172.17.6.182', 'master_port': 29500, 'rank': 0, 'local_rank': 0, 'world_size': 2}{'master_addr': '172.17.6.182', 'master_port': 29500, 'rank': 1, 'local_rank': 1, 'world_size': 2}
+
+{'label': 0, 'text': "Owning a driving range inside the city limits is like a license to print money.  I don't think I ask much out of a driving range.  Decent mats, clean balls and accessible hours.  Hell you need even less people now with the advent of the machine that doles out the balls.  This place has none of them.  It is april and there are no grass tees yet.  BTW they opened for the season this week although it has been golfing weather for a month.  The mats look like the carpet at my 107 year old aunt Irene's house.  Worn and thread bare.  Let's talk about the hours.  This place is equipped with lights yet they only sell buckets of balls until 730.  It is still light out.  Finally lets you have the pit to hit into.  When I arrived I wasn't sure if this was a driving range or an excavation site for a mastodon or a strip mining operation.  There is no grass on the range. Just mud.  Makes it a good tool to figure out how far you actually are hitting the ball.  Oh, they are cash only also.\\n\\nBottom line, this place sucks.  The best hope is that the owner sells it to someone that actually wants to make money and service golfers in Pittsburgh."}
+{'train': (650000, 2), 'test': (50000, 2)}
+{'label': 0, 'text': "Owning a driving range inside the city limits is like a license to print money.  I don't think I ask much out of a driving range.  Decent mats, clean balls and accessible hours.  Hell you need even less people now with the advent of the machine that doles out the balls.  This place has none of them.  It is april and there are no grass tees yet.  BTW they opened for the season this week although it has been golfing weather for a month.  The mats look like the carpet at my 107 year old aunt Irene's house.  Worn and thread bare.  Let's talk about the hours.  This place is equipped with lights yet they only sell buckets of balls until 730.  It is still light out.  Finally lets you have the pit to hit into.  When I arrived I wasn't sure if this was a driving range or an excavation site for a mastodon or a strip mining operation.  There is no grass on the range. Just mud.  Makes it a good tool to figure out how far you actually are hitting the ball.  Oh, they are cash only also.\\n\\nBottom line, this place sucks.  The best hope is that the owner sells it to someone that actually wants to make money and service golfers in Pittsburgh."}
+{'train': (650000, 2), 'test': (50000, 2)}
+[2024-12-16 17:52:29,967] [INFO] [real_accelerator.py:158:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-12-16 17:52:30,175] [INFO] [comm.py:637:init_distributed] cdb=None
+[2024-12-16 17:52:30,544] [INFO] [real_accelerator.py:158:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-12-16 17:52:30,736] [INFO] [comm.py:637:init_distributed] cdb=None
+[2024-12-16 17:52:30,736] [INFO] [comm.py:668:init_distributed] Initializing TorchBackend in DeepSpeed with backend nccl
+Installed CUDA version 12.0 does not match the version torch was compiled with 12.1 but since the APIs are compatible, accepting this combination
+Installed CUDA version 12.0 does not match the version torch was compiled with 12.1 but since the APIs are compatible, accepting this combination
+Installed CUDA version 12.0 does not match the version torch was compiled with 12.1 but since the APIs are compatible, accepting this combination
+Installed CUDA version 12.0 does not match the version torch was compiled with 12.1 but since the APIs are compatible, accepting this combination
+ninja: no work to do.
+Time to load cpu_adam op: 0.47222375869750977 seconds
+Time to load cpu_adam op: 0.5319657325744629 seconds
+Parameter Offload: Total persistent parameters: 121344 in 122 params
+{'eval_loss': 7.031963348388672, 'eval_runtime': 0.2652, 'eval_samples_per_second': 15.085, 'eval_steps_per_second': 3.771, 'epoch': 1.0}
+{'eval_loss': 7.622006416320801, 'eval_runtime': 0.2679, 'eval_samples_per_second': 14.934, 'eval_steps_per_second': 3.733, 'epoch': 2.0}
+{'eval_loss': 6.242487907409668, 'eval_runtime': 0.2262, 'eval_samples_per_second': 17.686, 'eval_steps_per_second': 4.421, 'epoch': 3.0}
+{'train_runtime': 3.2788, 'train_samples_per_second': 3.66, 'train_steps_per_second': 0.915, 'train_loss': 4.164069175720215, 'epoch': 3.0}
+OPTForCausalLM(
+  (model): OPTModel(
+    (decoder): OPTDecoder(
+      (embed_tokens): Embedding(50272, 768, padding_idx=1)
+      (embed_positions): OPTLearnedPositionalEmbedding(2050, 768)
+      (final_layer_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+      (layers): ModuleList(
+        (0-11): 12 x OPTDecoderLayer(
+          (self_attn): OPTAttention(
+            (k_proj): Linear(in_features=768, out_features=768, bias=True)
+            (v_proj): Linear(in_features=768, out_features=768, bias=True)
+            (q_proj): Linear(in_features=768, out_features=768, bias=True)
+            (out_proj): Linear(in_features=768, out_features=768, bias=True)
+          )
+          (activation_fn): ReLU()
+          (self_attn_layer_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+          (fc1): Linear(in_features=768, out_features=3072, bias=True)
+          (fc2): Linear(in_features=3072, out_features=768, bias=True)
+          (final_layer_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+        )
+      )
+    )
+  )
+  (lm_head): Linear(in_features=768, out_features=50272, bias=False)
+)
+OPTForCausalLM(
+  (model): OPTModel(
+    (decoder): OPTDecoder(
+      (embed_tokens): Embedding(50272, 768, padding_idx=1)
+      (embed_positions): OPTLearnedPositionalEmbedding(2050, 768)
+      (final_layer_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+      (layers): ModuleList(
+        (0-11): 12 x OPTDecoderLayer(
+          (self_attn): OPTAttention(
+            (k_proj): Linear(in_features=768, out_features=768, bias=True)
+            (v_proj): Linear(in_features=768, out_features=768, bias=True)
+            (q_proj): Linear(in_features=768, out_features=768, bias=True)
+            (out_proj): Linear(in_features=768, out_features=768, bias=True)
+          )
+          (activation_fn): ReLU()
+          (self_attn_layer_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+          (fc1): Linear(in_features=768, out_features=3072, bias=True)
+          (fc2): Linear(in_features=3072, out_features=768, bias=True)
+          (final_layer_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+        )
+      )
+    )
+  )
+  (lm_head): Linear(in_features=768, out_features=50272, bias=False)
+)
+Loss: 6.24
+Loss: 6.24
+[2024-12-16 17:52:44,470] [INFO] [launch.py:347:main] Process 1964408 exits successfully.
+[2024-12-16 17:52:44,470] [INFO] [launch.py:347:main] Process 1964409 exits successfully.
